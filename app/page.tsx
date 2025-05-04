@@ -150,7 +150,7 @@ export default function Personal() {
             Hi , My name Is Ryan Dsouza . I was born in Bantwal B.C Road , and did my early schooling in Bantwal , after which I moved to Mangalore for a few years . I did my 10th in Padua High school and did my 11th and 12th in St. Aloyusuis College (BSBA 21st Batch , Hi Juan!).I came to Bangalore in 2013 to study in Christ and spent 3 wonderful years in Christ University .
           </p>
           <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-            I got into deep learning in 2017 and did multiple internships till I landed a job in 2019 .My life started going downhill in 2019 and every year after that just when I thought I had hit the bottom , I was gently reminded the pit hadn't bottomed out yet . After wasting almost all of my 20's , having almost nothing to show for them along with a series of bad decisions that ultimately culminated in me having total debt of about 5L and that's when I decided to get my life together . This was late 2023 .
+            I got into deep learning in 2017 and did multiple internships till I landed a job in 2019 .My life started going downhill in 2019 and every year after that just when I thought I had hit the bottom , I was gently reminded the pit hadn't bottomed out yet . After wasting almost all of my 20's , having almost nothing to show for them along with a series of bad decisions that ultimately culminated in me ***** * ***** **** ** ** and that's when I decided to get my life together . This was late 2023 .
           </p>
           <p className="text-zinc-600 dark:text-zinc-400 mb-4">
             Im clearly hoping for a redemption arc , but lost time doesn't come back .
