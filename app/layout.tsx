@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import { Header } from './header'
 import { Footer } from './footer'
@@ -51,6 +52,7 @@ export default function RootLayout({
             </div>
           </div>
         </ThemeProvider>
+        <Script src="//www.instagram.com/embed.js" strategy="lazyOnload" />
       </body>
     </html>
   )
