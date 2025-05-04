@@ -324,8 +324,8 @@ export default function Personal() {
         {/* Add Fitness Event Images */}
         <div className="mt-5 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2">
           {[ 
-            { title: "Yoddha Race", src: "/yoddha-race.jpg" },
-            { title: "Cult Unbound Championship", src: "/cult-unbound.jpg" }
+            { title: "Yoddha Race", src: "/yoddha-race.JPG" },
+            { title: "Cult Unbound Championship", src: "/cult-unbound.JPG" }
           ].map((event) => (
             <div key={event.title} className="group space-y-2">
               <div className="block aspect-auto w-full overflow-hidden rounded-xl border border-zinc-200/80 dark:border-zinc-800/80">

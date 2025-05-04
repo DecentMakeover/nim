@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Nim - Personal website template',
+  title: 'Ryan Dsouza',
   description:
     'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
 }
