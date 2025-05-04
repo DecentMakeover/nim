@@ -99,21 +99,25 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    label: 'Github',
-    link: 'https://github.com/ibelick',
+    label: 'Instagram',
+    link: 'https://instagram.com/decentmakeovr',
   },
   {
     label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://twitter.com/decentmakeovr',
   },
   {
-    label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    label: 'Linkedin',
+    link: 'https://linkedin.com/in/ryan-dsouza-74542b295',
   },
   {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    label: 'Spotify',
+    link: 'https://open.spotify.com/show/0IpAcQR0YB3rPxqTga8VCa?si=d525e35beda843ba',
+  },
+  {
+    label: 'Substack',
+    link: 'https://decentmakeovr.substack.com',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'ryan@soulsearching.in'
