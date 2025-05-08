@@ -20,6 +20,7 @@ import {
   SOCIAL_LINKS,
 } from './data'
 import Image from 'next/image'
+import { ActivationVisualizer } from '@/components/ui/activation-visualizer'
 
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
@@ -340,6 +341,31 @@ export default function Personal() {
               </div> */}
             </div>
           ))}
+        </div>
+      </motion.section>
+
+      {/* Projects Section - NEW */}
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-3 text-lg font-medium">Projects</h3>
+        <p className="text-zinc-600 dark:text-zinc-400 mb-5">
+          Interactive visualizations and tools for exploring various concepts in machine learning and mathematics.
+        </p>
+        <div className="space-y-4">
+          <a
+            href="/visualizations/activation"
+            className="group block p-4 rounded-lg border border-zinc-200/80 dark:border-zinc-800/80 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors"
+          >
+            <h4 className="font-medium mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              Neural Network Activation Functions
+            </h4>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">
+              Interactive visualization of common neural network activation functions and their derivatives.
+              Explore how different activation functions transform their inputs and how their derivatives behave.
+            </p>
+          </a>
         </div>
       </motion.section>
 
