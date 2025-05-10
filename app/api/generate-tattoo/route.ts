@@ -12,7 +12,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
 
     const scriptPath = path.join(process.cwd(), 'app', 'create_tattoo.py');
     // IMPORTANT for Vercel: Use generic python3. The local venv path will not work on Vercel.
-    const pythonExecutable = 'python3';
+    const pythonExecutable = 'python';
 
     const scriptEnv = { 
       ...process.env, 
