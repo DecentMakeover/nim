@@ -366,6 +366,19 @@ export default function Personal() {
               Explore how different activation functions transform their inputs and how their derivatives behave.
             </p>
           </a>
+          {/* --- New Tattoo Generator Project Card --- */}
+          <a
+            href="/projects/tattoo-generator" // Link to the page we created
+            className="group block p-4 rounded-lg border border-zinc-200/80 dark:border-zinc-800/80 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors"
+          >
+            <h4 className="font-medium mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              AI Tattoo Design Generator
+            </h4>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">
+              Generate unique tattoo designs using AI. Describe your ideal tattoo and see it come to life.
+            </p>
+          </a>
+          {/* --- End of New Tattoo Generator Project Card --- */}
         </div>
       </motion.section>
 
