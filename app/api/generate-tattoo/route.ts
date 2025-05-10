@@ -11,105 +11,85 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     }
 
     const scriptPath = path.join(process.cwd(), 'app', 'create_tattoo.py');
-    // Try python3 first (conventional name), but fall back to python if needed
-    const pythonExecutable = 'python3';
-    const fallbackPythonExecutable = 'python';
+    
+    // Try multiple possible Python paths, including Vercel's potential locations
+    const pythonPaths = [
+      'python3',                             // Standard name
+      'python',                              // Alternative standard name
+      '/var/lang/bin/python',                // Common in some serverless environments
+      '/var/task/python/bin/python',         // Possible Vercel location
+      '/opt/python/latest/bin/python'        // Another possible location
+    ];
     
     const scriptEnv = { 
       ...process.env, 
       GOOGLE_API_KEY: process.env.GOOGLE_API_KEY 
     };
 
-    return new Promise<NextResponse>((resolve) => {
-      // Try with the primary python executable first
-      let pythonProcess = spawn(pythonExecutable, [scriptPath, prompt], { env: scriptEnv });
+    // This function tries each Python path in sequence
+    async function tryPythonPaths(index: number): Promise<NextResponse> {
+      if (index >= pythonPaths.length) {
+        return NextResponse.json({
+          error: `Failed to find any working Python installation. Tried: ${pythonPaths.join(', ')}`,
+        }, { status: 500 });
+      }
+
+      const currentPath = pythonPaths[index];
+      console.log(`Attempting to use Python at: ${currentPath}`);
       
-      // Listen for error in case python3 is not found
-      pythonProcess.on('error', (err) => {
-        // If the error is ENOENT (executable not found), try the fallback python executable
-        // Use type assertion for NodeJS error which may contain a 'code' property
-        if ((err as { code?: string }).code === 'ENOENT') {
-          console.log(`${pythonExecutable} not found, trying ${fallbackPythonExecutable} instead...`);
-          
-          // Attempt with the fallback python executable
-          pythonProcess = spawn(fallbackPythonExecutable, [scriptPath, prompt], { env: scriptEnv });
-          
-          let outputData = '';
-          let errorData = '';
-          
-          pythonProcess.stdout.on('data', (data) => {
-            outputData += data.toString();
-          });
-          
-          pythonProcess.stderr.on('data', (data) => {
-            errorData += data.toString();
-            console.error(`Python stderr: ${data}`);
-          });
-          
-          pythonProcess.on('close', handleClose);
-          
-          pythonProcess.on('error', (fallbackErr) => {
-            console.error(`Failed to start ${fallbackPythonExecutable} process:`, fallbackErr);
-            resolve(NextResponse.json({ 
-              error: `Failed to start Python process with both ${pythonExecutable} and ${fallbackPythonExecutable}.`, 
-              details: fallbackErr.message 
-            }, { status: 500 }));
-          });
-        } else {
-          // If it's some other error, report it
-          console.error(`Failed to start ${pythonExecutable} process:`, err);
-          resolve(NextResponse.json({ 
-            error: `Failed to start Python process: ${err.message}`, 
-            details: err.message 
-          }, { status: 500 }));
-        }
-        return; // Important to prevent further handling
-      });
-      
-      let outputData = '';
-      let errorData = '';
-      
-      pythonProcess.stdout.on('data', (data) => {
-        outputData += data.toString();
-      });
-      
-      pythonProcess.stderr.on('data', (data) => {
-        errorData += data.toString();
-        console.error(`Python stderr: ${data}`);
-      });
-      
-      const handleClose = (code: number) => {
-        if (code !== 0) {
-          console.error(`Python script exited with code ${code}. Error: ${errorData}`);
-          resolve(NextResponse.json({ error: 'Failed to generate tattoo from script.', details: errorData }, { status: 500 }));
-          return;
-        }
+      return new Promise<NextResponse>((resolve, reject) => {
+        const pythonProcess = spawn(currentPath, [scriptPath, prompt], { env: scriptEnv });
         
-        const lines = outputData.split(/\r?\n/);
-        let imageBase64 = null;
-        let imagePath = null;
+        let outputData = '';
+        let errorData = '';
         
-        for (const line of lines) {
-          if (line.startsWith('IMAGE_BASE64:')) {
-            imageBase64 = line.substring('IMAGE_BASE64:'.length);
-          } else if (line.startsWith('IMAGE_PATH:')) {
-            imagePath = line.substring('IMAGE_PATH:'.length);
+        pythonProcess.stdout.on('data', (data) => {
+          outputData += data.toString();
+        });
+        
+        pythonProcess.stderr.on('data', (data) => {
+          errorData += data.toString();
+          console.error(`Python stderr: ${data}`);
+        });
+        
+        pythonProcess.on('close', (code) => {
+          if (code !== 0) {
+            console.error(`Python script exited with code ${code}. Error: ${errorData}`);
+            resolve(tryPythonPaths(index + 1)); // Try next path
+            return;
           }
-          if (imageBase64 && imagePath) {
-            break;
+          
+          const lines = outputData.split(/\r?\n/);
+          let imageBase64 = null;
+          let imagePath = null;
+          
+          for (const line of lines) {
+            if (line.startsWith('IMAGE_BASE64:')) {
+              imageBase64 = line.substring('IMAGE_BASE64:'.length);
+            } else if (line.startsWith('IMAGE_PATH:')) {
+              imagePath = line.substring('IMAGE_PATH:'.length);
+            }
+            if (imageBase64 && imagePath) {
+              break;
+            }
           }
-        }
+          
+          if (imageBase64) {
+            resolve(NextResponse.json({ image: imageBase64, imagePath: imagePath }));
+          } else {
+            console.error('No IMAGE_BASE64 found in Python script output. Full output:', outputData);
+            resolve(NextResponse.json({ error: 'Failed to retrieve image from script output.', details: outputData }, { status: 500 }));
+          }
+        });
         
-        if (imageBase64) {
-          resolve(NextResponse.json({ image: imageBase64, imagePath: imagePath }));
-        } else {
-          console.error('No IMAGE_BASE64 found in Python script output. Full output:', outputData);
-          resolve(NextResponse.json({ error: 'Failed to retrieve image from script output.', details: outputData }, { status: 500 }));
-        }
-      };
-      
-      pythonProcess.on('close', handleClose);
-    });
+        pythonProcess.on('error', (err) => {
+          console.error(`Failed to start Python process with ${currentPath}:`, err);
+          resolve(tryPythonPaths(index + 1)); // Try next path
+        });
+      });
+    }
+
+    return tryPythonPaths(0); // Start trying paths from the beginning
 
   } catch (error) {
     console.error('Error in API route handler:', error);
