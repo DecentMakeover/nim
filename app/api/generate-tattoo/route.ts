@@ -1,6 +1,7 @@
 import { NextResponse, NextRequest } from 'next/server';
-import { spawn } from 'child_process';
-import path from 'path';
+
+// The URL of your deployed Cloud Run service
+const CLOUD_RUN_URL = "https://tattoo-gen-orb3x5u66q-el.a.run.app/generate-tattoo/";
 
 export async function POST(request: NextRequest): Promise<NextResponse> {
   try {
@@ -10,90 +11,53 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
       return NextResponse.json({ error: 'Prompt is required' }, { status: 400 });
     }
 
-    const scriptPath = path.join(process.cwd(), 'app', 'create_tattoo.py');
-    
-    // Try multiple possible Python paths, including Vercel's potential locations
-    const pythonPaths = [
-      'python3',                             // Standard name
-      'python',                              // Alternative standard name
-      '/var/lang/bin/python',                // Common in some serverless environments
-      '/var/task/python/bin/python',         // Possible Vercel location
-      '/opt/python/latest/bin/python'        // Another possible location
-    ];
-    
-    const scriptEnv = { 
-      ...process.env, 
-      GOOGLE_API_KEY: process.env.GOOGLE_API_KEY 
-    };
+    console.log(`Forwarding prompt to Cloud Run: ${prompt}`);
 
-    // This function tries each Python path in sequence
-    async function tryPythonPaths(index: number): Promise<NextResponse> {
-      if (index >= pythonPaths.length) {
-        return NextResponse.json({
-          error: `Failed to find any working Python installation. Tried: ${pythonPaths.join(', ')}`,
-        }, { status: 500 });
-      }
+    const cloudRunResponse = await fetch(CLOUD_RUN_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ prompt }),
+      // It's good practice to set a timeout for external API calls
+      // Vercel Serverless Functions have a default execution timeout (e.g., 10s or more depending on plan)
+      // Ensure your Cloud Run service can respond within this limit.
+      // The `fetch` API in Node.js (via Next.js) might use AbortController for timeouts.
+    });
 
-      const currentPath = pythonPaths[index];
-      console.log(`Attempting to use Python at: ${currentPath}`);
-      
-      return new Promise<NextResponse>((resolve, reject) => {
-        const pythonProcess = spawn(currentPath, [scriptPath, prompt], { env: scriptEnv });
-        
-        let outputData = '';
-        let errorData = '';
-        
-        pythonProcess.stdout.on('data', (data) => {
-          outputData += data.toString();
-        });
-        
-        pythonProcess.stderr.on('data', (data) => {
-          errorData += data.toString();
-          console.error(`Python stderr: ${data}`);
-        });
-        
-        pythonProcess.on('close', (code) => {
-          if (code !== 0) {
-            console.error(`Python script exited with code ${code}. Error: ${errorData}`);
-            resolve(tryPythonPaths(index + 1)); // Try next path
-            return;
-          }
-          
-          const lines = outputData.split(/\r?\n/);
-          let imageBase64 = null;
-          let imagePath = null;
-          
-          for (const line of lines) {
-            if (line.startsWith('IMAGE_BASE64:')) {
-              imageBase64 = line.substring('IMAGE_BASE64:'.length);
-            } else if (line.startsWith('IMAGE_PATH:')) {
-              imagePath = line.substring('IMAGE_PATH:'.length);
-            }
-            if (imageBase64 && imagePath) {
-              break;
-            }
-          }
-          
-          if (imageBase64) {
-            resolve(NextResponse.json({ image: imageBase64, imagePath: imagePath }));
-          } else {
-            console.error('No IMAGE_BASE64 found in Python script output. Full output:', outputData);
-            resolve(NextResponse.json({ error: 'Failed to retrieve image from script output.', details: outputData }, { status: 500 }));
-          }
-        });
-        
-        pythonProcess.on('error', (err) => {
-          console.error(`Failed to start Python process with ${currentPath}:`, err);
-          resolve(tryPythonPaths(index + 1)); // Try next path
-        });
-      });
+    console.log(`Cloud Run response status: ${cloudRunResponse.status}`);
+
+    if (!cloudRunResponse.ok) {
+      const errorBody = await cloudRunResponse.text(); // Get raw error body
+      console.error(`Cloud Run service returned an error: ${cloudRunResponse.status}`, errorBody);
+      return NextResponse.json(
+        { 
+          error: 'Failed to generate tattoo from Cloud Run service.', 
+          details: `Status: ${cloudRunResponse.status}, Body: ${errorBody}` 
+        }, 
+        { status: 500 }
+      );
     }
 
-    return tryPythonPaths(0); // Start trying paths from the beginning
+    const responseData = await cloudRunResponse.json();
+
+    // We expect `image_base64` from your Cloud Run service.
+    // If your Cloud Run service provides a public URL for the image (e.g., from GCS), 
+    // it should ideally be in a field like `image_url` or `public_url`.
+    // For now, we map `image_base64` to `image` and `image_path` (if provided and it's a public URL) to `imagePath`.
+    // The frontend currently expects `imagePath` for the gallery.
+    // If your Cloud Run service saves to GCS and returns `image_path` as the GCS public URL, this will work.
+    // Otherwise, the gallery feature will need adjustment or a different way to get persistent URLs.
+
+    return NextResponse.json({
+      image: responseData.image_base64, // Assuming Cloud Run returns this
+      imagePath: responseData.image_path,  // Assuming Cloud Run returns a public URL here if it saves persistently
+      textResponse: responseData.text_response // Forward if present
+    });
 
   } catch (error) {
-    console.error('Error in API route handler:', error);
-    const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred processing your request.';
-    return NextResponse.json({ error: 'Internal server error.', details: errorMessage }, { status: 500 });
+    console.error('Error in Next.js API route calling Cloud Run:', error);
+    const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred.';
+    return NextResponse.json({ error: 'Internal server error calling tattoo generation service.', details: errorMessage }, { status: 500 });
   }
 } 
