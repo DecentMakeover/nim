@@ -270,6 +270,51 @@ export default function Personal() {
         </div>
       </motion.section>
 
+      {/* Music Section - NEW */}
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-3 text-lg font-medium">Music</h3>
+        <p className="mb-5 text-zinc-600 dark:text-zinc-400">
+          I have been interested in singing as far back as I can remember and have sang for my college and university choir.
+        </p>
+        
+        {/* YouTube Video */}
+        <div className="mb-5">
+          <div className="aspect-video w-full overflow-hidden rounded-xl border border-zinc-200/80 dark:border-zinc-800/80">
+            <iframe
+              src="https://www.youtube.com/embed/DK6a4WjBSus"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="h-full w-full"
+            ></iframe>
+          </div>
+        </div>
+
+        <p className="mb-5 text-zinc-600 dark:text-zinc-400">
+          For those who prefer to watch on IG:
+        </p>
+
+        {/* Instagram Reel */}
+        <div className="instagram-embed-container" style={{ maxWidth: '540px', margin: '0 auto' }}>
+          <blockquote
+            className="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/reel/DK7Kb2Dpc1v/"
+            data-instgrm-version="14"
+            style={{ background:'#FFF', border:0, borderRadius:'3px', margin: '1px', padding:0, width:'100%' }}
+          >
+            <div style={{ padding: '16px' }}>
+              <a href="https://www.instagram.com/reel/DK7Kb2Dpc1v/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#00376b' }}>
+                View this Reel on Instagram
+              </a>
+            </div>
+          </blockquote>
+        </div>
+      </motion.section>
+
       {/* Sports Section - NEW */}
       <motion.section
         variants={VARIANTS_SECTION}
@@ -389,7 +434,7 @@ export default function Personal() {
       >
         <h3 className="mb-3 text-lg font-medium">Travel</h3> 
         <p className="text-zinc-600 dark:text-zinc-400">
-          I hate travelling
+          I hate Travelling
         </p>
       </motion.section>
 
