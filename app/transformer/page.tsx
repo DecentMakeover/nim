@@ -37,7 +37,7 @@ export default function TransformerVisualizer() {
   const [inputText, setInputText] = useState('The quick brown fox jumps over the lazy dog');
   const tokens = inputText.split(' ');
   
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | undefined>(undefined);
   
   const togglePlay = () => {
     setIsPlaying(!isPlaying);
