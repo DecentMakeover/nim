@@ -427,6 +427,52 @@ export default function Personal() {
         </div>
       </motion.section>
 
+      {/* Movies Section - NEW */}
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-3 text-lg font-medium">Movies</h3>
+        <p className="text-zinc-600 dark:text-zinc-400 mb-5">
+          I am a bit of a snob when it comes to movies, my top 5 movies of all time are
+        </p>
+        <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { title: "Incendies", year: "2010", genre: "Drama/Mystery", poster: "/movie-posters/incendies.jpg" },
+            { title: "The Wailing", year: "2016", genre: "Horror/Mystery", poster: "/movie-posters/the-wailing.jpg" },
+            { title: "Oldboy", year: "2003", genre: "Thriller/Drama", poster: "/movie-posters/oldboy.jpg" },
+            { title: "Nine Queens", year: "2000", genre: "Crime/Thriller", poster: "/movie-posters/nine-queens.jpg" },
+            { title: "Sicario", year: "2015", genre: "Crime/Thriller", poster: "/movie-posters/sicario.jpg" }
+          ].map((movie) => (
+            <div key={movie.title} className="group space-y-2">
+              <div className="block overflow-hidden rounded-xl border border-zinc-200/80 dark:border-zinc-800/80 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors">
+                <div className="aspect-[2/3] w-full overflow-hidden">
+                  <Image
+                    src={movie.poster}
+                    alt={`${movie.title} movie poster`}
+                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    width={400}
+                    height={600}
+                    unoptimized
+                  />
+                </div>
+                <div className="p-4">
+                  <h4 className="font-medium mb-1 text-zinc-900 dark:text-zinc-50">
+                    {movie.title}
+                  </h4>
+                  <p className="text-sm text-zinc-500 dark:text-zinc-500 mb-1">
+                    {movie.year}
+                  </p>
+                  <p className="text-xs text-zinc-400 dark:text-zinc-600">
+                    {movie.genre}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </motion.section>
+
       {/* Travel Section - NEW */}
       <motion.section
         variants={VARIANTS_SECTION}
