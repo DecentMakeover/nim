@@ -148,7 +148,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-            Hi , My name Is Ryan Dsouza . I was born in Bantwal B.C Road , and did my early schooling in Bantwal , after which I moved to Mangalore for a few years . I did my 10th in Padua High school and did my 11th and 12th in St. Aloyusuis College (BSBA 21st Batch , Hi Juan!).I came to Bangalore in 2013 to study in Christ and spent 3 wonderful years in Christ University .
+            Hi , My name Is Ryan Dsouza . I was born in Bantwal B.C Road , and did my early schooling in Bantwal , after which I moved to Mangalore for a few years . I did my 10th in Padua High school and did my 11th and 12th in St. Aloyusuis College (BSBA 21st Batch , Hi Juan!).
           </p>
         </div>
       </motion.section>
