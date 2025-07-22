@@ -442,7 +442,8 @@ export default function Personal() {
             { title: "The Wailing", year: "2016", genre: "Horror/Mystery", poster: "/movie-posters/the-wailing.jpg" },
             { title: "Oldboy", year: "2003", genre: "Thriller/Drama", poster: "/movie-posters/oldboy.jpg" },
             { title: "Nine Queens", year: "2000", genre: "Crime/Thriller", poster: "/movie-posters/nine-queens.jpg" },
-            { title: "Sicario", year: "2015", genre: "Crime/Thriller", poster: "/movie-posters/sicario.jpg" }
+            { title: "Sicario", year: "2015", genre: "Crime/Thriller", poster: "/movie-posters/sicario.jpg" },
+            { title: "Iratta", year: "2023", genre: "Crime/Thriller", poster: "/movie-posters/iratta.jpg" }
           ].map((movie) => (
             <div key={movie.title} className="group space-y-2">
               <div className="block overflow-hidden rounded-xl border border-zinc-200/80 dark:border-zinc-800/80 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors">
