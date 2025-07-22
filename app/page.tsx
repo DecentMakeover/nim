@@ -499,6 +499,57 @@ export default function Personal() {
         </div>
       </motion.section>
 
+      {/* TV Shows Section - NEW */}
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-3 text-lg font-medium">TV Shows</h3>
+        <p className="text-zinc-600 dark:text-zinc-400 mb-5">
+          Some of my favorite TV shows that have kept me entertained over the years
+        </p>
+        <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { title: "Game of Thrones", year: "2011-2019", genre: "Fantasy/Drama", poster: "/tvshows/gameofthrones.jpg" },
+            { title: "Better Call Saul", year: "2015-2022", genre: "Crime/Drama", poster: "/tvshows/bettercallsaul.jpg" },
+            { title: "The Thick of It", year: "2005-2012", genre: "Political Satire", poster: "/tvshows/the thick of it.jpg" },
+            { title: "Intelligence", year: "2006-2007", genre: "Crime/Drama", poster: "/tvshows/intelligence.jpg" },
+            { title: "Seinfeld", year: "1989-1998", genre: "Comedy", poster: "/tvshows/seinfeld.jpg" },
+            { title: "Modern Family", year: "2009-2020", genre: "Comedy", poster: "/tvshows/ModernFamilyS11DVD.webp" },
+            { title: "It's Always Sunny in Philadelphia", year: "2005-", genre: "Comedy", poster: "/tvshows/itsalwayssunnyin.jpg" },
+            { title: "Brooklyn Nine-Nine", year: "2013-2021", genre: "Comedy", poster: "/tvshows/broklynn nine nie.jpg" },
+            { title: "Teenage Bounty Hunters", year: "2020", genre: "Comedy/Drama", poster: "/tvshows/teenage bounty hunters.jpg" },
+            { title: "Utopia", year: "2013-2014", genre: "Thriller/Drama", poster: "/tvshows/utopia.png" }
+          ].map((show) => (
+            <div key={show.title} className="group space-y-2">
+              <div className="block overflow-hidden rounded-xl border border-zinc-200/80 dark:border-zinc-800/80 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors">
+                <div className="aspect-[2/3] w-full overflow-hidden">
+                  <Image
+                    src={show.poster}
+                    alt={`${show.title} poster`}
+                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    width={400}
+                    height={600}
+                    unoptimized
+                  />
+                </div>
+                <div className="p-4">
+                  <h4 className="font-medium mb-1 text-zinc-900 dark:text-zinc-50">
+                    {show.title}
+                  </h4>
+                  <p className="text-sm text-zinc-500 dark:text-zinc-500 mb-1">
+                    {show.year}
+                  </p>
+                  <p className="text-xs text-zinc-400 dark:text-zinc-600">
+                    {show.genre}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </motion.section>
+
       {/* Travel Section - NEW */}
       <motion.section
         variants={VARIANTS_SECTION}
