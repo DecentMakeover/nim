@@ -434,7 +434,7 @@ export default function Personal() {
       >
         <h3 className="mb-3 text-lg font-medium">Movies</h3>
         <p className="text-zinc-600 dark:text-zinc-400 mb-5">
-          I am a bit of a snob when it comes to movies, my top 5 movies of all time are
+          I am a bit of a snob when it comes to movies ; my top all time movies are 
         </p>
         <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
           {[
