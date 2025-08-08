@@ -167,7 +167,7 @@ export default function Personal() {
 
         
 
-        <div className="grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-y-8">
           <div className="space-y-2">
             <h4 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-200 dark:text-zinc-200">Classification</h4>
             <ul className="list-none space-y-1 text-zinc-600 leading-7 dark:text-zinc-400">
