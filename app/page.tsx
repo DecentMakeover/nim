@@ -153,6 +153,85 @@ export default function Personal() {
         </div>
       </motion.section>
 
+      {/* Machine Learning Section (moved up, airy layout) */}
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-3 text-lg font-medium">Deep Learning</h3>
+        <p className="mb-6 text-zinc-600 leading-7 dark:text-zinc-400">
+          I began my career in deep learning in 2018 with an internship at Predible Health (acquired by
+          nference) and have since worked at multiple organizations solving problems in image classification, detection, segmentation, finetuning of LLM's , RAG solutions and very recently agentic workflows .       
+          A few highlights are shared below ; 
+        </p>
+
+        
+
+        <div className="grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-2">
+          <div className="space-y-2">
+            <h4 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-200 dark:text-zinc-200">Classification</h4>
+            <ul className="list-none space-y-1 text-zinc-600 leading-7 dark:text-zinc-400">
+              <li>
+                ID card classification — fine‑tuned ResNet and EfficientNet for
+                Aadhaar, Passport, Driving License, Voter ID, and PAN
+                <span className="text-zinc-500"> [Signzy]</span>.
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-2">
+            <h4 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-200 dark:text-zinc-200">Detection</h4>
+            <ul className="list-none space-y-1 text-zinc-600 leading-7 dark:text-zinc-400">
+              <li>
+                Faster R‑CNN vehicle detection — improved detection of
+                auto‑rickshaws, trucks, tempos, and more
+                <span className="text-zinc-500"> [Scientist]</span>.
+              </li>
+              <li>
+                Pothole, barrier, and accident/dent detection from highway
+                footage
+                <span className="text-zinc-500"> [Scientist]</span>.
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-2">
+            <h4 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-200 dark:text-zinc-200">Segmentation</h4>
+            <ul className="list-none space-y-1 text-zinc-600 leading-7 dark:text-zinc-400">
+              <li>
+                First 8‑digit segmentation from Aadhaar cards
+                <span className="text-zinc-500"> [Signzy]</span>.
+              </li>
+              <li>
+                Arterial, venous, and portal‑vein segmentation on CT scans
+                <span className="text-zinc-500"> [Predible]</span>.
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-2">
+            <h4 className="mb-1 text-sm font-semibold uppercase tracking-wider text-zinc-200 dark:text-zinc-200">NLP / LLM / RAG</h4>
+            <ul className="list-none space-y-1 text-zinc-600 leading-7 dark:text-zinc-400">
+              <li>
+                Fine‑tuned BERT/RoBERTa to extract entities (name, DOB, address,
+                mother’s name) from ID cards
+                <span className="text-zinc-500"> [Signzy]</span>.
+              </li>
+              <li>
+                Fine‑tuned Gemma‑1B with LoRA (~9k samples) for test‑case
+                generation; competitive with GPT‑4o
+                <span className="text-zinc-500"> [Yethi]</span>.
+              </li>
+              <li>
+                Built RAG pipelines that turn BRDs into business processes,
+                scenarios, and test cases
+                <span className="text-zinc-500"> [Yethi]</span>.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </motion.section>
+
       {/* Podcast Section - NEW */}
       <motion.section
         variants={VARIANTS_SECTION}
@@ -284,7 +363,7 @@ export default function Personal() {
         <div className="mb-5">
           <div className="aspect-video w-full overflow-hidden rounded-xl border border-zinc-200/80 dark:border-zinc-800/80">
             <iframe
-              src="https://www.youtube.com/embed/DK6a4WjBSus"
+              src="https://www.youtube.com/embed/jvcw-h7fs9g"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -292,26 +371,6 @@ export default function Personal() {
               className="h-full w-full"
             ></iframe>
           </div>
-        </div>
-
-        <p className="mb-5 text-zinc-600 dark:text-zinc-400">
-          For those who prefer to watch on IG:
-        </p>
-
-        {/* Instagram Reel */}
-        <div className="instagram-embed-container" style={{ maxWidth: '540px', margin: '0 auto' }}>
-          <blockquote
-            className="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/reel/DK7Kb2Dpc1v/"
-            data-instgrm-version="14"
-            style={{ background:'#FFF', border:0, borderRadius:'3px', margin: '1px', padding:0, width:'100%' }}
-          >
-            <div style={{ padding: '16px' }}>
-              <a href="https://www.instagram.com/reel/DK7Kb2Dpc1v/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#00376b' }}>
-                View this Reel on Instagram
-              </a>
-            </div>
-          </blockquote>
         </div>
       </motion.section>
 
@@ -389,6 +448,8 @@ export default function Personal() {
         </div>
       </motion.section>
 
+      {/* Removed: old Machine Learning section (replaced by the one above) */}
+
       {/* Projects Section - NEW */}
       <motion.section
         variants={VARIANTS_SECTION}
@@ -434,7 +495,7 @@ export default function Personal() {
       >
         <h3 className="mb-3 text-lg font-medium">Movies</h3>
         <p className="text-zinc-600 dark:text-zinc-400 mb-5">
-          I am a bit of a snob when it comes to movies ; my top all time movies are 
+          my top all time movies are 
         </p>
         <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
           {[
@@ -515,11 +576,7 @@ export default function Personal() {
             { title: "The Thick of It", year: "2005-2012", genre: "Political Satire", poster: "/tvshows/the thick of it.jpg" },
             { title: "Intelligence", year: "2006-2007", genre: "Crime/Drama", poster: "/tvshows/intelligence.jpg" },
             { title: "Seinfeld", year: "1989-1998", genre: "Comedy", poster: "/tvshows/seinfeld.jpg" },
-            { title: "Modern Family", year: "2009-2020", genre: "Comedy", poster: "/tvshows/ModernFamilyS11DVD.webp" },
-            { title: "It's Always Sunny in Philadelphia", year: "2005-", genre: "Comedy", poster: "/tvshows/itsalwayssunnyin.jpg" },
-            { title: "Brooklyn Nine-Nine", year: "2013-2021", genre: "Comedy", poster: "/tvshows/broklynn nine nie.jpg" },
-            { title: "Teenage Bounty Hunters", year: "2020", genre: "Comedy/Drama", poster: "/tvshows/teenage bounty hunters.jpg" },
-            { title: "Utopia", year: "2013-2014", genre: "Thriller/Drama", poster: "/tvshows/utopia.png" }
+            { title: "Modern Family", year: "2009-2020", genre: "Comedy", poster: "/tvshows/ModernFamilyS11DVD.webp" }
           ].map((show) => (
             <div key={show.title} className="group space-y-2">
               <div className="block overflow-hidden rounded-xl border border-zinc-200/80 dark:border-zinc-800/80 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors">

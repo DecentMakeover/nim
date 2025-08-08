@@ -67,6 +67,7 @@ export default function RootLayout({
             </div>
           </div>
         </ThemeProvider>
+        {/* Restored for other IG embeds that still exist on the page */}
         <Script src="//www.instagram.com/embed.js" strategy="lazyOnload" />
       </body>
     </html>
