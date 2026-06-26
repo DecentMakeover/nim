@@ -289,6 +289,15 @@
   .ch-actions{display:flex; align-items:center; gap:14px; flex-wrap:wrap; padding-top:18px; border-top:1px solid var(--line)}
   .ch-elapsed{font-family:var(--mono); font-size:12.5px; color:var(--ink-faint); margin-left:auto}
   .ch-elapsed b{color:var(--amber-bright)}
+  .ch-controls-col{display:flex; flex-direction:column; gap:18px}
+  .ch-presets{padding-bottom:18px; border-bottom:1px solid var(--line)}
+  .preset-row{display:flex; gap:9px; flex-wrap:wrap; margin-top:11px}
+  .preset-chip{display:flex; flex-direction:column; align-items:flex-start; gap:2px; padding:9px 14px; border-radius:11px; border:1px solid var(--line2); background:var(--panel); transition:.15s; text-align:left}
+  .preset-chip:hover{border-color:var(--amber); background:var(--panel2); transform:translateY(-1px)}
+  .preset-chip.on{border-color:var(--amber); background:rgba(230,164,78,.14)}
+  .pc-name{font-family:var(--serif); font-size:16px; font-weight:600; color:var(--ink); letter-spacing:.3px}
+  .preset-chip.on .pc-name{color:var(--amber-bright)}
+  .pc-sub{font-family:var(--mono); font-size:10px; color:var(--ink-faint); letter-spacing:.3px}
   .ch-seqwrap{flex:1; min-width:0}
   .ch-hint{font-size:11.5px; color:var(--ink-dim); font-family:var(--mono); margin-bottom:11px; letter-spacing:.2px}
   .ch-hint b{color:var(--amber-bright)}
@@ -306,6 +315,33 @@
   .seq-sep{color:var(--ink-faint); font-size:13px}
   .seq-loop{color:var(--ink-faint); font-size:16px; margin-left:4px}
   @media(max-width:560px){.ch-now{gap:14px} .ch-arrow{transform:rotate(90deg)}}
+  /* strumming */
+  .strum-pats{display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; margin-bottom:8px}
+  .strum-pat{text-align:left; padding:16px 18px; border-radius:14px; border:1px solid var(--line); background:var(--panel); transition:.15s}
+  .strum-pat:hover{border-color:var(--line2); transform:translateY(-2px)}
+  .strum-pat.on{border-color:var(--amber); background:rgba(230,164,78,.1)}
+  .sp-top{display:flex; justify-content:space-between; align-items:center; gap:8px}
+  .sp-name{font-family:var(--serif); font-size:18px; font-weight:600; color:var(--ink)}
+  .strum-pat.on .sp-name{color:var(--amber-bright)}
+  .sp-level{font-family:var(--mono); font-size:9.5px; letter-spacing:1px; text-transform:uppercase; color:var(--ink-faint); border:1px solid var(--line2); padding:2px 7px; border-radius:20px}
+  .sp-notation{font-family:var(--mono); font-size:15px; color:var(--amber); letter-spacing:2px; margin:9px 0 6px}
+  .sp-tip{font-size:12px; color:var(--ink-dim); line-height:1.4}
+  .strum-toprow{display:flex; align-items:flex-end; justify-content:space-between; gap:18px; flex-wrap:wrap}
+  .strum-toggle{display:flex; align-items:center; gap:8px; font-size:13px; color:var(--ink-dim); cursor:pointer}
+  .strum-toggle input{width:auto; accent-color:var(--amber)}
+  .strum-display{display:flex; align-items:center; gap:30px; padding:28px 0; flex-wrap:wrap; justify-content:center}
+  .strum-chord{text-align:center; flex:none}
+  .strum-cname{font-family:var(--serif); font-size:24px; font-weight:600; color:var(--amber-bright); margin-top:4px}
+  .strum-grid{display:flex; gap:10px; flex-wrap:wrap}
+  .strum-cell{width:54px; height:84px; border-radius:12px; border:1px solid var(--line); background:var(--bg2); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; transition:.08s}
+  .strum-cell.hit{border-color:var(--line2)}
+  .strum-cell.on{background:var(--amber); border-color:var(--amber); transform:scale(1.12); box-shadow:0 8px 22px -8px var(--honey)}
+  .sc-arrow{font-size:26px; font-weight:700; color:var(--ink-faint); line-height:1}
+  .strum-cell.hit .sc-arrow{color:var(--amber-bright)}
+  .sc-arrow.up{color:var(--teal)}
+  .strum-cell.hit .sc-arrow.up{color:var(--teal)}
+  .strum-cell.on .sc-arrow, .strum-cell.on .sc-beat{color:#241405}
+  .sc-beat{font-family:var(--mono); font-size:12px; color:var(--ink-faint)}
 </style>
 </head>
 <body>
@@ -319,6 +355,7 @@
     <button class="nav-btn" data-view="timeline"><span class="ico">◷</span> Timeline</button>
     <button class="nav-btn" data-view="chords"><span class="ico">▦</span> Chord Library</button>
     <button class="nav-btn" data-view="changes"><span class="ico">⇄</span> Changes</button>
+    <button class="nav-btn" data-view="strum"><span class="ico">⇅</span> Strumming</button>
     <button class="nav-btn" data-view="ear"><span class="ico">♬</span> Ear Training</button>
     <button class="nav-btn" data-view="prog"><span class="ico">↻</span> Progressions</button>
     <button class="nav-btn" data-view="songs"><span class="ico">♫</span> Songs</button>
@@ -370,13 +407,14 @@ function pluck(freq, t0, dur=1.1, gain=0.16){
   osc.start(t0); o2.start(t0); osc.stop(t0+dur); o2.stop(t0+dur);
 }
 function strumFrets(frets, opts={}){
-  const ac = audio(); const t0 = ac.currentTime + 0.04;
+  const ac = audio(); const t0 = ac.currentTime + 0.03;
   const stag = opts.stag ?? 0.045;
+  const order = opts.up ? [...frets.keys()].reverse() : [...frets.keys()]; // up-strum = high string first
   let i=0;
-  frets.forEach((f,s)=>{
+  order.forEach(s=>{
+    const f = frets[s];
     if(f==="x"||f===null) return;
-    const midi = OPEN_MIDI[s] + f;
-    pluck(midiToFreq(midi), t0 + i*stag, opts.dur??1.4, .14);
+    pluck(midiToFreq(OPEN_MIDI[s] + f), t0 + i*stag, opts.dur??1.4, opts.gain??.14);
     i++;
   });
 }
@@ -429,6 +467,18 @@ const CHORDS = [
   {name:"B (barre)", family:"Barre", frets:["x",2,4,4,4,2]},
   {name:"C (barre)", family:"Barre", frets:["x",3,5,5,5,3]},
   {name:"F7", family:"Barre", frets:[1,3,1,2,1,1]},
+  // remaining sharp/flat keys — all movable barre shapes (so every key is covered)
+  {name:"C#", family:"Barre", frets:["x",4,6,6,6,4]},
+  {name:"D#", family:"Barre", frets:["x",6,8,8,8,6]},
+  {name:"F#", family:"Barre", frets:[2,4,4,3,2,2]},
+  {name:"G#", family:"Barre", frets:[4,6,6,5,4,4]},
+  {name:"A#", family:"Barre", frets:["x",1,3,3,3,1]},
+  {name:"Cm", family:"Barre", frets:["x",3,5,5,4,3]},
+  {name:"C#m", family:"Barre", frets:["x",4,6,6,5,4]},
+  {name:"D#m", family:"Barre", frets:["x",6,8,8,7,6]},
+  {name:"Fm", family:"Barre", frets:[1,3,3,1,1,1]},
+  {name:"G#m", family:"Barre", frets:[4,6,6,4,4,4]},
+  {name:"A#m", family:"Barre", frets:["x",1,3,3,2,1]},
   // sus / add
   {name:"Dsus2", family:"Sus / add", frets:["x","x",0,2,3,0]},
   {name:"Dsus4", family:"Sus / add", frets:["x","x",0,2,3,3]},
@@ -528,6 +578,30 @@ const EAR_INTERVALS = [
   {label:"Minor 2nd",s:1},{label:"Major 2nd",s:2},{label:"Minor 3rd",s:3},{label:"Major 3rd",s:4},
   {label:"Perfect 4th",s:5},{label:"Tritone",s:6},{label:"Perfect 5th",s:7},{label:"Major 6th",s:9},
   {label:"Minor 7th",s:10},{label:"Octave",s:12},
+];
+
+/* ready-made progressions for the Changes trainer (real chord names) */
+const CHANGE_PRESETS = [
+  {name:"G C D",        sub:"I–IV–V · folk & rock",      chords:["G","C","D"]},
+  {name:"G C D Em",     sub:"the 4-chord wonder",        chords:["G","C","D","Em"]},
+  {name:"C G Am F",     sub:"I–V–vi–IV · pop",           chords:["C","G","Am","F"]},
+  {name:"Em C G D",     sub:"vi–IV–I–V · emotional pop", chords:["Em","C","G","D"]},
+  {name:"Am F C G",     sub:"vi–IV–I–V in C",            chords:["Am","F","C","G"]},
+  {name:"G Em C D",     sub:"I–vi–IV–V · 50s doo-wop",   chords:["G","Em","C","D"]},
+  {name:"C Am F G",     sub:"I–vi–IV–V · Stand By Me",   chords:["C","Am","F","G"]},
+  {name:"D A G",        sub:"I–V–IV · three chords",     chords:["D","A","G"]},
+  {name:"Am G F E7",    sub:"Andalusian · dramatic",     chords:["Am","G","F","E7"]},
+  {name:"Dm G7 C",      sub:"ii–V–I · jazz",             chords:["Dm","G7","C"]},
+];
+
+/* strumming patterns — one bar of 4/4 as 8 eighth-note slots: 1 & 2 & 3 & 4 &
+   each slot is 'D' (down), 'U' (up), or '' (no strum / let ring) */
+const STRUM_PATTERNS = [
+  {name:"Quarter downs", level:"Beginner",   notation:"D · D · D · D",   tip:"One down-strum on every beat. The place to start.",        slots:["D","","D","","D","","D",""]},
+  {name:"Eighth down-ups", level:"Beginner", notation:"D U D U D U D U", tip:"Down-up on every beat — steady eighth notes.",            slots:["D","U","D","U","D","U","D","U"]},
+  {name:"The classic", level:"Essential",    notation:"D · D U · U D U", tip:"The most-used pop/folk pattern. Miss the up on beat 1 & 3.", slots:["D","","D","U","","U","D","U"]},
+  {name:"Old faithful", level:"Common",      notation:"D · D U U · D U", tip:"A bouncy, driving feel — great for upbeat songs.",         slots:["D","","D","U","U","","D","U"]},
+  {name:"Offbeat ups", level:"Groovy",       notation:"· U · U · U · U", tip:"Ups on the off-beats only — reggae / funk feel.",          slots:["","U","","U","","U","","U"]},
 ];
 
 /* ============================================================
@@ -631,8 +705,8 @@ function pseudoRand(a,b){
 }
 function generatePlan(){
   const t = todayIndex();
-  // require `changes.seq` so plans cached before that field existed get regenerated
-  if(S.planCache.day===t && S.planCache.plan && S.planCache.plan.changes && S.planCache.plan.changes.seq) return S.planCache.plan;
+  // require newer fields so plans cached before they existed get regenerated
+  if(S.planCache.day===t && S.planCache.plan && S.planCache.plan.changes && S.planCache.plan.changes.seq && ('strum' in S.planCache.plan)) return S.planCache.plan;
 
   // chord cards: weight by due/new
   const chordItems = CHORDS.map(c=>{ const d=dueScore("chord:"+c.name,"chord"); return {...c, _w:d.weight, _status:d.status}; });
@@ -655,6 +729,7 @@ function generatePlan(){
     songs: chosenSongs.map(s=>({title:s.title})),
     prog: prog.id,
     changes: {seq: weakSet(4)},
+    strum: t % STRUM_PATTERNS.length,
   };
   S.planCache = {day:t, plan};
   save();
@@ -725,14 +800,14 @@ document.querySelectorAll(".nav-btn").forEach(b=>{
   b.addEventListener("click", ()=> go(b.dataset.view));
 });
 function go(view){
-  changesStop();           // halt any running metronome when leaving
+  changesStop(); strumStop();   // halt any running metronome/strummer when leaving
   currentView=view;
   document.querySelectorAll(".nav-btn").forEach(b=> b.classList.toggle("active", b.dataset.view===view));
   render();
   main.scrollTo?.(0,0); window.scrollTo(0,0);
 }
 function render(){
-  const map={today:viewToday, timeline:viewTimeline, chords:viewChords, changes:viewChanges, ear:viewEar, prog:viewProg, songs:viewSongs, stats:viewStats};
+  const map={today:viewToday, timeline:viewTimeline, chords:viewChords, changes:viewChanges, strum:viewStrum, ear:viewEar, prog:viewProg, songs:viewSongs, stats:viewStats};
   main.innerHTML = `<div class="view">${(map[currentView]||viewToday)()}</div>`;
   (AFTER[currentView]||(()=>{}))();
 }
@@ -805,6 +880,7 @@ function todayTasks(plan){
   return [
     {id:"chords", go:"chords", icon:"▦", title:`Practice ${plan.chords.length} chords`, meta: plan.chords.map(c=>c.name).join("  ·  ")},
     {id:"changes", go:"changes", icon:"⇄", title:`Chord changes: ${plan.changes.seq.join(" → ")}`, meta:"loop the set & switch cleanly, in time"},
+    {id:"strum", go:"strum", icon:"⇅", title:`Strumming — ${STRUM_PATTERNS[plan.strum].name}`, meta: STRUM_PATTERNS[plan.strum].notation},
     {id:"ear", go:"ear", icon:"♬", title:`Ear training — ${plan.ear.mode==="chord"?"chord types":"intervals"}`, meta:"10 quick listening reps"},
     {id:"prog", go:"prog", icon:"↻", title:`Progression — ${prog.name}`, meta: prog.note},
     {id:"song1", go:"songs", icon:"♫", title:`Figure out by ear: ${plan.songs[0]?.title||"a song"}`, meta:"listen · guess · reveal"},
@@ -826,6 +902,7 @@ AFTER.today = ()=>{
     el.addEventListener("click", ()=>{
       markActive();
       if(id==="changes"){ pendingSeq=generatePlan().changes.seq.slice(); }
+      if(id==="strum"){ pendingStrum=generatePlan().strum; }
       go(el.dataset.go);
     });
   });
@@ -1229,14 +1306,25 @@ function viewChanges(){
       `<div class="ch-slot-ctrl">${sel("chSeq"+i,ch)}${changesState.seq.length>2?`<button class="ch-rm" data-rm="${i}" title="remove">×</button>`:""}</div>`
     ).join('<span class="ch-arrow-sm">→</span>');
     const best=S.changesBest[seqKey(changesState.seq)];
-    controls=`<div class="ch-controls">
-      <div class="ch-seqwrap">
-        <div class="ch-hint">↓ Tap any chord box to change it · <b>×</b> removes it · <b>＋ add chord</b> extends the loop (up to 6)</div>
-        <div class="ch-seq">${slots}
-          ${changesState.seq.length<6?`<button class="btn btn-ghost btn-sm" id="chAdd">＋ add chord</button>`:""}
-          <button class="btn btn-ghost btn-sm" id="chShuffle">🎲 weak set</button></div>
+    const curKey=seqKey(changesState.seq);
+    const presetChips=CHANGE_PRESETS.map((p,i)=>{
+      const on = seqKey(p.chords)===curKey;
+      return `<button class="preset-chip ${on?'on':''}" data-preset="${i}"><span class="pc-name">${p.name}</span><span class="pc-sub">${p.sub}</span></button>`;
+    }).join("");
+    controls=`<div class="ch-controls-col">
+      <div class="ch-presets">
+        <div class="ch-hint">Not sure what to practise? <b>Pick a ready-made progression:</b></div>
+        <div class="preset-row">${presetChips}</div>
       </div>
-      <div class="ch-best">${best?`Best 1-min: <b>${best}</b> changes`:"No 1-min score yet"}</div>
+      <div class="ch-controls">
+        <div class="ch-seqwrap">
+          <div class="ch-hint">…or build your own — tap a chord box to change it · <b>×</b> removes · <b>＋ add chord</b> (up to 6)</div>
+          <div class="ch-seq">${slots}
+            ${changesState.seq.length<6?`<button class="btn btn-ghost btn-sm" id="chAdd">＋ add chord</button>`:""}
+            <button class="btn btn-ghost btn-sm" id="chShuffle">🎲 weak set</button></div>
+        </div>
+        <div class="ch-best">${best?`Best 1-min: <b>${best}</b> changes`:"No 1-min score yet"}</div>
+      </div>
     </div>`;
   } else {
     controls=`<div class="ch-controls">
@@ -1345,6 +1433,9 @@ AFTER.changes = ()=>{
     const s=document.getElementById("chSeq"+i);
     if(s) s.addEventListener("change", ()=>{ changesState.seq[i]=s.value; changesStop(); render(); });
   });
+  document.querySelectorAll("[data-preset]").forEach(b=> b.addEventListener("click", ()=>{
+    changesState.seq=CHANGE_PRESETS[+b.dataset.preset].chords.slice(); changesStop(); render();
+  }));
   const add=document.getElementById("chAdd");
   if(add) add.addEventListener("click", ()=>{ changesState.seq.push(weakPair().b); changesStop(); render(); });
   document.querySelectorAll("[data-rm]").forEach(b=> b.addEventListener("click", ()=>{ changesState.seq.splice(+b.dataset.rm,1); changesStop(); render(); }));
@@ -1406,6 +1497,102 @@ function askCount(seq){
     if(currentView==="changes") render();
   });
 }
+
+/* ---------------- STRUMMING ---------------- */
+let strumState=null;
+let pendingStrum=null;
+function defaultStrum(){ return {patternIdx:2, bpm:80, chord:"G", playChord:true, running:false, slot:0, timer:null, elapsed:0, elapsedTimer:null}; }
+function strumStop(){
+  if(!strumState) return;
+  if(strumState.timer){ clearInterval(strumState.timer); strumState.timer=null; }
+  if(strumState.elapsedTimer){ clearInterval(strumState.elapsedTimer); strumState.elapsedTimer=null; }
+  if(strumState.elapsed>0){ histToday().minutes += strumState.elapsed/60; save(); }
+  strumState.running=false; strumState.elapsed=0; strumState.slot=0;
+}
+function strumStart(){
+  strumStop(); markActive();
+  strumState.running=true; strumState.slot=0; strumState.elapsed=0;
+  const pat=STRUM_PATTERNS[strumState.patternIdx];
+  const eighth=(60000/strumState.bpm)/2;
+  strumTick(pat);
+  strumState.timer=setInterval(()=>strumTick(pat), eighth);
+  strumState.elapsedTimer=setInterval(()=>{ strumState.elapsed++; const el=document.getElementById("strElapsed"); if(el) el.textContent=fmtTime(strumState.elapsed); }, 1000);
+}
+function strumTick(pat){
+  const slot=strumState.slot;
+  const stroke=pat.slots[slot];
+  if(slot===0) metroClick(true); else if(slot%2===0) metroClick(false);
+  if(stroke && strumState.playChord){
+    const c=chordByName(strumState.chord);
+    if(c) strumFrets(c.frets, {up:stroke==="U", stag:0.016, dur:0.95, gain: stroke==="U"?0.1:0.13});
+  }
+  drawStrumDisplay();
+  strumState.slot=(slot+1)%8;
+}
+function viewStrum(){
+  if(!strumState) strumState=defaultStrum();
+  if(pendingStrum!=null){ strumState.patternIdx=pendingStrum; pendingStrum=null; }
+  const pats=STRUM_PATTERNS.map((p,i)=>`<button class="strum-pat ${i===strumState.patternIdx?'on':''}" data-pat="${i}">
+      <div class="sp-top"><span class="sp-name">${p.name}</span><span class="sp-level">${p.level}</span></div>
+      <div class="sp-notation">${p.notation}</div>
+      <div class="sp-tip">${p.tip}</div>
+    </button>`).join("");
+  const allNames=CHORDS.map(c=>c.name);
+  return `
+  <div class="head">
+    <div class="eyebrow">Find the groove</div>
+    <h1 class="page-title">Strumming</h1>
+    <p class="page-sub">Chords give you the notes; strumming gives you the <b>rhythm</b>. Pick a pattern, set a tempo, and lock in with the arrows as they light up. <b>↓</b> = down-strum, <b>↑</b> = up-strum.</p>
+  </div>
+  <h2 class="sec">Pick a pattern</h2>
+  <div class="strum-pats">${pats}</div>
+  <div class="card" style="padding:26px;margin-top:8px">
+    <div class="strum-toprow">
+      <div class="strum-chordpick">
+        <label class="fld" style="margin:0 0 6px">Strum this chord</label>
+        <select id="strChord" class="ch-sel" style="width:auto">${allNames.map(n=>`<option ${n===strumState.chord?'selected':''}>${n}</option>`).join("")}</select>
+      </div>
+      <label class="strum-toggle"><input type="checkbox" id="strHearChord" ${strumState.playChord?'checked':''}> hear the chord on each strum</label>
+    </div>
+    <div class="ch-tempo" style="border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:18px">
+      <div class="ch-tempo-row"><span class="ch-tlabel">Tempo</span><input type="range" id="strBpm" min="50" max="160" step="5" value="${strumState.bpm}"><span class="ch-bpm" id="strBpmVal">${strumState.bpm} BPM</span></div>
+    </div>
+    <div id="strDisplay" class="strum-display"></div>
+    <div class="ch-actions">
+      <button class="btn btn-primary" id="strToggle">▶ Start</button>
+      <span class="ch-elapsed">practised <b id="strElapsed">0s</b></span>
+    </div>
+  </div>`;
+}
+function drawStrumDisplay(){
+  const el=document.getElementById("strDisplay"); if(!el) return;
+  const pat=STRUM_PATTERNS[strumState.patternIdx];
+  const labels=["1","&","2","&","3","&","4","&"];
+  const cells=pat.slots.map((s,i)=>{
+    const active=strumState.running && i===strumState.slot;
+    const arrow= s==="D"?"↓": s==="U"?"↑":"·";
+    return `<div class="strum-cell ${active?'on':''} ${s?'hit':''}">
+      <div class="sc-arrow ${s==='U'?'up':''}">${arrow}</div>
+      <div class="sc-beat">${labels[i]}</div>
+    </div>`;
+  }).join("");
+  const c=chordByName(strumState.chord);
+  el.innerHTML=`
+    <div class="strum-chord">${c?chordDiagram(c.frets,0.95):""}<div class="strum-cname">${strumState.chord}</div></div>
+    <div class="strum-grid">${cells}</div>`;
+}
+AFTER.strum=()=>{
+  drawStrumDisplay();
+  document.querySelectorAll("[data-pat]").forEach(b=> b.addEventListener("click", ()=>{ strumStop(); strumState.patternIdx=+b.dataset.pat; render(); }));
+  const ch=document.getElementById("strChord"); if(ch) ch.addEventListener("change", ()=>{ strumState.chord=ch.value; drawStrumDisplay(); });
+  const hc=document.getElementById("strHearChord"); if(hc) hc.addEventListener("change", ()=>{ strumState.playChord=hc.checked; });
+  const bpm=document.getElementById("strBpm"); if(bpm) bpm.addEventListener("input", ()=>{ strumState.bpm=+bpm.value; document.getElementById("strBpmVal").textContent=bpm.value+" BPM"; if(strumState.running) strumStart(); });
+  const tog=document.getElementById("strToggle");
+  if(tog) tog.addEventListener("click", ()=>{
+    if(strumState.running){ strumStop(); tog.innerHTML="▶ Start"; tog.classList.remove("btn-ghost"); tog.classList.add("btn-primary"); drawStrumDisplay(); }
+    else { strumStart(); tog.innerHTML="■ Stop"; tog.classList.remove("btn-primary"); tog.classList.add("btn-ghost"); }
+  });
+};
 
 /* ---------------- SONGS ---------------- */
 function viewSongs(){
