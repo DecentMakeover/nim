@@ -458,27 +458,27 @@ const CHORDS = [
   {name:"G7", family:"7th", frets:[3,2,0,0,0,1]},
   {name:"C7", family:"7th", frets:["x",3,2,3,1,0]},
   {name:"B7", family:"7th", frets:["x",2,1,2,0,2]},
-  // barre E-shape (root on low E)
-  {name:"F",  family:"Barre", frets:[1,3,3,2,1,1]},
-  {name:"F#m",family:"Barre", frets:[2,4,4,2,2,2]},
-  {name:"G (barre)", family:"Barre", frets:[3,5,5,4,3,3]},
-  {name:"Gm", family:"Barre", frets:[3,5,5,3,3,3]},
-  {name:"Bm", family:"Barre", frets:["x",2,4,4,3,2]},
-  {name:"B (barre)", family:"Barre", frets:["x",2,4,4,4,2]},
-  {name:"C (barre)", family:"Barre", frets:["x",3,5,5,5,3]},
-  {name:"F7", family:"Barre", frets:[1,3,1,2,1,1]},
-  // remaining sharp/flat keys — all movable barre shapes (so every key is covered)
-  {name:"C#", family:"Barre", frets:["x",4,6,6,6,4]},
-  {name:"D#", family:"Barre", frets:["x",6,8,8,8,6]},
-  {name:"F#", family:"Barre", frets:[2,4,4,3,2,2]},
-  {name:"G#", family:"Barre", frets:[4,6,6,5,4,4]},
-  {name:"A#", family:"Barre", frets:["x",1,3,3,3,1]},
-  {name:"Cm", family:"Barre", frets:["x",3,5,5,4,3]},
-  {name:"C#m", family:"Barre", frets:["x",4,6,6,5,4]},
-  {name:"D#m", family:"Barre", frets:["x",6,8,8,7,6]},
-  {name:"Fm", family:"Barre", frets:[1,3,3,1,1,1]},
-  {name:"G#m", family:"Barre", frets:[4,6,6,4,4,4]},
-  {name:"A#m", family:"Barre", frets:["x",1,3,3,2,1]},
+  {name:"F7", family:"7th", frets:[1,3,1,2,1,1]},
+  // major barre chords — movable E-shape & A-shape (chromatic order)
+  {name:"F",         family:"Major barre", frets:[1,3,3,2,1,1]},
+  {name:"F#",        family:"Major barre", frets:[2,4,4,3,2,2]},
+  {name:"G (barre)", family:"Major barre", frets:[3,5,5,4,3,3]},
+  {name:"G#",        family:"Major barre", frets:[4,6,6,5,4,4]},
+  {name:"A#",        family:"Major barre", frets:["x",1,3,3,3,1]},
+  {name:"B (barre)", family:"Major barre", frets:["x",2,4,4,4,2]},
+  {name:"C (barre)", family:"Major barre", frets:["x",3,5,5,5,3]},
+  {name:"C#",        family:"Major barre", frets:["x",4,6,6,6,4]},
+  {name:"D#",        family:"Major barre", frets:["x",6,8,8,8,6]},
+  // minor barre chords
+  {name:"Fm",  family:"Minor barre", frets:[1,3,3,1,1,1]},
+  {name:"F#m", family:"Minor barre", frets:[2,4,4,2,2,2]},
+  {name:"Gm",  family:"Minor barre", frets:[3,5,5,3,3,3]},
+  {name:"G#m", family:"Minor barre", frets:[4,6,6,4,4,4]},
+  {name:"A#m", family:"Minor barre", frets:["x",1,3,3,2,1]},
+  {name:"Bm",  family:"Minor barre", frets:["x",2,4,4,3,2]},
+  {name:"Cm",  family:"Minor barre", frets:["x",3,5,5,4,3]},
+  {name:"C#m", family:"Minor barre", frets:["x",4,6,6,5,4]},
+  {name:"D#m", family:"Minor barre", frets:["x",6,8,8,7,6]},
   // sus / add
   {name:"Dsus2", family:"Sus / add", frets:["x","x",0,2,3,0]},
   {name:"Dsus4", family:"Sus / add", frets:["x","x",0,2,3,3]},
@@ -510,7 +510,7 @@ const CHORDS = [
   {name:"D5", family:"Power", frets:["x","x",0,2,3,"x"]},
   {name:"G5", family:"Power", frets:[3,5,5,"x","x","x"]},
 ];
-const CHORD_FAMILIES = ["All","Open","7th","Maj 7","Min 7","Barre","Sus / add","6th & color","Power"];
+const CHORD_FAMILIES = ["All","Open","7th","Maj 7","Min 7","Major barre","Minor barre","Sus / add","6th & color","Power"];
 
 /* progressions in a major key (degree -> {deg offset, quality}) */
 const DEG = { // semitone offset + default triad quality in major key
@@ -971,9 +971,10 @@ function viewChords(){
   const list=CHORDS.filter(c=> chordFilter==="All"||c.family===chordFilter);
   const cards=list.map(c=>{
     const cd=S.cards["chord:"+c.name]; const acc=cd&&cd.seen?Math.round(cd.correct/cd.seen*100):null;
+    const shape = c.family.endsWith("barre") ? (c.frets[0]==="x"?" · A-shape":" · E-shape") : "";
     return `<div class="card chord-card" data-chord="${c.name}">
       <div class="cname">${c.name}</div>
-      <div class="cfam">${c.family}${acc!==null?` · ${acc}%`:""}</div>
+      <div class="cfam">${c.family}${shape}${acc!==null?` · ${acc}%`:""}</div>
       ${chordDiagram(c.frets)}
       <div class="play-tag">▶ tap to hear</div>
     </div>`;
@@ -1299,7 +1300,7 @@ function viewChanges(){
     `<button class="chip ${changesState.mode===m?'on':''}" data-chmode="${m}">${l}</button>`).join("");
   const allNames=CHORDS.map(c=>c.name);
   const sel=(id,val)=>`<select id="${id}" class="ch-sel">${allNames.map(n=>`<option ${n===val?"selected":""}>${n}</option>`).join("")}</select>`;
-  const pools=["Open","7th","Maj 7","Min 7","Barre","All"];
+  const pools=["Open","7th","Maj 7","Min 7","Major barre","Minor barre","All"];
   let controls;
   if(changesState.mode==="seq"){
     const slots=changesState.seq.map((ch,i)=>
