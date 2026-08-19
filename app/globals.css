@@ -1,21 +1,104 @@
 @import 'tailwindcss';
-@plugin '@tailwindcss/typography';
-@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-paper: #f9f7f2;
+  --color-ink: #211f1a;
+  --color-gray: #807b71;
+  --color-gray-soft: #a8a297;
+  --color-hairline: rgba(33, 31, 26, 0.14);
+  --color-pill: #edeae2;
+  --color-terracotta: #c05f3c;
+
+  --font-sans: var(--font-geist), system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), Georgia, serif;
+  --font-wordmark: var(--font-michroma), var(--font-geist), sans-serif;
+}
+
+::selection {
+  background: #211f1a;
+  color: #f9f7f2;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:focus-visible {
+  outline: 2px solid #c05f3c;
+  outline-offset: 3px;
+  border-radius: 1px;
+}
 
 /*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
+ * Hero wordmark: a slow highlight sweeps across the letterforms,
+ * after the Thinking Machines logo treatment the user pointed to.
+ * Static mid-gray when the user prefers reduced motion.
+ */
+.wordmark {
+  background: linear-gradient(
+    105deg,
+    #c6c1b6 0%,
+    #c6c1b6 30%,
+    #57534b 50%,
+    #c6c1b6 70%,
+    #c6c1b6 100%
+  );
+  background-size: 300% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: wordmark-sheen 7s ease-in-out infinite;
+}
 
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+@keyframes wordmark-sheen {
+  0% {
+    background-position: 100% 0;
+  }
+  60%,
+  100% {
+    background-position: 0% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wordmark {
+    animation: none;
+    background: none;
+    color: var(--color-gray);
+  }
+}
+
+/* Document-style inline link: ink text, quiet underline, warm hover. */
+.doc-link {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-gray-soft);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease-out, text-decoration-color 0.15s ease-out;
+}
+
+.doc-link:hover {
+  color: var(--color-terracotta);
+  text-decoration-color: var(--color-terracotta);
+}
+
+/* Prose rhythm for the essay sections. */
+.essay {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-ink);
+}
+
+.essay p + p {
+  margin-top: 1.5em;
+}
+
+@media (min-width: 640px) {
+  .essay {
+    font-size: 1.125rem;
   }
 }

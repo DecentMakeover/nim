@@ -1,0 +1,417 @@
+{
+ "generated": "2026-08-19T13:08:16+00:00",
+ "blueprint": {
+  "instagram": "https://www.instagram.com/theblueprintuncut/",
+  "people": [
+   {
+    "id": "harshita",
+    "name": "Harshita",
+    "role": "interviewee",
+    "title": "Assistant Manager, Buying Operations",
+    "company": "Saks Global",
+    "location": "Bangalore (from Guntur, Andhra Pradesh)"
+   },
+   {
+    "id": "samiksha",
+    "name": "Samiksha",
+    "role": "interviewee",
+    "title": "Software Engineer",
+    "company": "Wells Fargo",
+    "location": "Bengaluru"
+   },
+   {
+    "id": "vaibhav",
+    "name": "Vaibhav",
+    "role": "interviewee",
+    "title": "Senior Data Engineer",
+    "company": "Product startup (not named)",
+    "location": "Bengaluru"
+   }
+  ],
+  "clips": [
+   {
+    "name": "07-06-26-02_Q07_iit-iisc-iim-by-goal_style-1c.mp4",
+    "question": "Which college is best in India from technical, research, business, and package perspectives?",
+    "topic": "EDUCATION",
+    "title_card": [
+     "IIT, IISc OR IIM?",
+     "DEPENDS ON THE GOAL"
+    ],
+    "teaser": "BTech in Computer Science from Amity University, graduated in 2020, now a data engineer.",
+    "person_id": "vaibhav",
+    "duration_s": 52.5,
+    "published_at": "2026-08-19T09:35:45+00:00",
+    "url": "https://www.instagram.com/reel/DcN4OufgDAH/"
+   },
+   {
+    "name": "07-06-26-02_Q06_thirty-thousand-one-bhk-kadubeesanahalli_style-1b.mp4",
+    "question": "How much is your rent, what BHK and locality do you live in, and what view or amenities do you have?",
+    "topic": "HOUSING",
+    "title_card": [
+     "30,000 FOR A 1BHK",
+     "KADUBEESANAHALLI"
+    ],
+    "teaser": "Data engineer; TCS for four years; now senior data engineer at a product-based startup.",
+    "person_id": "vaibhav",
+    "duration_s": 57.577,
+    "published_at": "2026-08-19T05:37:26+00:00",
+    "url": "https://www.instagram.com/reel/DcNc9kGEds8/"
+   },
+   {
+    "name": "07-06-26-02_Q05_school-skill-be-attentive_style-1d.mp4",
+    "question": "What learning from school is still helping you?",
+    "topic": "EDUCATION",
+    "title_card": [
+     "BTECH IN COMPUTER SCIENCE",
+     "AMITY UNIVERSITY · 2020",
+     "DATA ENGINEER"
+    ],
+    "teaser": "Just be attentive. It helps a lot.",
+    "person_id": "vaibhav",
+    "duration_s": 28.265,
+    "published_at": "2026-08-19T01:33:40+00:00",
+    "url": "https://www.instagram.com/reel/DcNBD1VE8Gi/"
+   },
+   {
+    "name": "07-06-26-02_Q04_private-vs-government-school_style-1e.mp4",
+    "question": "Do you think government school or private school is better?",
+    "topic": "EDUCATION",
+    "title_card": [
+     "PRIVATE OR",
+     "GOVERNMENT SCHOOL?"
+    ],
+    "teaser": "BTech in Computer Science from Amity University, graduated in 2020, now a data engineer.",
+    "person_id": "vaibhav",
+    "duration_s": 39.583333,
+    "published_at": "2026-08-18T13:59:22+00:00",
+    "url": "https://www.instagram.com/reel/DcLxknwAEj9/"
+   },
+   {
+    "name": "07-06-26-02_Q03_scholarship-education-roi-context-v2_style-1a.mp4",
+    "question": "How much did your parents spend on your education, and what was the return?",
+    "topic": "EDUCATION",
+    "title_card": [
+     "BTECH IN COMPUTER SCIENCE",
+     "AMITY UNIVERSITY · 2020",
+     "DATA ENGINEER"
+    ],
+    "teaser": "My college gave me a scholarship.",
+    "person_id": "vaibhav",
+    "duration_s": 51.333333,
+    "published_at": "2026-08-18T09:37:02+00:00",
+    "url": "https://www.instagram.com/reel/DcLTlr3DK8N/"
+   },
+   {
+    "name": "07-06-26-02_Q02_four-hundred-percent-hike-context-v2_style-1d.mp4",
+    "question": "How many switches have you made, what was your largest salary hike, and what are you earning now?",
+    "topic": "SALARY",
+    "title_card": [
+     "400% HIKE",
+     "SENIOR DATA ENGINEER",
+     "TCS → PRODUCT-BASED STARTUP"
+    ],
+    "teaser": "It was almost like 400%-plus hike.",
+    "person_id": "vaibhav",
+    "duration_s": 29.041667,
+    "published_at": "2026-08-18T01:34:42+00:00",
+    "url": "https://www.instagram.com/reel/DcKcY-InThK/"
+   },
+   {
+    "name": "07-06-26-02_Q01_amity-to-senior-data-engineer_style-1a.mp4",
+    "question": "Which college are you from, and what do you do now?",
+    "topic": "CAREER",
+    "title_card": [
+     "BTECH IN COMPUTER SCIENCE",
+     "AMITY UNIVERSITY · 2020",
+     "SENIOR DATA ENGINEER"
+    ],
+    "teaser": null,
+    "person_id": "vaibhav",
+    "duration_s": 25.083333,
+    "published_at": "2026-08-17T14:02:49+00:00",
+    "url": "https://www.instagram.com/reel/DcJNM_pDsWG/"
+   },
+   {
+    "name": "07-06-26-01_Q12_degree-fun-or-money_style-1c.mp4",
+    "question": "A degree for fun or for money?",
+    "topic": "EDUCATION",
+    "title_card": [
+     "A DEGREE FOR FUN",
+     "OR FOR MONEY?"
+    ],
+    "teaser": "It's a trade-off between your happiness or you being loaded",
+    "person_id": "samiksha",
+    "duration_s": 59.667,
+    "published_at": "2026-08-17T09:49:54+00:00",
+    "url": "https://www.instagram.com/reel/DcIwQvfFVqp/"
+   },
+   {
+    "name": "07-06-26-01_Q11_education-roi-worth-it_style-1c.mp4",
+    "question": "Was the education ROI worth it?",
+    "topic": "EDUCATION",
+    "title_card": [
+     "THE EDUCATION ROI",
+     "WAS WORTH IT"
+    ],
+    "teaser": "I think the ROI was worth it",
+    "person_id": "samiksha",
+    "duration_s": 32.792,
+    "published_at": "2026-08-17T09:19:30+00:00",
+    "url": "https://www.instagram.com/reel/DcIsyU0jvvK/"
+   },
+   {
+    "name": "07-06-26-01_Q10_three-bhk-near-brookfield_style-1b.mp4",
+    "question": "Rent, BHK, society and amenities?",
+    "topic": "HOUSING",
+    "title_card": [
+     "A 3BHK",
+     "NEAR BROOKFIELD"
+    ],
+    "teaser": "My flat's rent is around 65",
+    "person_id": "samiksha",
+    "duration_s": 44.0,
+    "published_at": "2026-08-17T05:43:05+00:00",
+    "url": "https://www.instagram.com/reel/DcIUBH1jAiS/"
+   },
+   {
+    "name": "07-06-26-01_Q09_major-companies-came-nitk_style-1c.mp4",
+    "question": "Which companies came to NITK?",
+    "topic": "CAMPUS",
+    "title_card": [
+     "MAJOR COMPANIES",
+     "CAME TO NITK"
+    ],
+    "teaser": "I think pretty much all the major companies used to come",
+    "person_id": "samiksha",
+    "duration_s": 48.49,
+    "published_at": "2026-08-16T21:08:40+00:00",
+    "url": "https://www.instagram.com/reel/DcHYsWEGl0J/"
+   },
+   {
+    "name": "07-06-26-01_Q08_wells-fargo-no-system-design_style-1a.mp4",
+    "question": "Was system design included?",
+    "topic": "INTERVIEWS",
+    "title_card": [
+     "WELLS FARGO CAMPUS:",
+     "NO SYSTEM DESIGN"
+    ],
+    "teaser": "No system design was not there for FTEs",
+    "person_id": "samiksha",
+    "duration_s": 11.875,
+    "published_at": "2026-08-16T09:38:42+00:00",
+    "url": "https://www.instagram.com/reel/DcGKLkRDzAZ/"
+   },
+   {
+    "name": "07-06-26-01_Q07_one-hour-finish-early_style-1e.mp4",
+    "question": "How long was each round?",
+    "topic": "INTERVIEWS",
+    "title_card": [
+     "1-HOUR ROUND",
+     "OR FINISH EARLY"
+    ],
+    "teaser": "If you finished your question earlier you could end it earlier",
+    "person_id": "samiksha",
+    "duration_s": 10.292,
+    "published_at": "2026-08-16T07:42:26+00:00",
+    "url": "https://www.instagram.com/reel/DcF84cmAf-4/"
+   },
+   {
+    "name": "07-06-26-01_Q06_one-question-two-rounds_style-1b.mp4",
+    "question": "How many questions and rounds?",
+    "topic": "INTERVIEWS",
+    "title_card": [
+     "1 PER ROUND.",
+     "PROBABLY 2 ROUNDS."
+    ],
+    "teaser": "So probably there were two rounds",
+    "person_id": "samiksha",
+    "duration_s": 10.208,
+    "published_at": "2026-08-16T05:52:55+00:00",
+    "url": "https://www.instagram.com/reel/DcFwXGRAWlt/"
+   },
+   {
+    "name": "07-06-26-01_Q04_wells-fargo-interview-dsa_style-1c.mp4",
+    "question": "What was the Wells Fargo interview like?",
+    "topic": "INTERVIEWS",
+    "title_card": [
+     "WELLS FARGO",
+     "INTERVIEW: DSA"
+    ],
+    "teaser": "I mean it was basic DSA questions essentially",
+    "person_id": "samiksha",
+    "duration_s": 26.197,
+    "published_at": "2026-08-16T05:35:29+00:00",
+    "url": "https://www.instagram.com/reel/DcFuW32lUpo/"
+   },
+   {
+    "name": "07-06-26-01_Q03_interviews-result-one-day_style-1e.mp4",
+    "question": "How did campus placements work?",
+    "topic": "CAMPUS",
+    "title_card": [
+     "INTERVIEWS + RESULT",
+     "IN ONE DAY"
+    ],
+    "teaser": "and you find out whether you made it or not",
+    "person_id": "samiksha",
+    "duration_s": 40.792,
+    "published_at": "2026-08-14T17:53:46+00:00",
+    "url": "https://www.instagram.com/reel/DcB5OsuDgoG/"
+   },
+   {
+    "name": "Q11_refuses-to-use-ai_style-1a.mp4",
+    "question": "ChatGPT, Claude or Gemini?",
+    "topic": "AI",
+    "title_card": [
+     "SHE REFUSES",
+     "TO USE AI"
+    ],
+    "teaser": "I know too much about AI to be using it myself",
+    "person_id": "harshita",
+    "duration_s": 24.08,
+    "published_at": "2026-08-14T13:33:41+00:00",
+    "url": "https://www.instagram.com/reel/DcBbfatCRPw/"
+   },
+   {
+    "name": "Q10_eighty-percent-emi_style-1b.mp4",
+    "question": "How much salary goes to EMIs?",
+    "topic": "EMIs",
+    "title_card": [
+     "80% OF SALARY",
+     "GOES TO EMIs"
+    ],
+    "teaser": "a whopping 80% of my salary goes into my EMIs",
+    "person_id": "harshita",
+    "duration_s": 15.5,
+    "published_at": "2026-08-14T09:32:55+00:00",
+    "url": "https://www.instagram.com/reel/DcA_88fjNbc/"
+   },
+   {
+    "name": "Q09_food-apps-spend_style-1d.mp4",
+    "question": "Monthly Swiggy & Zomato spend?",
+    "topic": "SPENDING",
+    "title_card": [
+     "₹3–4K A MONTH",
+     "ON FOOD APPS"
+    ],
+    "teaser": "maybe about three four grand",
+    "person_id": "harshita",
+    "duration_s": 13.04,
+    "published_at": "2026-08-14T05:30:48+00:00",
+    "url": "https://www.instagram.com/reel/DcAkPKXjZwC/"
+   },
+   {
+    "name": "Q08_30-lakhs-education_style-1e.mp4",
+    "question": "What did your education cost?",
+    "topic": "EDUCATION",
+    "title_card": [
+     "~₹30 LAKHS",
+     "ON EDUCATION"
+    ],
+    "teaser": "the biggest chunk was MBA",
+    "person_id": "harshita",
+    "duration_s": 17.17,
+    "published_at": "2026-08-13T17:32:57+00:00",
+    "url": "https://www.instagram.com/reel/Db_SE4PkwlZ/"
+   },
+   {
+    "name": "Q07_salary-6-to-20-lpa_style-1b.mp4",
+    "question": "CTC when you started vs now?",
+    "topic": "SALARIES",
+    "title_card": [
+     "₹6 LPA THEN",
+     "₹15–20 LPA NOW"
+    ],
+    "teaser": "it's close to 15 to 20 now",
+    "person_id": "harshita",
+    "duration_s": 19.25,
+    "published_at": "2026-08-13T13:32:04+00:00",
+    "url": "https://www.instagram.com/reel/Db-2gh1DQhE/"
+   },
+   {
+    "name": "Q06_college-tier-matter_style-1a.mp4",
+    "question": "Does your college tier matter?",
+    "topic": "COLLEGES",
+    "title_card": [
+     "DOES YOUR COLLEGE",
+     "TIER MATTER?"
+    ],
+    "teaser": "certain industries do have a preference",
+    "person_id": "harshita",
+    "duration_s": 29.88,
+    "published_at": "2026-08-13T09:34:07+00:00",
+    "url": "https://www.instagram.com/reel/Db-bRSqEQRb/"
+   },
+   {
+    "name": "Q05_nine-years-bangalore_style-1e.mp4",
+    "question": "Why Bangalore?",
+    "topic": "BANGALORE",
+    "title_card": [
+     "9 YEARS IN",
+     "BANGALORE"
+    ],
+    "teaser": "I've been in Bangalore for the last nine years",
+    "person_id": "harshita",
+    "duration_s": 21.29,
+    "published_at": "2026-08-13T05:32:17+00:00",
+    "url": "https://www.instagram.com/reel/Db9_mMzjTn9/"
+   },
+   {
+    "name": "Q04_tenth-marks-dont-matter_style-1b.mp4",
+    "question": "Did your 10th marks matter?",
+    "topic": "MARKS",
+    "title_card": [
+     "YOUR 10th MARKS",
+     "DON'T MATTER"
+    ],
+    "teaser": "it has no impact whatsoever",
+    "person_id": "harshita",
+    "duration_s": 20.58,
+    "published_at": "2026-08-13T01:31:46+00:00",
+    "url": "https://www.instagram.com/reel/Db9kEwYDkGZ/"
+   },
+   {
+    "name": "Q03_mba-still-worth-it_style-1c.mp4",
+    "question": "How relevant is an MBA today?",
+    "topic": "EDUCATION",
+    "title_card": [
+     "IS AN MBA",
+     "STILL WORTH IT?"
+    ],
+    "teaser": "it's become like a must-have degree these days",
+    "person_id": "harshita",
+    "duration_s": 30.67,
+    "published_at": "2026-08-12T17:32:58+00:00",
+    "url": "https://www.instagram.com/reel/Db8tSQfDu_0/"
+   },
+   {
+    "name": "Q02_what-makes-good-manager_style-1c.mp4",
+    "question": "What makes a good manager?",
+    "topic": "LEADERSHIP",
+    "title_card": [
+     "WHAT MAKES A",
+     "GOOD MANAGER?"
+    ],
+    "teaser": "as a leader you set up people for success",
+    "person_id": "harshita",
+    "duration_s": 27.67,
+    "published_at": "2026-08-12T14:53:54+00:00",
+    "url": "https://www.instagram.com/reel/Db8bEZTiUyc/"
+   },
+   {
+    "name": "Q01_what-assistant-manager-does_style-1a.mp4",
+    "question": "What does an assistant manager do?",
+    "topic": "THE JOB",
+    "title_card": [
+     "WHAT DOES AN",
+     "ASSISTANT MANAGER",
+     "ACTUALLY DO?"
+    ],
+    "teaser": "managing people is a huge part of my job",
+    "person_id": "harshita",
+    "duration_s": 22.71,
+    "published_at": "2026-08-12T14:47:20+00:00",
+    "url": "https://www.instagram.com/reel/Db8aUiijz0N/"
+   }
+  ]
+ }
+}

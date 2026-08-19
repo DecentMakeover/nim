@@ -1,0 +1,50 @@
+{
+  "note": "Hand-edited. Newest first. youtube_id drives the thumbnail; url is where the row links.",
+  "episodes": [
+    {
+      "title": "India's growth isn't failing, the escalator was pulled up",
+      "guest": "Arjun Ramani",
+      "guest_detail": "The Economist",
+      "youtube_id": null,
+      "url": "https://open.spotify.com/episode/2wpNvBelViAkJpFtMuy8sp",
+      "image": "/guests/arjun.jpg",
+      "tag": "The Economist"
+    },
+    {
+      "title": "Indian high-skilled migration and the tech economy",
+      "guest": "Gaurav Khanna",
+      "guest_detail": "Economist, UC San Diego",
+      "youtube_id": "rBs93dbJhTk",
+      "url": "https://youtu.be/rBs93dbJhTk",
+      "image": "/guests/gaurav.jpg",
+      "tag": "Immigration"
+    },
+    {
+      "title": "Building medical AI and open hardware in India",
+      "guest": "Sasank Chilamkurthy",
+      "guest_detail": "Co-founder, qure.ai & JOHNAIC",
+      "youtube_id": "xQZDOeg0ZMY",
+      "url": "https://youtu.be/xQZDOeg0ZMY",
+      "image": "/guests/sasank.jpg",
+      "tag": "Qure.ai"
+    },
+    {
+      "title": "Personal finance for a generation that grew up online",
+      "guest": "Vinay Dubey",
+      "guest_detail": "Co-founder & CMO, Wint Wealth",
+      "youtube_id": "0F8qGvrL1D8",
+      "url": "https://youtu.be/0F8qGvrL1D8",
+      "image": "/guests/vinay.jpg",
+      "tag": "Wint Wealth"
+    },
+    {
+      "title": "Fixed deposits, trust, and the boring end of fintech",
+      "guest": "Saurabh Jain",
+      "guest_detail": "Co-founder, Stable Money",
+      "youtube_id": "yioS01DdpQY",
+      "url": "https://youtu.be/yioS01DdpQY",
+      "image": "/guests/saurabh.jpg",
+      "tag": "Stable Money"
+    }
+  ]
+}
