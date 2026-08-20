@@ -15,7 +15,7 @@ export function Footer() {
 
   return (
     <footer className="mt-28 border-t border-hairline py-10">
-      <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray">
+      <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-gray">
         {FOOTER_LINKS.map((l) => (
           <li key={l.label}>
             <a
