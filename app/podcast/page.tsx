@@ -8,46 +8,63 @@ export const metadata: Metadata = {
     '250+ long conversations since 2021. Economists, founders, reporters.',
 }
 
+function Tape({ hidden }: { hidden?: boolean }) {
+  return (
+    <div aria-hidden={hidden} className="flex shrink-0 items-center">
+      {podcast.episodes.map((e) => (
+        <a
+          key={e.url}
+          href={e.url}
+          target="_blank"
+          rel="noreferrer"
+          tabIndex={hidden ? -1 : undefined}
+          className="group mr-24 block whitespace-nowrap sm:mr-36"
+        >
+          <span className="wordmark font-wordmark block text-2xl uppercase transition-colors sm:text-4xl">
+            {e.guest}
+          </span>
+          <span className="mt-2 block text-[10px] font-medium tracking-[0.24em] text-gray uppercase transition-colors group-hover:text-terracotta sm:text-[11px]">
+            {e.tag}
+          </span>
+        </a>
+      ))}
+    </div>
+  )
+}
+
 export default function PodcastPage() {
   return (
-    <div className="pb-4">
-      <h1 className="text-3xl font-medium tracking-tight">The podcast</h1>
-      <div className="essay mt-6">
-        <p>
-          <em>250+ conversations since 2021.</em> Subscribe on{' '}
-          <a href={LINKS.youtube} target="_blank" rel="noreferrer" className="doc-link">
+    <div className="flex flex-1 flex-col">
+      <section className="flex flex-1 flex-col justify-center pb-24">
+        {/* The tape. Full-bleed, hover to pause, tap a name to listen. */}
+        <div className="ticker ml-[calc(50%-50vw)] w-screen">
+          <div className="ticker-track">
+            <Tape />
+            <Tape hidden />
+          </div>
+        </div>
+
+        <p className="mt-16 text-center text-sm text-gray">
+          250+ conversations since 2021 &middot;{' '}
+          <a
+            href={LINKS.youtube}
+            target="_blank"
+            rel="noreferrer"
+            className="doc-link"
+          >
             YouTube
           </a>{' '}
-          or listen on{' '}
-          <a href={LINKS.spotify} target="_blank" rel="noreferrer" className="doc-link">
+          &middot;{' '}
+          <a
+            href={LINKS.spotify}
+            target="_blank"
+            rel="noreferrer"
+            className="doc-link"
+          >
             Spotify
           </a>
-          .
         </p>
-      </div>
-
-      {/* Guest gallery: portrait, name, one word. The card is the link. */}
-      <ul className="mt-12 grid grid-cols-2 gap-x-6 gap-y-12 sm:grid-cols-3">
-        {podcast.episodes.map((e) => (
-          <li key={e.url}>
-            <a href={e.url} target="_blank" rel="noreferrer" className="group block">
-              <img
-                src={e.image}
-                alt={e.guest}
-                width={480}
-                height={600}
-                className="aspect-[4/5] w-full object-cover grayscale transition duration-300 ease-out group-hover:grayscale-0"
-              />
-              <span className="mt-4 block font-serif text-lg leading-snug transition-colors group-hover:text-terracotta">
-                {e.guest}
-              </span>
-              <span className="mt-0.5 block text-[11px] font-medium tracking-[0.14em] text-gray uppercase">
-                {e.tag}
-              </span>
-            </a>
-          </li>
-        ))}
-      </ul>
+      </section>
     </div>
   )
 }

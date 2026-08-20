@@ -20,6 +20,7 @@
 }
 
 body {
+  overflow-x: clip;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -67,6 +68,40 @@ a:focus-visible {
     animation: none;
     background: none;
     color: var(--color-gray);
+  }
+}
+
+/*
+ * Guest ticker: an exchange-tape marquee. The track holds two identical
+ * copies of the list; sliding exactly one copy's width loops seamlessly.
+ * Names carry the wordmark sheen. Hover pauses the tape.
+ */
+.ticker {
+  overflow: hidden;
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  animation: ticker-roll 45s linear infinite;
+}
+
+.ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+
+@keyframes ticker-roll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track {
+    animation: none;
   }
 }
 
