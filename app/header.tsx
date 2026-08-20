@@ -6,7 +6,7 @@ export function Header() {
   if (usePathname() === '/') return null
 
   return (
-    <header className="flex items-baseline pt-8 pb-16 sm:pt-10">
+    <header className="flex justify-center pt-8 pb-16 sm:pt-10">
       <Link
         href="/"
         className="text-[11px] font-medium tracking-[0.28em] text-gray uppercase transition-colors hover:text-ink"
