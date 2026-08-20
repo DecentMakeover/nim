@@ -23,12 +23,21 @@ export function QuestionStage({ clips }: { clips: Clip[] }) {
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const tick = useCallback(() => {
+    if (timer.current) clearTimeout(timer.current)
     timer.current = setTimeout(() => {
-      if (held.current) return // resumes on mouse leave
-      setIndex((i) => (i + 1) % clips.length)
-      if (delay.current < CRUISE_MS) {
-        delay.current = Math.min(delay.current * DECAY, CRUISE_MS)
-        if (delay.current >= CRUISE_MS) setCruising(true)
+      // The heartbeat never dies: while held (or the pointer is genuinely
+      // over the card) we simply don't advance, and try again next beat.
+      const hovered = document.querySelector('a[data-stage]:hover') !== null
+      if (!held.current && !hovered) {
+        setIndex((i) => (i + 1) % clips.length)
+        if (delay.current < CRUISE_MS) {
+          delay.current = Math.min(delay.current * DECAY, CRUISE_MS)
+          if (delay.current >= CRUISE_MS) setCruising(true)
+        }
+      } else if (!hovered) {
+        // Element remounted under a parked cursor: :hover is gone but the
+        // ref was never cleared by a mouseleave. Heal it.
+        held.current = false
       }
       tick()
     }, delay.current)
@@ -50,9 +59,7 @@ export function QuestionStage({ clips }: { clips: Clip[] }) {
   }, [clips.length, tick])
 
   const hold = (on: boolean) => {
-    const was = held.current
     held.current = on
-    if (!on && was && clips.length > 1) tick()
   }
 
   const c = clips[index]
@@ -64,6 +71,7 @@ export function QuestionStage({ clips }: { clips: Clip[] }) {
       href={c.url}
       target="_blank"
       rel="noreferrer"
+      data-stage=""
       onMouseEnter={() => hold(true)}
       onMouseLeave={() => hold(false)}
       onFocus={() => hold(true)}
