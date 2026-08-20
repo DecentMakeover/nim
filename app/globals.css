@@ -105,6 +105,16 @@ a:focus-visible {
   }
 }
 
+/* Blueprint board: stacked tapes at different speeds; middle row reversed. */
+.ticker-track-slow {
+  animation-duration: 70s;
+}
+
+.ticker-track-reverse {
+  animation-direction: reverse;
+  animation-duration: 58s;
+}
+
 /* Document-style inline link: ink text, quiet underline, warm hover. */
 .doc-link {
   color: var(--color-ink);
