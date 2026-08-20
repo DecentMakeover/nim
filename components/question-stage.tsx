@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 type Clip = {
   name: string
@@ -9,53 +9,90 @@ type Clip = {
   url: string
 }
 
-const DWELL_MS = 5000
+// Deck shuffle: flips start fast and decelerate until the card settles.
+const FIRST_DELAY_MS = 50
+const DECAY = 1.22
+const SETTLE_MS = 620 // once a flip takes this long, stop
+const IDLE_BEFORE_RESHUFFLE_MS = 9000
 
-/*
- * One question at a time, center stage. Rotates on a quiet timer;
- * hover or focus holds it; the whole stage links to the reel.
- */
 export function QuestionStage({ clips }: { clips: Clip[] }) {
   const [index, setIndex] = useState(0)
-  const [held, setHeld] = useState(false)
-  const reduced = useRef(false)
+  const [settled, setSettled] = useState(false)
+  const held = useRef(false)
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const clear = () => {
+    if (timer.current) clearTimeout(timer.current)
+    timer.current = null
+  }
+
+  const shuffle = useCallback(
+    (delay: number) => {
+      setSettled(false)
+      const step = (d: number) => {
+        timer.current = setTimeout(() => {
+          setIndex((i) => (i + 1) % clips.length)
+          if (d >= SETTLE_MS) {
+            setSettled(true)
+            // Rest, then riffle again from a moderate speed.
+            timer.current = setTimeout(() => {
+              if (!held.current) shuffle(FIRST_DELAY_MS * 2)
+            }, IDLE_BEFORE_RESHUFFLE_MS)
+          } else {
+            step(d * DECAY)
+          }
+        }, d)
+      }
+      step(delay)
+    },
+    [clips.length],
+  )
 
   useEffect(() => {
-    reduced.current = window.matchMedia(
-      '(prefers-reduced-motion: reduce)',
-    ).matches
-  }, [])
+    if (clips.length < 2) {
+      setSettled(true)
+      return
+    }
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (reduced) {
+      setSettled(true)
+      return
+    }
+    shuffle(FIRST_DELAY_MS)
+    return clear
+  }, [clips.length, shuffle])
 
-  useEffect(() => {
-    if (held || reduced.current || clips.length < 2) return
-    const t = setTimeout(() => setIndex((i) => (i + 1) % clips.length), DWELL_MS)
-    return () => clearTimeout(t)
-  }, [index, held, clips.length])
+  const hold = (on: boolean) => {
+    held.current = on
+    if (on && settled) clear()
+    else if (!on && settled && !timer.current && clips.length > 1) {
+      timer.current = setTimeout(() => shuffle(FIRST_DELAY_MS * 2), IDLE_BEFORE_RESHUFFLE_MS)
+    }
+  }
 
   const c = clips[index]
   if (!c) return null
 
   return (
     <a
-      key={c.name}
       href={c.url}
       target="_blank"
       rel="noreferrer"
-      onMouseEnter={() => setHeld(true)}
-      onMouseLeave={() => setHeld(false)}
-      onFocus={() => setHeld(true)}
-      onBlur={() => setHeld(false)}
-      className="stage-enter group block text-center"
+      onMouseEnter={() => hold(true)}
+      onMouseLeave={() => hold(false)}
+      onFocus={() => hold(true)}
+      onBlur={() => hold(false)}
+      className={`group block text-center ${settled ? 'stage-enter' : ''}`}
     >
       {c.topic && (
         <span className="block text-[11px] font-medium tracking-[0.28em] text-gray-soft uppercase">
           {c.topic}
         </span>
       )}
-      <span className="mx-auto mt-6 block max-w-3xl font-serif text-3xl leading-[1.25] text-ink transition-colors group-hover:text-terracotta sm:text-5xl sm:leading-[1.2]">
+      <span className="wordmark font-wordmark mx-auto mt-8 block max-w-4xl text-lg leading-[1.75] uppercase sm:text-[27px] sm:leading-[1.8]">
         {c.question}
       </span>
-      <span className="mt-7 block text-[11px] font-medium tracking-[0.24em] text-gray uppercase">
+      <span className="mt-8 block text-[11px] font-medium tracking-[0.24em] text-gray uppercase">
         {c.person}
       </span>
     </a>
