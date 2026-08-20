@@ -9,65 +9,50 @@ type Clip = {
   url: string
 }
 
-// Deck shuffle: flips start fast and decelerate until the card settles.
-const FIRST_DELAY_MS = 50
-const DECAY = 1.22
-const SETTLE_MS = 620 // once a flip takes this long, stop
-const IDLE_BEFORE_RESHUFFLE_MS = 9000
+// Deck shuffle: a fast riffle through the deck that decelerates into a
+// steady cruise. It never stops; hover holds the card.
+const FIRST_DELAY_MS = 28
+const DECAY = 1.13
+const CRUISE_MS = 850
 
 export function QuestionStage({ clips }: { clips: Clip[] }) {
   const [index, setIndex] = useState(0)
-  const [settled, setSettled] = useState(false)
+  const [cruising, setCruising] = useState(false)
   const held = useRef(false)
+  const delay = useRef(FIRST_DELAY_MS)
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const clear = () => {
-    if (timer.current) clearTimeout(timer.current)
-    timer.current = null
-  }
-
-  const shuffle = useCallback(
-    (delay: number) => {
-      setSettled(false)
-      const step = (d: number) => {
-        timer.current = setTimeout(() => {
-          setIndex((i) => (i + 1) % clips.length)
-          if (d >= SETTLE_MS) {
-            setSettled(true)
-            // Rest, then riffle again from a moderate speed.
-            timer.current = setTimeout(() => {
-              if (!held.current) shuffle(FIRST_DELAY_MS * 2)
-            }, IDLE_BEFORE_RESHUFFLE_MS)
-          } else {
-            step(d * DECAY)
-          }
-        }, d)
+  const tick = useCallback(() => {
+    timer.current = setTimeout(() => {
+      if (held.current) return // resumes on mouse leave
+      setIndex((i) => (i + 1) % clips.length)
+      if (delay.current < CRUISE_MS) {
+        delay.current = Math.min(delay.current * DECAY, CRUISE_MS)
+        if (delay.current >= CRUISE_MS) setCruising(true)
       }
-      step(delay)
-    },
-    [clips.length],
-  )
+      tick()
+    }, delay.current)
+  }, [clips.length])
 
   useEffect(() => {
     if (clips.length < 2) {
-      setSettled(true)
+      setCruising(true)
       return
     }
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (reduced) {
-      setSettled(true)
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setCruising(true)
       return
     }
-    shuffle(FIRST_DELAY_MS)
-    return clear
-  }, [clips.length, shuffle])
+    tick()
+    return () => {
+      if (timer.current) clearTimeout(timer.current)
+    }
+  }, [clips.length, tick])
 
   const hold = (on: boolean) => {
+    const was = held.current
     held.current = on
-    if (on && settled) clear()
-    else if (!on && settled && !timer.current && clips.length > 1) {
-      timer.current = setTimeout(() => shuffle(FIRST_DELAY_MS * 2), IDLE_BEFORE_RESHUFFLE_MS)
-    }
+    if (!on && was && clips.length > 1) tick()
   }
 
   const c = clips[index]
@@ -75,6 +60,7 @@ export function QuestionStage({ clips }: { clips: Clip[] }) {
 
   return (
     <a
+      key={cruising ? index : 'riffle'}
       href={c.url}
       target="_blank"
       rel="noreferrer"
@@ -82,7 +68,7 @@ export function QuestionStage({ clips }: { clips: Clip[] }) {
       onMouseLeave={() => hold(false)}
       onFocus={() => hold(true)}
       onBlur={() => hold(false)}
-      className={`group block text-center ${settled ? 'stage-enter' : ''}`}
+      className={`group block text-center ${cruising ? 'stage-enter' : ''}`}
     >
       {c.topic && (
         <span className="block text-[11px] font-medium tracking-[0.28em] text-gray-soft uppercase">

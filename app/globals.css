@@ -107,13 +107,13 @@ a:focus-visible {
 
 /* Blueprint stage: one question at a time, gentle crossfade. */
 .stage-enter {
-  animation: stage-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: stage-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes stage-in {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(6px);
   }
   to {
     opacity: 1;
