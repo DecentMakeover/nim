@@ -35,7 +35,7 @@ function Tape({ hidden }: { hidden?: boolean }) {
 export default function PodcastPage() {
   return (
     <div className="flex flex-1 flex-col">
-      <section className="flex flex-1 flex-col justify-center pb-24">
+      <section className="flex flex-1 flex-col justify-center">
         {/* The tape. Full-bleed, hover to pause, tap a name to listen. */}
         <div className="ticker ml-[calc(50%-50vw)] w-screen">
           <div className="ticker-track">
@@ -44,26 +44,6 @@ export default function PodcastPage() {
           </div>
         </div>
 
-        <p className="mt-16 text-center text-sm text-gray">
-          250+ conversations since 2021 &middot;{' '}
-          <a
-            href={LINKS.youtube}
-            target="_blank"
-            rel="noreferrer"
-            className="doc-link"
-          >
-            YouTube
-          </a>{' '}
-          &middot;{' '}
-          <a
-            href={LINKS.spotify}
-            target="_blank"
-            rel="noreferrer"
-            className="doc-link"
-          >
-            Spotify
-          </a>
-        </p>
       </section>
     </div>
   )
