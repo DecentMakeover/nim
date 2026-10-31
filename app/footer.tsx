@@ -7,6 +7,7 @@ const FOOTER_LINKS = [
   { label: 'Instagram', href: LINKS.blueprintInstagram },
   { label: 'LinkedIn', href: LINKS.linkedin },
   { label: 'Substack', href: LINKS.substack },
+  { label: 'Sponsor', href: '/sponsor' },
   { label: 'Email', href: `mailto:${EMAIL}` },
 ]
 
@@ -20,8 +21,9 @@ export function Footer() {
           <li key={l.label}>
             <a
               href={l.href}
-              target="_blank"
-              rel="noreferrer"
+              {...(l.href.startsWith('/')
+                ? {}
+                : { target: '_blank', rel: 'noreferrer' })}
               className="transition-colors hover:text-terracotta"
             >
               {l.label}

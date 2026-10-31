@@ -1,0 +1,11 @@
+{
+  "note": "Hand-edited. Every number here must come from platform analytics or the survey sheet; leave a list empty and its section stays hidden.",
+  "updated": "October 2026",
+  "reach": [],
+  "survey": {
+    "responses": 0,
+    "publish_at": 100,
+    "window": "",
+    "results": []
+  }
+}
