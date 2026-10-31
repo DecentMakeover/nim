@@ -7,6 +7,7 @@ const BOTTOM_LINKS = [
   { label: 'Instagram', href: LINKS.blueprintInstagram },
   { label: 'X', href: LINKS.x },
   { label: 'Substack', href: LINKS.substack },
+  { label: 'Survey', href: '/survey' },
   { label: 'Email', href: `mailto:${EMAIL}` },
 ]
 
