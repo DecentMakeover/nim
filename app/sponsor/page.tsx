@@ -77,7 +77,7 @@ export default function SponsorPage() {
         <p className="mb-4 text-[11px] font-medium tracking-[0.24em] text-gray uppercase">
           Sponsor the podcast
         </p>
-        <h1 className="font-serif text-3xl leading-snug sm:text-4xl">
+        <h1 className="font-serif text-3xl leading-snug text-balance sm:text-4xl">
           Long conversations about work and money, with the economists,
           founders and reporters who study it.
         </h1>
