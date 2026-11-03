@@ -443,7 +443,7 @@ export default function KonkaniPost() {
         ]}
       />
       <P>
-        Everything ran on an NVIDIA DGX Spark at home. It survived two power
+        Everything ran on an NVIDIA DGX Spark. It survived two power
         cuts and an internet outage along the way, which is why every script in
         the pipeline can stop at any moment and pick up where it left off.
       </P>
@@ -776,8 +776,8 @@ export default function KonkaniPost() {
 
       <H2 n="·">Why the name</H2>
       <P>
-        Bantwal is my hometown, near Mangalore, and BSBA-21 is my batch: the
-        21st batch of BSBA.
+        Bantwal is my hometown, near Mangalore. BSBA-21 is my batch: the 21st
+        batch of BSBA at St Aloysius College, Mangalore, where I studied.
       </P>
 
       <H2 n="·">Acknowledgements</H2>
