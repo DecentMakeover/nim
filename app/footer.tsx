@@ -1,14 +1,6 @@
 'use client'
 import { usePathname } from 'next/navigation'
-import { EMAIL, LINKS } from './links'
-
-const FOOTER_LINKS = [
-  { label: 'X', href: LINKS.x },
-  { label: 'Instagram', href: LINKS.blueprintInstagram },
-  { label: 'LinkedIn', href: LINKS.linkedin },
-  { label: 'Substack', href: LINKS.substack },
-  { label: 'Email', href: `mailto:${EMAIL}` },
-]
+import { SITE_LINKS } from './links'
 
 export function Footer() {
   if (usePathname() === '/') return null
@@ -16,7 +8,7 @@ export function Footer() {
   return (
     <footer className="mt-28 border-t border-hairline py-10">
       <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-gray">
-        {FOOTER_LINKS.map((l) => (
+        {SITE_LINKS.map((l) => (
           <li key={l.label}>
             <a
               href={l.href}

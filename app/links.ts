@@ -9,3 +9,15 @@ export const LINKS = {
 }
 
 export const EMAIL = 'ryan@soulsearching.in'
+
+// One link row, shared by the home page and the footer on every other page.
+export const SITE_LINKS = [
+  { label: 'YouTube', href: LINKS.youtube },
+  { label: 'Spotify', href: LINKS.spotify },
+  { label: 'Instagram', href: LINKS.blueprintInstagram },
+  { label: 'X', href: LINKS.x },
+  { label: 'LinkedIn', href: LINKS.linkedin },
+  { label: 'Substack', href: LINKS.substack },
+  { label: 'Survey', href: '/survey' },
+  { label: 'Email', href: `mailto:${EMAIL}` },
+]
