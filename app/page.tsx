@@ -1,15 +1,5 @@
 import Link from 'next/link'
-import { EMAIL, LINKS } from './links'
-
-const BOTTOM_LINKS = [
-  { label: 'YouTube', href: LINKS.youtube },
-  { label: 'Spotify', href: LINKS.spotify },
-  { label: 'Instagram', href: LINKS.blueprintInstagram },
-  { label: 'X', href: LINKS.x },
-  { label: 'Substack', href: LINKS.substack },
-  { label: 'Survey', href: '/survey' },
-  { label: 'Email', href: `mailto:${EMAIL}` },
-]
+import { SITE_LINKS } from './links'
 
 export default function Home() {
   return (
@@ -45,7 +35,7 @@ export default function Home() {
       {/* Links, quietly at the bottom. */}
       <footer className="pb-10">
         <ul className="flex flex-wrap items-baseline justify-center gap-x-6 gap-y-2 text-xs text-gray-soft">
-          {BOTTOM_LINKS.map((l) => (
+          {SITE_LINKS.map((l) => (
             <li key={l.label}>
               <a
                 href={l.href}
