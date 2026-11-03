@@ -9,6 +9,8 @@ const nextConfig = {
   async redirects() {
     return [
       { source: '/survey', destination: SURVEY_FORM_URL, permanent: false },
+      // The Konkani post moved under /blog; keep the first link people shared working.
+      { source: '/konkani', destination: '/blog/konkani', permanent: true },
     ]
   },
 }
