@@ -8,17 +8,17 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 45
+   "count": 46
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 123
+   "count": 124
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 38
+   "count": 37
   },
   {
    "slug": "college",
@@ -33,10 +33,17 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 108
+   "count": 109
   }
  ],
  "videos": [
+  {
+   "id": "UBmsZzjqKNw",
+   "title": "The 9-month course she paid about 5,000 for",
+   "published": "2026-11-06",
+   "seconds": 33,
+   "theme": "money"
+  },
   {
    "id": "PATtjDtcAYk",
    "title": "Job hunting: \"we can't just rely on one or two platforms\"",
@@ -696,11 +703,11 @@
    "theme": "college"
   },
   {
-   "id": "EbCSqRJSWk4",
-   "title": "Impulsive spender vs the 50/30/20 rule, 8 months into a first job",
+   "id": "lpz_D6ZCBPY",
+   "title": "BCG researcher on AI: \"It's you who are losing out\"",
    "published": "2026-10-13",
-   "seconds": 44,
-   "theme": "hiring"
+   "seconds": 48,
+   "theme": "ai"
   },
   {
    "id": "-xH33sCKzmo",
@@ -2191,6 +2198,13 @@
    "title": "HSBC Data Scientist: The Reality of Working with Banking Tech",
    "published": "2026-06-14",
    "seconds": 27,
+   "theme": "work"
+  },
+  {
+   "id": "VwZ_HGjLilE",
+   "title": "Data Scientist at HSBC: How to Get Started",
+   "published": "2026-06-14",
+   "seconds": 24,
    "theme": "work"
   },
   {
