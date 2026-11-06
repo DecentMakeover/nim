@@ -3,7 +3,7 @@
   {
    "slug": "compilations",
    "name": "Compilations",
-   "count": 1
+   "count": 2
   },
   {
    "slug": "ai",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "lPi8flQAnpA",
+   "title": "Rent in Bangalore: ₹8K Rooms and a ₹1.2L Shared Flat",
+   "published": "2026-11-06",
+   "seconds": 243,
+   "theme": "compilations"
+  },
   {
    "id": "UBmsZzjqKNw",
    "title": "The 9-month course she paid about 5,000 for",
