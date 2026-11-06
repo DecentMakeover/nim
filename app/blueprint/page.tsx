@@ -1,42 +1,70 @@
 import type { Metadata } from 'next'
+import {
+  BlueprintBrowser,
+  type BlueprintVideo,
+} from '@/components/blueprint-browser'
+import { blueprintUrl } from '@/lib/youtube-urls'
 import { QuestionStage } from '@/components/question-stage'
-import content from '../content.json'
+import blueprint from '../data/blueprint.json'
+import { LINKS } from '../links'
 
 export const metadata: Metadata = {
   title: 'The Blueprint',
   description:
-    'Street interviews in Bengaluru about salaries, savings, rent, and the work behind them.',
+    'Street interviews in Bengaluru about what people actually do at, and after, work: role, journey, earnings.',
 }
 
-type Clip = {
-  name: string
-  question: string | null
-  topic: string | null
-  person_id: string | null
-  url: string
-}
+const videos = blueprint.videos as BlueprintVideo[]
+const themeName = (slug: string) =>
+  blueprint.themes.find((t) => t.slug === slug)?.name ?? null
 
-type Person = { id: string; name: string }
+// Long titles wrap past the deck's height, so they stay out of the riffle.
+const DECK_TITLE_MAX = 60
+const deck = videos
+  .filter((v) => v.title.length <= DECK_TITLE_MAX && v.theme !== 'compilations')
+  .map((v) => ({
+    name: v.id,
+    question: v.title,
+    topic: themeName(v.theme),
+    person: '',
+    url: blueprintUrl(v),
+  }))
 
 export default function BlueprintPage() {
-  const people = content.blueprint.people as Person[]
-  const nameOf = (id: string | null) =>
-    people.find((p) => p.id === id)?.name ?? ''
-
-  const clips = (content.blueprint.clips as Clip[])
-    .filter((c) => c.question)
-    .map((c) => ({
-      name: c.name,
-      question: c.question,
-      topic: c.topic,
-      person: nameOf(c.person_id),
-      url: c.url,
-    }))
-
   return (
-    <div className="flex flex-1 flex-col">
-      <section className="flex flex-1 flex-col justify-center pb-10">
-        <QuestionStage clips={clips} />
+    <div className="flex flex-col">
+      {/* A fixed height, so the list below stays put as the deck riffles. */}
+      <section
+        aria-label="Latest questions"
+        className="flex h-[19rem] flex-col justify-center overflow-hidden sm:h-[22rem]"
+      >
+        <QuestionStage clips={deck} />
+      </section>
+
+      <section className="mt-8">
+        <h1 className="text-gray text-[11px] tracking-[0.24em] uppercase">
+          The Blueprint
+        </h1>
+        <p className="essay mt-4 text-balance">
+          Ever wondered what people actually do at, and after, work? Street
+          interviews in Bengaluru with working professionals: their role, their
+          journey, what they earn.
+        </p>
+        <p className="mt-4 flex flex-wrap gap-x-5 gap-y-1 font-serif">
+          <a className="doc-link" href={LINKS.blueprintYoutube} target="_blank" rel="noreferrer">
+            Watch on YouTube
+          </a>
+          <a className="doc-link" href={LINKS.blueprintInstagram} target="_blank" rel="noreferrer">
+            Follow on Instagram
+          </a>
+        </p>
+      </section>
+
+      <section className="mt-16">
+        <h2 className="text-gray mb-2 text-[11px] tracking-[0.24em] uppercase">
+          Every video, by theme
+        </h2>
+        <BlueprintBrowser videos={videos} themes={blueprint.themes} />
       </section>
     </div>
   )

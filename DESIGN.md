@@ -36,6 +36,14 @@ page. No dark mode.
 - /podcast may carry small hairline-bordered episode thumbnails; everything
   else is type.
 
+## Long lists
+
+/podcast and /blueprint keep their hero (guest tape, question deck), then a short
+intro, then the complete list: text filters with counts, a search field and
+"Show more". Filters are underlined text, not pills. The list is generated; see
+`scripts/site_sync/README.md`.
+
 ## Motion
 
-Essentially none. Color transitions on link hover only.
+Only the wordmark sheen, the guest tape and the question deck, all off under
+reduced motion. Otherwise color transitions on link hover only.

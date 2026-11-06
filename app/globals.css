@@ -127,6 +127,14 @@ a:focus-visible {
   }
 }
 
+/* Browse controls on /podcast and /blueprint: text, not pills. */
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #c05f3c;
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
 /* Document-style inline link: ink text, quiet underline, warm hover. */
 .doc-link {
   color: var(--color-ink);

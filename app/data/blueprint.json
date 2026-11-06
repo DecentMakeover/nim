@@ -1,0 +1,2960 @@
+{
+ "themes": [
+  {
+   "slug": "compilations",
+   "name": "Compilations",
+   "count": 1
+  },
+  {
+   "slug": "ai",
+   "name": "AI at work",
+   "count": 45
+  },
+  {
+   "slug": "money",
+   "name": "Salaries & money",
+   "count": 123
+  },
+  {
+   "slug": "hiring",
+   "name": "Getting hired",
+   "count": 38
+  },
+  {
+   "slug": "college",
+   "name": "College & degrees",
+   "count": 56
+  },
+  {
+   "slug": "life",
+   "name": "Life outside work",
+   "count": 46
+  },
+  {
+   "slug": "work",
+   "name": "The job itself",
+   "count": 108
+  }
+ ],
+ "videos": [
+  {
+   "id": "PATtjDtcAYk",
+   "title": "Job hunting: \"we can't just rely on one or two platforms\"",
+   "published": "2026-11-06",
+   "seconds": 33,
+   "theme": "hiring"
+  },
+  {
+   "id": "932CKJ-1ss4",
+   "title": "Finance roles now: Power BI and Tableau are \"a basic requirement\"",
+   "published": "2026-11-06",
+   "seconds": 43,
+   "theme": "college"
+  },
+  {
+   "id": "w3y8A5RKW2Y",
+   "title": "FP&A data analytics salary: 6 to 8 LPA fresher, 15 to 18 at five years",
+   "published": "2026-11-05",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "YPPZPEYLfZk",
+   "title": "From South India to NIT Allahabad: six months to adjust",
+   "published": "2026-11-05",
+   "seconds": 38,
+   "theme": "college"
+  },
+  {
+   "id": "sX7JOJk1E0A",
+   "title": "First week as a Qualcomm intern: \"new to this corporate life\"",
+   "published": "2026-11-05",
+   "seconds": 37,
+   "theme": "hiring"
+  },
+  {
+   "id": "EQWmDCefJ1E",
+   "title": "Before you pick a college, talk to its seniors and alums",
+   "published": "2026-11-05",
+   "seconds": 34,
+   "theme": "college"
+  },
+  {
+   "id": "JQ1RFFLydg4",
+   "title": "Where a growth marketer spends her money: travel, not shopping",
+   "published": "2026-11-04",
+   "seconds": 27,
+   "theme": "money"
+  },
+  {
+   "id": "kWsqYAAWIrc",
+   "title": "How to become a growth marketer: the skills and the certifications",
+   "published": "2026-11-04",
+   "seconds": 38,
+   "theme": "college"
+  },
+  {
+   "id": "GAkWMZ1XTA4",
+   "title": "Can journalism grads be good influencers? Yes, \"in a positive way\"",
+   "published": "2026-11-04",
+   "seconds": 22,
+   "theme": "work"
+  },
+  {
+   "id": "Q9-b0e_KLBw",
+   "title": "A growth marketer on AI: great for ideas, not for ranking on search",
+   "published": "2026-11-04",
+   "seconds": 31,
+   "theme": "ai"
+  },
+  {
+   "id": "SM6Eme7N-nU",
+   "title": "She studied journalism, then chose corporate: \"12 hours straight\"",
+   "published": "2026-11-03",
+   "seconds": 43,
+   "theme": "work"
+  },
+  {
+   "id": "lvsPVar-2TY",
+   "title": "College to corporate: \"You don't have to panic at all\"",
+   "published": "2026-11-03",
+   "seconds": 37,
+   "theme": "college"
+  },
+  {
+   "id": "Yu8RxF4XgfQ",
+   "title": "AI at work: layoff risk, but Oracle provides Codex and ChatGPT",
+   "published": "2026-11-03",
+   "seconds": 45,
+   "theme": "ai"
+  },
+  {
+   "id": "Vjw1jDi2V4k",
+   "title": "8 months into a first job: 32K rent for a 2BHK in Bangalore",
+   "published": "2026-11-03",
+   "seconds": 35,
+   "theme": "money"
+  },
+  {
+   "id": "_LosBK-ArR4",
+   "title": "Managing money? \"I'm old school, so I believe in savings\"",
+   "published": "2026-11-02",
+   "seconds": 25,
+   "theme": "money"
+  },
+  {
+   "id": "b6d2WHVokdw",
+   "title": "Joining corporate this year? A Siemens manager: \"It's your choice\"",
+   "published": "2026-11-02",
+   "seconds": 24,
+   "theme": "work"
+  },
+  {
+   "id": "hckF9FliMdM",
+   "title": "Switch jobs or stay? A Siemens manager changed roles instead",
+   "published": "2026-11-02",
+   "seconds": 32,
+   "theme": "hiring"
+  },
+  {
+   "id": "6CeZ296GWBQ",
+   "title": "\"It's not because I work a lot, it's because I'm lazy\"",
+   "published": "2026-11-02",
+   "seconds": 30,
+   "theme": "work"
+  },
+  {
+   "id": "ZtT7uaf1gwA",
+   "title": "What it's like working at Goldman Sachs: \"a very fast train\"",
+   "published": "2026-11-01",
+   "seconds": 24,
+   "theme": "work"
+  },
+  {
+   "id": "xQxSV3KFFns",
+   "title": "\"I don't save my holidays. I take my holidays very generously\"",
+   "published": "2026-11-01",
+   "seconds": 30,
+   "theme": "life"
+  },
+  {
+   "id": "iVvR8p3EbYY",
+   "title": "School at 28-30K a quarter, DU at 10-12K a year: was it worth it?",
+   "published": "2026-11-01",
+   "seconds": 50,
+   "theme": "money"
+  },
+  {
+   "id": "1-_uE81JiNQ",
+   "title": "Screen time: 2 hours of YouTube, 4 to 5 hours when he games",
+   "published": "2026-11-01",
+   "seconds": 36,
+   "theme": "life"
+  },
+  {
+   "id": "Zy9et9cCJm0",
+   "title": "ChatGPT vs Claude vs Gemini? He uses ChatGPT and Bixby",
+   "published": "2026-10-31",
+   "seconds": 33,
+   "theme": "ai"
+  },
+  {
+   "id": "QJ8h1impUdc",
+   "title": "Applied to 400+ jobs \"like how you would watch reels\"",
+   "published": "2026-10-31",
+   "seconds": 38,
+   "theme": "work"
+  },
+  {
+   "id": "bkitfP4EO-Y",
+   "title": "Paid subscriptions: $360 a year on Cursor, 4 to 5K on OTT",
+   "published": "2026-10-31",
+   "seconds": 27,
+   "theme": "money"
+  },
+  {
+   "id": "hGjCxArnjlk",
+   "title": "15 leaves a year, a Friday-night plan, and Manali for 12 to 13K",
+   "published": "2026-10-31",
+   "seconds": 45,
+   "theme": "money"
+  },
+  {
+   "id": "dSeBYkpW6GA",
+   "title": "He invests 30% of his salary first, then the leftover too",
+   "published": "2026-10-30",
+   "seconds": 33,
+   "theme": "money"
+  },
+  {
+   "id": "hG7MLS5T7Lw",
+   "title": "A software engineer's evening: walk, upskill, then doom scrolling",
+   "published": "2026-10-30",
+   "seconds": 35,
+   "theme": "work"
+  },
+  {
+   "id": "IYSIsWEI1MQ",
+   "title": "20 to 30% of his salary on Swiggy and Zomato",
+   "published": "2026-10-30",
+   "seconds": 23,
+   "theme": "money"
+  },
+  {
+   "id": "CL7_VkCGE6A",
+   "title": "Why he upskills every weekend: AI \"will take our jobs\" in 6 to 10 years",
+   "published": "2026-10-30",
+   "seconds": 33,
+   "theme": "ai"
+  },
+  {
+   "id": "bRo10LuKXcY",
+   "title": "First job switch, about a 50% salary jump",
+   "published": "2026-10-29",
+   "seconds": 27,
+   "theme": "money"
+  },
+  {
+   "id": "UOuLpWI6tyQ",
+   "title": "Claude vs Gemini vs ChatGPT: a developer's ranking",
+   "published": "2026-10-29",
+   "seconds": 44,
+   "theme": "ai"
+  },
+  {
+   "id": "2eHBtQzCyQI",
+   "title": "What skills does a full stack developer need? A MERN developer answers",
+   "published": "2026-10-29",
+   "seconds": 29,
+   "theme": "work"
+  },
+  {
+   "id": "KB3IUfJPZWo",
+   "title": "3 leaves all year, all taken at the end of December",
+   "published": "2026-10-29",
+   "seconds": 13,
+   "theme": "life"
+  },
+  {
+   "id": "wyINL0IvWXs",
+   "title": "React, Spring Boot, then DevOps: one year as a Cognizant trainee",
+   "published": "2026-10-28",
+   "seconds": 33,
+   "theme": "work"
+  },
+  {
+   "id": "fGOekmoH2VI",
+   "title": "Government or private school? \"I will prefer private school\"",
+   "published": "2026-10-28",
+   "seconds": 28,
+   "theme": "college"
+  },
+  {
+   "id": "eWNiouU2rQQ",
+   "title": "20K a month as a trainee, and \"I can save 6K\"",
+   "published": "2026-10-28",
+   "seconds": 19,
+   "theme": "money"
+  },
+  {
+   "id": "IKvdExToP48",
+   "title": "Claude vs Gemini vs ChatGPT? A Cognizant developer picks Claude",
+   "published": "2026-10-28",
+   "seconds": 35,
+   "theme": "ai"
+  },
+  {
+   "id": "y2AR7HUmaxY",
+   "title": "20 lakhs spent on education, now on a 4 LPA package",
+   "published": "2026-10-27",
+   "seconds": 26,
+   "theme": "money"
+  },
+  {
+   "id": "MxehIQjyBpg",
+   "title": "How to negotiate your expected salary: win the interviewer, not HR",
+   "published": "2026-10-27",
+   "seconds": 43,
+   "theme": "money"
+  },
+  {
+   "id": "AzMDcFTR6jA",
+   "title": "Laid off, back in six months: upskilling and a \"chill pill\"",
+   "published": "2026-10-27",
+   "seconds": 31,
+   "theme": "work"
+  },
+  {
+   "id": "epnrjiCnMvg",
+   "title": "Good manager vs bad manager: one who's there on the ground with you",
+   "published": "2026-10-27",
+   "seconds": 37,
+   "theme": "work"
+  },
+  {
+   "id": "ggEOUPe_QNc",
+   "title": "The one book she'd recommend to everybody: the Bhagavad Gita",
+   "published": "2026-10-26",
+   "seconds": 31,
+   "theme": "life"
+  },
+  {
+   "id": "gWarXpM4qsE",
+   "title": "\"So far I have never faced work pressure\": credit to an army dad",
+   "published": "2026-10-26",
+   "seconds": 29,
+   "theme": "life"
+  },
+  {
+   "id": "xn5oOXAjo3M",
+   "title": "Biggest career mistake: listening to too many people's advice",
+   "published": "2026-10-26",
+   "seconds": 24,
+   "theme": "work"
+  },
+  {
+   "id": "WeBmzrOw9MI",
+   "title": "What is an OTC job? Explained in simple language",
+   "published": "2026-10-26",
+   "seconds": 47,
+   "theme": "work"
+  },
+  {
+   "id": "cNhnfMsdBBM",
+   "title": "\"I do not do any online shopping\"",
+   "published": "2026-10-25",
+   "seconds": 29,
+   "theme": "life"
+  },
+  {
+   "id": "rcToobFZEhk",
+   "title": "OTC salaries: 3.5 to 4 for freshers, 50 lakhs+ with experience",
+   "published": "2026-10-25",
+   "seconds": 44,
+   "theme": "money"
+  },
+  {
+   "id": "YDLPmcsqBYY",
+   "title": "Copilot at work, ChatGPT only for recipes",
+   "published": "2026-10-25",
+   "seconds": 36,
+   "theme": "ai"
+  },
+  {
+   "id": "Z3O5FREm4Xk",
+   "title": "A 100% salary jump, by switching companies",
+   "published": "2026-10-25",
+   "seconds": 22,
+   "theme": "money"
+  },
+  {
+   "id": "EK96WgmuZqE",
+   "title": "She has a master's in finance and says it isn't required now",
+   "published": "2026-10-24",
+   "seconds": 30,
+   "theme": "college"
+  },
+  {
+   "id": "VM3JxmxukD0",
+   "title": "20 LPA work from home or 30 LPA from office? She picks office",
+   "published": "2026-10-24",
+   "seconds": 37,
+   "theme": "money"
+  },
+  {
+   "id": "5JDRROA8NEs",
+   "title": "Bills first, then at least 20% into an emergency fund",
+   "published": "2026-10-24",
+   "seconds": 37,
+   "theme": "money"
+  },
+  {
+   "id": "FN93sn0hZzM",
+   "title": "Living solo in Bangalore: where 50K a month goes",
+   "published": "2026-10-24",
+   "seconds": 36,
+   "theme": "money"
+  },
+  {
+   "id": "tRXIlDhyVJM",
+   "title": "100% hike or a 10% promotion? \"A bill doesn't come with my designation\"",
+   "published": "2026-10-23",
+   "seconds": 30,
+   "theme": "money"
+  },
+  {
+   "id": "6xTyKEP0nr8",
+   "title": "Long hours, own business: how a pastry chef manages work and life",
+   "published": "2026-10-23",
+   "seconds": 22,
+   "theme": "work"
+  },
+  {
+   "id": "9VnbyWt7nSk",
+   "title": "Want to start a pastry shop? A pastry chef's advice: \"dive into it\"",
+   "published": "2026-10-23",
+   "seconds": 23,
+   "theme": "work"
+  },
+  {
+   "id": "JmqX4regOqQ",
+   "title": "How competitive is the patisserie business in Bangalore?",
+   "published": "2026-10-23",
+   "seconds": 37,
+   "theme": "work"
+  },
+  {
+   "id": "iZjvsrOukm0",
+   "title": "What it takes to be a good baker: \"very, very long hours\"",
+   "published": "2026-10-22",
+   "seconds": 26,
+   "theme": "work"
+  },
+  {
+   "id": "R9l0iFI_Zdg",
+   "title": "From an MNC to her own patisserie: \"I just fell in love with baking\"",
+   "published": "2026-10-22",
+   "seconds": 34,
+   "theme": "life"
+  },
+  {
+   "id": "_5ZvoXpzKG8",
+   "title": "Where does a growth marketer go next? Head of marketing, CMO, VP",
+   "published": "2026-10-22",
+   "seconds": 16,
+   "theme": "work"
+  },
+  {
+   "id": "7gz7ReysW6k",
+   "title": "Skills to be an MTS engineer at Oracle? \"Maybe database mainly\"",
+   "published": "2026-10-22",
+   "seconds": 22,
+   "theme": "work"
+  },
+  {
+   "id": "bp-7gJzze-8",
+   "title": "How to prepare for databases: an Oracle engineer's advice",
+   "published": "2026-10-21",
+   "seconds": 41,
+   "theme": "work"
+  },
+  {
+   "id": "kgO0W1Y8kWE",
+   "title": "Preparing DSA? An Oracle engineer: solve a lot of questions",
+   "published": "2026-10-21",
+   "seconds": 39,
+   "theme": "hiring"
+  },
+  {
+   "id": "EklAPqwkoec",
+   "title": "The one book a CA recommends: Rich Dad Poor Dad",
+   "published": "2026-10-20",
+   "seconds": 21,
+   "theme": "life"
+  },
+  {
+   "id": "iToapiD_ZrY",
+   "title": "What skills do you need to be a CA? \"Hard work can beat anything\"",
+   "published": "2026-10-20",
+   "seconds": 23,
+   "theme": "work"
+  },
+  {
+   "id": "JqaiNKDghZ8",
+   "title": "ChatGPT vs Claude vs Gemini: \"Mostly I will use Gemini and ChatGPT\"",
+   "published": "2026-10-20",
+   "seconds": 19,
+   "theme": "ai"
+  },
+  {
+   "id": "c9fuiTKXLs4",
+   "title": "5k to 10k a month on Swiggy and Zomato: \"Because I'm staying in PG\"",
+   "published": "2026-10-20",
+   "seconds": 21,
+   "theme": "money"
+  },
+  {
+   "id": "ccVlXevNJDM",
+   "title": "\"Percentage doesn't matter. CA word matters.\"",
+   "published": "2026-10-19",
+   "seconds": 30,
+   "theme": "work"
+  },
+  {
+   "id": "aR5zaFv6qWM",
+   "title": "\"I will save 50%\" | A CA on saving first, then enjoying life",
+   "published": "2026-10-19",
+   "seconds": 34,
+   "theme": "money"
+  },
+  {
+   "id": "GhmtwHyaj7o",
+   "title": "\"I started with 12 LPA, 12.5 LPA\" | A CA's starting salary",
+   "published": "2026-10-19",
+   "seconds": 24,
+   "theme": "money"
+  },
+  {
+   "id": "P3sigX84v-E",
+   "title": "How do you become an engineering manager? \"I never decided that\"",
+   "published": "2026-10-19",
+   "seconds": 44,
+   "theme": "work"
+  },
+  {
+   "id": "8nt4bxm6EdU",
+   "title": "Skills or networking? A Siemens manager: \"For me, I need both\"",
+   "published": "2026-10-18",
+   "seconds": 38,
+   "theme": "work"
+  },
+  {
+   "id": "PyTtOOCggbE",
+   "title": "Restart your career? A Siemens manager would \"go in acting\"",
+   "published": "2026-10-18",
+   "seconds": 32,
+   "theme": "work"
+  },
+  {
+   "id": "ezZUVVYC7lA",
+   "title": "Need a master's for an engineering role? A Siemens manager says no",
+   "published": "2026-10-18",
+   "seconds": 44,
+   "theme": "college"
+  },
+  {
+   "id": "I_fel4TFrTs",
+   "title": "A Siemens engineering manager to freshers: don't start with AI",
+   "published": "2026-10-18",
+   "seconds": 48,
+   "theme": "ai"
+  },
+  {
+   "id": "_KvlLZsDpHM",
+   "title": "Data science master's via UpGrad: ₹5 lakh then, ₹7-8 lakh now",
+   "published": "2026-10-17",
+   "seconds": 38,
+   "theme": "money"
+  },
+  {
+   "id": "gANYR7dlIbQ",
+   "title": "Infosys, LTIMindtree or EY? Why this engineer picked EY",
+   "published": "2026-10-17",
+   "seconds": 46,
+   "theme": "work"
+  },
+  {
+   "id": "TUnP1-0dIYw",
+   "title": "An AI engineer on low-code: \"Any code part, I will go to ChatGPT\"",
+   "published": "2026-10-17",
+   "seconds": 47,
+   "theme": "ai"
+  },
+  {
+   "id": "jWwxzlizXTg",
+   "title": "AI, ML and data engineering on one resume? \"It is like a bluff\"",
+   "published": "2026-10-17",
+   "seconds": 51,
+   "theme": "ai"
+  },
+  {
+   "id": "7aAWSZ5ijog",
+   "title": "Why this EY engineer pays ₹50,000 rent in Bellandur",
+   "published": "2026-10-16",
+   "seconds": 49,
+   "theme": "money"
+  },
+  {
+   "id": "geBcuMdm9rI",
+   "title": "A 400%+ Hike: When Bangalore Professionals Switch Jobs",
+   "published": "2026-10-16",
+   "seconds": 309,
+   "theme": "compilations"
+  },
+  {
+   "id": "NSs-_qFMaf4",
+   "title": "300% hike from Cognizant to EY: what this AI engineer changed",
+   "published": "2026-10-16",
+   "seconds": 51,
+   "theme": "money"
+  },
+  {
+   "id": "jFgtQDpaLZk",
+   "title": "Zara and H&M, but cutting down on fast fashion",
+   "published": "2026-10-16",
+   "seconds": 31,
+   "theme": "life"
+  },
+  {
+   "id": "EZcmjLtEqbI",
+   "title": "Full work from home or office? \"I think home\"",
+   "published": "2026-10-16",
+   "seconds": 29,
+   "theme": "life"
+  },
+  {
+   "id": "346tW6mde-E",
+   "title": "Is an MBA worth it for a finance operations role? An analyst answers",
+   "published": "2026-10-15",
+   "seconds": 35,
+   "theme": "college"
+  },
+  {
+   "id": "Oolc8Uz7R5o",
+   "title": "Campus placement to Morgan Stanley: aptitude, technical, HR",
+   "published": "2026-10-15",
+   "seconds": 42,
+   "theme": "hiring"
+  },
+  {
+   "id": "dAvk6P0PU9k",
+   "title": "Why this Morgan Stanley analyst doesn't invest in stocks",
+   "published": "2026-10-15",
+   "seconds": 22,
+   "theme": "money"
+  },
+  {
+   "id": "l9yCXAXGnzU",
+   "title": "50% hike or a promotion? A Morgan Stanley analyst chooses",
+   "published": "2026-10-15",
+   "seconds": 26,
+   "theme": "money"
+  },
+  {
+   "id": "bRQS0rP2Bvk",
+   "title": "A Morgan Stanley analyst on AI: \"It could do our job easily\"",
+   "published": "2026-10-14",
+   "seconds": 36,
+   "theme": "ai"
+  },
+  {
+   "id": "jes0q4oZTi8",
+   "title": "What she misses most about college: the time she complained about",
+   "published": "2026-10-14",
+   "seconds": 30,
+   "theme": "college"
+  },
+  {
+   "id": "vqQNwXQ-p5E",
+   "title": "How she got into BCG: about 100 selected from all over India",
+   "published": "2026-10-14",
+   "seconds": 25,
+   "theme": "hiring"
+  },
+  {
+   "id": "HRupLliW6ic",
+   "title": "A gold medalist's study routine: \"I used to party\"",
+   "published": "2026-10-14",
+   "seconds": 51,
+   "theme": "college"
+  },
+  {
+   "id": "FaoBKWJ0aCY",
+   "title": "First benchers vs back benchers: \"not a first rank Raju\"",
+   "published": "2026-10-13",
+   "seconds": 40,
+   "theme": "college"
+  },
+  {
+   "id": "EbCSqRJSWk4",
+   "title": "Impulsive spender vs the 50/30/20 rule, 8 months into a first job",
+   "published": "2026-10-13",
+   "seconds": 44,
+   "theme": "hiring"
+  },
+  {
+   "id": "-xH33sCKzmo",
+   "title": "Apply to at least 100 jobs: a BCG apprentice's advice for freshers",
+   "published": "2026-10-13",
+   "seconds": 52,
+   "theme": "hiring"
+  },
+  {
+   "id": "U77XLJwi4aw",
+   "title": "\"You can never get a no\": what it's like working at EY GDS",
+   "published": "2026-10-12",
+   "seconds": 38,
+   "theme": "work"
+  },
+  {
+   "id": "DKUfwXTkI98",
+   "title": "18K rent in Bangalore, 5-6K a month on the dog: where the money goes",
+   "published": "2026-10-10",
+   "seconds": 27,
+   "theme": "money"
+  },
+  {
+   "id": "g8Vlpw6YEq8",
+   "title": "Off-campus into DE Shaw: how this developer prepared",
+   "published": "2026-10-09",
+   "seconds": 29,
+   "theme": "hiring"
+  },
+  {
+   "id": "C7IeyGDBWow",
+   "title": "Basic data analysis \"pretty much automated\": AI at DE Shaw",
+   "published": "2026-10-09",
+   "seconds": 30,
+   "theme": "ai"
+  },
+  {
+   "id": "TZI2t2nNjWc",
+   "title": "Is DSA still relevant? A DE Shaw developer involved in hiring",
+   "published": "2026-10-09",
+   "seconds": 41,
+   "theme": "hiring"
+  },
+  {
+   "id": "tHPLxaZXa8A",
+   "title": "How often does a DE Shaw developer use AI? \"Every minute\"",
+   "published": "2026-10-08",
+   "seconds": 37,
+   "theme": "ai"
+  },
+  {
+   "id": "aQed1veJBTw",
+   "title": "Getting into finance: read these three, then start investing",
+   "published": "2026-10-08",
+   "seconds": 39,
+   "theme": "money"
+  },
+  {
+   "id": "5Lg5gUPEopo",
+   "title": "Dream company? McKinsey, or social impact consulting",
+   "published": "2026-10-07",
+   "seconds": 40,
+   "theme": "work"
+  },
+  {
+   "id": "FdcnXpfUhTc",
+   "title": "Work from home or office? \"I'm not productive at all\" at home",
+   "published": "2026-10-07",
+   "seconds": 33,
+   "theme": "life"
+  },
+  {
+   "id": "4sgXrr1199o",
+   "title": "Promotion or a 50% hike? This Deloitte consultant takes the promotion",
+   "published": "2026-10-07",
+   "seconds": 23,
+   "theme": "money"
+  },
+  {
+   "id": "VBzh6X4OTfg",
+   "title": "Deloitte consultant salary: \"anywhere between 8 to 36 lakhs\"",
+   "published": "2026-10-07",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "8NtopNB38BU",
+   "title": "Investing since class 9: \"I haven't beaten the FD rates yet\"",
+   "published": "2026-10-06",
+   "seconds": 40,
+   "theme": "money"
+  },
+  {
+   "id": "fHhSAK5Stv8",
+   "title": "\"That's my me time\": a working mom who works out 5 days a week",
+   "published": "2026-10-06",
+   "seconds": 29,
+   "theme": "life"
+  },
+  {
+   "id": "wI5tDiKE_YA",
+   "title": "Advice for young married couples: build the foundation first",
+   "published": "2026-10-06",
+   "seconds": 34,
+   "theme": "life"
+  },
+  {
+   "id": "qijg1Wr0xeA",
+   "title": "\"You look more tired than me. Okay, then I'll take the charge.\"",
+   "published": "2026-10-05",
+   "seconds": 28,
+   "theme": "life"
+  },
+  {
+   "id": "5iwMtNWzF5Y",
+   "title": "\"80% I used to do it\": how a working couple splits the load",
+   "published": "2026-10-05",
+   "seconds": 18,
+   "theme": "work"
+  },
+  {
+   "id": "k6W5O4EjCxU",
+   "title": "\"Parents will come and take care of the babies\"? That doesn't work",
+   "published": "2026-10-05",
+   "seconds": 36,
+   "theme": "life"
+  },
+  {
+   "id": "D--4_UWNizk",
+   "title": "From \"please grow faster\" to \"don't grow up\"",
+   "published": "2026-10-05",
+   "seconds": 30,
+   "theme": "life"
+  },
+  {
+   "id": "V_nO2LGfCIQ",
+   "title": "Six months of leave for her, one week for him",
+   "published": "2026-10-04",
+   "seconds": 16,
+   "theme": "life"
+  },
+  {
+   "id": "zcvQItXHsUg",
+   "title": "\"As a mom, that guilt would kick in\"",
+   "published": "2026-10-04",
+   "seconds": 19,
+   "theme": "life"
+  },
+  {
+   "id": "0Rjy7rxVOZ0",
+   "title": "Pregnant at Expedia: call out your boundaries with your manager",
+   "published": "2026-10-03",
+   "seconds": 29,
+   "theme": "work"
+  },
+  {
+   "id": "SCWMIRJWJC8",
+   "title": "\"It's not about balance. Flexibility is the key.\"",
+   "published": "2026-10-03",
+   "seconds": 42,
+   "theme": "life"
+  },
+  {
+   "id": "GrEjdXKVffY",
+   "title": "They moved within 1 km of her office for the baby",
+   "published": "2026-10-03",
+   "seconds": 35,
+   "theme": "life"
+  },
+  {
+   "id": "EHfl-G9t8OU",
+   "title": "Atlassian offered him around 20 weeks of paternity leave",
+   "published": "2026-10-03",
+   "seconds": 29,
+   "theme": "life"
+  },
+  {
+   "id": "7gg9p9IKD3A",
+   "title": "Does office networking actually help your growth?",
+   "published": "2026-10-02",
+   "seconds": 26,
+   "theme": "work"
+  },
+  {
+   "id": "6gwIalpDM4w",
+   "title": "Work from home or office? This developer picks hybrid",
+   "published": "2026-10-02",
+   "seconds": 25,
+   "theme": "life"
+  },
+  {
+   "id": "NnQtJhalgak",
+   "title": "50% hike or a promotion? Promotion, then switch",
+   "published": "2026-10-02",
+   "seconds": 14,
+   "theme": "money"
+  },
+  {
+   "id": "_OwaJo2GOQA",
+   "title": "Infosys to ADP: a 180% hike after 4.8 years",
+   "published": "2026-10-02",
+   "seconds": 45,
+   "theme": "money"
+  },
+  {
+   "id": "q0tRxiLmiB8",
+   "title": "Cafe Hopping & Coffee Exploration: My Weekend Routine",
+   "published": "2026-09-14",
+   "seconds": 14,
+   "theme": "life"
+  },
+  {
+   "id": "CNZ1ClIIP5o",
+   "title": "Why Travel Wins Over Shopping for This Creator",
+   "published": "2026-09-14",
+   "seconds": 21,
+   "theme": "life"
+  },
+  {
+   "id": "JQkQGApVcXc",
+   "title": "AI in Marketing: Brainstorming Ideas, Not Total SEO",
+   "published": "2026-09-14",
+   "seconds": 36,
+   "theme": "ai"
+  },
+  {
+   "id": "R6soi55MuEw",
+   "title": "Mastering Codilar & Growth Marketing: 5-6 Years of Experience",
+   "published": "2026-09-14",
+   "seconds": 6,
+   "theme": "college"
+  },
+  {
+   "id": "HOgX9cuz8y8",
+   "title": "Growth Marketing Role Explained: Audience Targeting, Email & Social Media",
+   "published": "2026-09-14",
+   "seconds": 17,
+   "theme": "work"
+  },
+  {
+   "id": "uE7sorv-YBg",
+   "title": "Digital Marketing & E-commerce Storefronts: Nidhi's Role at Codilar",
+   "published": "2026-09-14",
+   "seconds": 13,
+   "theme": "work"
+  },
+  {
+   "id": "hnNyWlmHab8",
+   "title": "Oracle Employee's Go-Out Makeup: Skincare to Gloss Routine",
+   "published": "2026-09-13",
+   "seconds": 32,
+   "theme": "work"
+  },
+  {
+   "id": "dZJVmxJEb6M",
+   "title": "Oracle Employee Reveals Her Most Expensive Item: A ₹4K Hairdryer",
+   "published": "2026-09-13",
+   "seconds": 23,
+   "theme": "money"
+  },
+  {
+   "id": "1bkmByLQa_U",
+   "title": "Oracle Employee's ₹32K Bangalore Rent & Spending Habits (Mutual Funds & Weekends)",
+   "published": "2026-09-13",
+   "seconds": 39,
+   "theme": "money"
+  },
+  {
+   "id": "L6UOkN2Ii10",
+   "title": "College to Corporate Life: Don't Panic! Oracle Employee's 8-Month Transition Tips",
+   "published": "2026-09-13",
+   "seconds": 65,
+   "theme": "college"
+  },
+  {
+   "id": "TehGB0oUvmw",
+   "title": "AI at Work: Faster, Not Foolproof - An Oracle Employee's Perspective",
+   "published": "2026-09-13",
+   "seconds": 57,
+   "theme": "ai"
+  },
+  {
+   "id": "A4rK-d3WDmM",
+   "title": "3 Years at EY GDS: An Operations Team Member's Amazing Journey",
+   "published": "2026-09-13",
+   "seconds": 40,
+   "theme": "work"
+  },
+  {
+   "id": "b7sF1IPYl_c",
+   "title": "No Dream Company? An EY GDS Operations Member's Surprising Answer",
+   "published": "2026-09-12",
+   "seconds": 5,
+   "theme": "work"
+  },
+  {
+   "id": "nY5uNV06Tbc",
+   "title": "EY GDS: How Hybrid Work Helps Employees Manage Their Dogs",
+   "published": "2026-09-12",
+   "seconds": 9,
+   "theme": "life"
+  },
+  {
+   "id": "0gs3_fyzTB4",
+   "title": "Living in Bangalore: An EY GDS Operations Pro's Monthly Spending (18K Rent, 6K Dog Care)",
+   "published": "2026-09-11",
+   "seconds": 33,
+   "theme": "money"
+  },
+  {
+   "id": "AsjPCwNQYng",
+   "title": "Unlimited Leaves: The Reality of Taking Time Off at a Startup",
+   "published": "2026-09-10",
+   "seconds": 18,
+   "theme": "life"
+  },
+  {
+   "id": "qBUJi8zgDSg",
+   "title": "Industrial Engineer's Mangalore Vacation: Ghee Roast & Seafood Delights",
+   "published": "2026-09-09",
+   "seconds": 14,
+   "theme": "life"
+  },
+  {
+   "id": "1j1P4psT4BA",
+   "title": "Target Industrial Engineer: Job Applications Needed for First Role",
+   "published": "2026-09-09",
+   "seconds": 13,
+   "theme": "work"
+  },
+  {
+   "id": "MGZggYmsBG0",
+   "title": "Target Industrial Engineer Reveals Monthly Swiggy & Zomato Spend | Is ₹10K Normal?",
+   "published": "2026-09-09",
+   "seconds": 11,
+   "theme": "money"
+  },
+  {
+   "id": "qEfftsjdaRI",
+   "title": "US Bachelor's vs Indian Master's: Vidhul's Education Cost Breakdown (1 Cr vs 3 Lakhs)",
+   "published": "2026-09-09",
+   "seconds": 39,
+   "theme": "money"
+  },
+  {
+   "id": "7JNdxJnMkU8",
+   "title": "College Tier: When Does it Really Matter in Your Career?",
+   "published": "2026-09-09",
+   "seconds": 31,
+   "theme": "college"
+  },
+  {
+   "id": "kOxJU3Ox3qk",
+   "title": "Data Science Masters: Gaining Expertise in AI",
+   "published": "2026-09-08",
+   "seconds": 21,
+   "theme": "ai"
+  },
+  {
+   "id": "d207O88Va5I",
+   "title": "Christ University Masters: Strict Dress Code & 85% Attendance?",
+   "published": "2026-09-08",
+   "seconds": 31,
+   "theme": "college"
+  },
+  {
+   "id": "H80viWjDX8E",
+   "title": "HSBC Data Scientist: Education Cost Under ₹10 Lakhs (1st Grade to Master's Degree)",
+   "published": "2026-09-08",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "gr7BFjkHyjI",
+   "title": "HSBC Data Scientist: My ₹30,000 Credit Card Bill Is All For The Points",
+   "published": "2026-09-08",
+   "seconds": 14,
+   "theme": "money"
+  },
+  {
+   "id": "edaugTz7PUs",
+   "title": "HSBC Data Scientist's EMI-to-Salary Ratio: The Surprising Truth",
+   "published": "2026-09-08",
+   "seconds": 15,
+   "theme": "money"
+  },
+  {
+   "id": "4qgLbjP7jN8",
+   "title": "HSBC Data Science Pro: My Monthly Subscription Spend",
+   "published": "2026-09-08",
+   "seconds": 22,
+   "theme": "money"
+  },
+  {
+   "id": "nixOR3s3NXs",
+   "title": "Why Claude feels smarter than ChatGPT for this HSBC Data Science Professional",
+   "published": "2026-09-07",
+   "seconds": 52,
+   "theme": "ai"
+  },
+  {
+   "id": "A0QZvD6wFOE",
+   "title": "Essential Data Science Skills for Corporate Success: Curiosity, Python & SQL",
+   "published": "2026-09-07",
+   "seconds": 29,
+   "theme": "work"
+  },
+  {
+   "id": "Rc3ssDNeWME",
+   "title": "HSBC's Data Scientist Reveals Unique Work-Life Balance Perk",
+   "published": "2026-09-07",
+   "seconds": 24,
+   "theme": "life"
+  },
+  {
+   "id": "1RLSIwL1Sws",
+   "title": "AI in Banking: How HSBC Automates & Migrates Legacy Tech",
+   "published": "2026-09-07",
+   "seconds": 34,
+   "theme": "ai"
+  },
+  {
+   "id": "9tKcflJOJTc",
+   "title": "EY Salary: How Experience Affects Business Operations Support Pay",
+   "published": "2026-09-07",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "srB627CJzo0",
+   "title": "EY Employee: Beyond Flexibility – The Key to Corporate Success is Timings & Respect",
+   "published": "2026-09-07",
+   "seconds": 37,
+   "theme": "work"
+  },
+  {
+   "id": "PJ1rjXbYMcI",
+   "title": "EY Business Operations Support Interview Prep: Master Flexibility & Ad Hoc Tasks",
+   "published": "2026-09-06",
+   "seconds": 48,
+   "theme": "hiring"
+  },
+  {
+   "id": "nhiNWHVh-QE",
+   "title": "EY GDS Pro's 3 Key Corporate Tips for Gen Z: Flexibility, Respect, Policy",
+   "published": "2026-09-06",
+   "seconds": 40,
+   "theme": "work"
+  },
+  {
+   "id": "kG0vfiTculU",
+   "title": "EY Executive Assistant: Essential Skills for Business Operations Support",
+   "published": "2026-09-06",
+   "seconds": 47,
+   "theme": "work"
+  },
+  {
+   "id": "Wr59ujOEotc",
+   "title": "EY Business Operations Support: What It Takes to Juggle Multiple Tasks",
+   "published": "2026-09-06",
+   "seconds": 55,
+   "theme": "work"
+  },
+  {
+   "id": "Llm-ka5fQm0",
+   "title": "EY GDS Career: Business Operations Support Role & 3 Years Experience",
+   "published": "2026-09-06",
+   "seconds": 13,
+   "theme": "work"
+  },
+  {
+   "id": "ZkdTt9Yb8ok",
+   "title": "Working in Banking: Bridging Old & New Tech at 150-Year-Old Banks",
+   "published": "2026-09-05",
+   "seconds": 25,
+   "theme": "work"
+  },
+  {
+   "id": "mfEfg_dEib8",
+   "title": "Finding the Right Data Science Resources: It Depends on Your Niche!",
+   "published": "2026-09-05",
+   "seconds": 31,
+   "theme": "work"
+  },
+  {
+   "id": "S3jVaNR4dsA",
+   "title": "From Radio Astrophysics to Chip Design: Sachin's Engineering Journey at Siemens",
+   "published": "2026-09-05",
+   "seconds": 20,
+   "theme": "work"
+  },
+  {
+   "id": "mMzjCDM-rik",
+   "title": "No Single Path to Data Science: HSBC Professional's Blueprint",
+   "published": "2026-09-05",
+   "seconds": 27,
+   "theme": "work"
+  },
+  {
+   "id": "38ElDVOVAn0",
+   "title": "What Does an HSBC Data Science Professional Do? Jasleen Explains",
+   "published": "2026-09-05",
+   "seconds": 6,
+   "theme": "work"
+  },
+  {
+   "id": "gwdATewy1cU",
+   "title": "From Radio Astrophysics Master's to Chip Design Manager at Siemens",
+   "published": "2026-09-05",
+   "seconds": 16,
+   "theme": "college"
+  },
+  {
+   "id": "bxVWZcmqi3g",
+   "title": "From Radio Astrophysics to Chip Design: Sachin's Career Journey to Siemens",
+   "published": "2026-09-05",
+   "seconds": 21,
+   "theme": "work"
+  },
+  {
+   "id": "DlHbqSqIf3E",
+   "title": "Claude vs Gemini vs ChatGPT: Why This Industrial Engineer Uses All Three Daily",
+   "published": "2026-09-04",
+   "seconds": 29,
+   "theme": "ai"
+  },
+  {
+   "id": "NMEHqE-wzZ8",
+   "title": "Sachin (Siemens) on Career Switches: Is 3-4 the New Normal?",
+   "published": "2026-09-04",
+   "seconds": 7,
+   "theme": "work"
+  },
+  {
+   "id": "YJO_vIrYqPg",
+   "title": "18+ Years at Siemens: Sachin's Journey in Chip Design & Engineering Management",
+   "published": "2026-09-04",
+   "seconds": 11,
+   "theme": "work"
+  },
+  {
+   "id": "iEvfyHq062M",
+   "title": "Work Experience Over Master's? An Industrial Engineer's Take on Relevance",
+   "published": "2026-09-04",
+   "seconds": 23,
+   "theme": "college"
+  },
+  {
+   "id": "OpYxFWjOKpc",
+   "title": "Startup or MNC First? Industrial Engineer Vidhul's Advice for Beginners",
+   "published": "2026-09-04",
+   "seconds": 19,
+   "theme": "work"
+  },
+  {
+   "id": "oX-tNW2z03E",
+   "title": "Corporate Life: The 9-to-5 Perk vs. The Challenge of Individual Impact",
+   "published": "2026-09-04",
+   "seconds": 22,
+   "theme": "work"
+  },
+  {
+   "id": "dQVbQdRYsas",
+   "title": "What Education Do Industrial Engineers Need? | Vidhul's Journey",
+   "published": "2026-09-03",
+   "seconds": 25,
+   "theme": "college"
+  },
+  {
+   "id": "TSBw65au4gs",
+   "title": "What Does an Industrial Engineer Do at Target? Warehouse Design & Simulation",
+   "published": "2026-09-03",
+   "seconds": 30,
+   "theme": "work"
+  },
+  {
+   "id": "uOhCBHs9YNM",
+   "title": "What Does an Industrial Engineer at Target Do? | Career Insights",
+   "published": "2026-09-03",
+   "seconds": 4,
+   "theme": "work"
+  },
+  {
+   "id": "uCT0p39Ayn0",
+   "title": "Corporate Career Advice: Why It's a Good Place to Work & How to Thrive",
+   "published": "2026-09-03",
+   "seconds": 29,
+   "theme": "work"
+  },
+  {
+   "id": "rRh5cSZ3jCI",
+   "title": "Technology Career Growth: Should You Stay in One Company or Switch Jobs?",
+   "published": "2026-09-03",
+   "seconds": 39,
+   "theme": "hiring"
+  },
+  {
+   "id": "pnn8kpFrFK4",
+   "title": "Skills vs. Networking: Siemens Manager's Take on Career Growth",
+   "published": "2026-09-01",
+   "seconds": 46,
+   "theme": "work"
+  },
+  {
+   "id": "lyYdEr5d7w0",
+   "title": "Siemens Manager's Dream Career Restart: From Tech to Acting?",
+   "published": "2026-09-01",
+   "seconds": 41,
+   "theme": "work"
+  },
+  {
+   "id": "z2xH4e11aOY",
+   "title": "Why Breaking Down Savings Is a 'Complicated Question'",
+   "published": "2026-09-01",
+   "seconds": 17,
+   "theme": "money"
+  },
+  {
+   "id": "5wnfKAukgQ8",
+   "title": "Siemens Manager: Freshers, Don't Rely Solely on AI | Build Your Foundation First",
+   "published": "2026-09-01",
+   "seconds": 40,
+   "theme": "ai"
+  },
+  {
+   "id": "Q7BlaFK1LSY",
+   "title": "Old School vs. Gen Z: Is Saving Money Still Crucial for the Future?",
+   "published": "2026-09-01",
+   "seconds": 26,
+   "theme": "money"
+  },
+  {
+   "id": "rQBl1Kr_9sw",
+   "title": "Siemens Engineer: AI makes chip design more efficient & boosts productivity",
+   "published": "2026-08-31",
+   "seconds": 38,
+   "theme": "ai"
+  },
+  {
+   "id": "N0sBEkJnIDQ",
+   "title": "Is a Master's Needed for Engineering? Siemens Manager Shares Opinion",
+   "published": "2026-08-31",
+   "seconds": 66,
+   "theme": "college"
+  },
+  {
+   "id": "xIWDbUVD0nU",
+   "title": "Siemens Engineer Reveals What Earns a Promotion in Chip Design",
+   "published": "2026-08-31",
+   "seconds": 28,
+   "theme": "work"
+  },
+  {
+   "id": "3GyPox5v5M0",
+   "title": "How to Become an Application Engineering Manager at Siemens",
+   "published": "2026-08-31",
+   "seconds": 35,
+   "theme": "work"
+  },
+  {
+   "id": "5pYdsCoq1lE",
+   "title": "Siemens Application Engineering Manager Reveals College & Master's",
+   "published": "2026-08-31",
+   "seconds": 15,
+   "theme": "college"
+  },
+  {
+   "id": "SygeR-sK3U4",
+   "title": "From Chip Design at Siemens to Radio Astrophysics Master's",
+   "published": "2026-08-31",
+   "seconds": 23,
+   "theme": "college"
+  },
+  {
+   "id": "0PeeN_Zfbro",
+   "title": "Sachin from Siemens: How Many Career Switches for a Chip Design Manager?",
+   "published": "2026-08-30",
+   "seconds": 13,
+   "theme": "work"
+  },
+  {
+   "id": "HUFQw0dyHyE",
+   "title": "18+ Years at Siemens: A Chip Design Manager's Journey",
+   "published": "2026-08-30",
+   "seconds": 16,
+   "theme": "work"
+  },
+  {
+   "id": "-RBJulDyg4Q",
+   "title": "Stay or Switch? Corporate Advice for New Joiners",
+   "published": "2026-08-30",
+   "seconds": 39,
+   "theme": "work"
+  },
+  {
+   "id": "YE6YSW6_pEo",
+   "title": "Should You Switch Jobs or Grow Internally for Career Growth?",
+   "published": "2026-08-30",
+   "seconds": 34,
+   "theme": "hiring"
+  },
+  {
+   "id": "oRy88JLuKFQ",
+   "title": "Old School Money Management: Why Savings Matter More Than Ever",
+   "published": "2026-08-29",
+   "seconds": 27,
+   "theme": "money"
+  },
+  {
+   "id": "zZSMMhJYXdU",
+   "title": "Why Hybrid Work is Better: An Employee's View on Office vs. Remote",
+   "published": "2026-08-28",
+   "seconds": 47,
+   "theme": "life"
+  },
+  {
+   "id": "RfYQHHA9jks",
+   "title": "EY GDS Pro's Interview Secret: More Interviews, Better Communication",
+   "published": "2026-08-27",
+   "seconds": 35,
+   "theme": "hiring"
+  },
+  {
+   "id": "JjcOhzPZPiQ",
+   "title": "EY GDS Professional Shares Job Switch Strategy for 50% Salary Hike",
+   "published": "2026-08-27",
+   "seconds": 23,
+   "theme": "money"
+  },
+  {
+   "id": "oh87gS5wo7U",
+   "title": "32 Leaves Offered, Only 6 Taken? Why We Don't Use All Our Vacation Days",
+   "published": "2026-08-26",
+   "seconds": 18,
+   "theme": "life"
+  },
+  {
+   "id": "UQKx1vO42RM",
+   "title": "This Woman Spends ZERO on Subscriptions: Netflix, Spotify, Dating Apps... None!",
+   "published": "2026-08-26",
+   "seconds": 17,
+   "theme": "money"
+  },
+  {
+   "id": "sSsPWcwHDco",
+   "title": "Which Company Does Abhishek Work For? | Work Profile Insights",
+   "published": "2026-08-26",
+   "seconds": 5,
+   "theme": "work"
+  },
+  {
+   "id": "0Lp9Yk6Rf90",
+   "title": "Software Sales Pro's Wedding Budget: Why He's Not Planning a Lavish Affair",
+   "published": "2026-08-26",
+   "seconds": 16,
+   "theme": "money"
+  },
+  {
+   "id": "yZ0fGacm40U",
+   "title": "Financial Stability Before Dating: Is It a MUST Today?",
+   "published": "2026-08-26",
+   "seconds": 18,
+   "theme": "life"
+  },
+  {
+   "id": "kczW0tCMHps",
+   "title": "Software Sales vs. Family Business: My Unexpected Career Journey",
+   "published": "2026-08-25",
+   "seconds": 15,
+   "theme": "life"
+  },
+  {
+   "id": "Cy-Txmr-TIA",
+   "title": "Six-Figure Salary Pressure: Men's Biggest Challenge After 25",
+   "published": "2026-08-25",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "xZbSd1sl-dw",
+   "title": "Hostel Life Pros & Cons: Food, Friends, & Restrictions for Students",
+   "published": "2026-08-25",
+   "seconds": 30,
+   "theme": "college"
+  },
+  {
+   "id": "KouKMtFOsQA",
+   "title": "Finding India's Best UG Commerce College: A Software Salesman's Take",
+   "published": "2026-08-25",
+   "seconds": 22,
+   "theme": "college"
+  },
+  {
+   "id": "6S8sArGAqrY",
+   "title": "BBA Careers: Finance vs. Sales Opportunities Explored",
+   "published": "2026-08-25",
+   "seconds": 25,
+   "theme": "college"
+  },
+  {
+   "id": "IkbUUTiehFU",
+   "title": "How Often Should You Switch Jobs? A Software Sales Pro's Take",
+   "published": "2026-08-24",
+   "seconds": 27,
+   "theme": "hiring"
+  },
+  {
+   "id": "LjtJD16JzvI",
+   "title": "Software Sales Career: 3+ Years in the Job Market",
+   "published": "2026-08-24",
+   "seconds": 7,
+   "theme": "work"
+  },
+  {
+   "id": "A1Vf1Sr2m-s",
+   "title": "Software Sales Pro: Ask for a 30% Salary Hike or a Promotion",
+   "published": "2026-08-24",
+   "seconds": 19,
+   "theme": "money"
+  },
+  {
+   "id": "97mHIRnvJw8",
+   "title": "SaaS Software Sales Interviews: 3 Rounds & No Specific Degree Needed",
+   "published": "2026-08-24",
+   "seconds": 33,
+   "theme": "hiring"
+  },
+  {
+   "id": "eEDIeNNz4xw",
+   "title": "Should Couples Split Expenses 50/50? Dating vs. Wedding Perspectives",
+   "published": "2026-08-24",
+   "seconds": 18,
+   "theme": "money"
+  },
+  {
+   "id": "HXd7yEN1ojc",
+   "title": "Software Sales Pro Reveals Weekend Spending Habits in HSR Layout",
+   "published": "2026-08-24",
+   "seconds": 14,
+   "theme": "life"
+  },
+  {
+   "id": "C1sERILaVzY",
+   "title": "Can Money Buy Mental Peace? A Software Sales Founder's Honest Take",
+   "published": "2026-08-23",
+   "seconds": 26,
+   "theme": "money"
+  },
+  {
+   "id": "UCIMFZqHLtg",
+   "title": "The 'Useless' College Degree in India: Happiness vs. Being Loaded",
+   "published": "2026-08-23",
+   "seconds": 62,
+   "theme": "college"
+  },
+  {
+   "id": "7d11Ur1lQDg",
+   "title": "NIT K Software Engineer: Was My 6 Lakhs/Year Tuition Worth It?",
+   "published": "2026-08-23",
+   "seconds": 33,
+   "theme": "money"
+  },
+  {
+   "id": "lXv7iygbhFw",
+   "title": "Wells Fargo Software Engineer's 3BHK Rent Near Brookfield, Bangalore",
+   "published": "2026-08-23",
+   "seconds": 45,
+   "theme": "money"
+  },
+  {
+   "id": "p_v6mWyEe5g",
+   "title": "Wells Fargo Software Engineer Shares Her Leave Day Strategy",
+   "published": "2026-08-22",
+   "seconds": 43,
+   "theme": "life"
+  },
+  {
+   "id": "PG61W1ukmzI",
+   "title": "NIT Karnataka IT Placements: Average Salary (17-18 LPA) & Top Recruiters (Wells Fargo SWE)",
+   "published": "2026-08-22",
+   "seconds": 49,
+   "theme": "money"
+  },
+  {
+   "id": "Ldp418w51UY",
+   "title": "Wells Fargo Software Engineer: No System Design for FTEs?",
+   "published": "2026-08-22",
+   "seconds": 12,
+   "theme": "work"
+  },
+  {
+   "id": "qy91XCJ323s",
+   "title": "Wells Fargo SWE Interview: Can you end your 1-hour round early?",
+   "published": "2026-08-22",
+   "seconds": 11,
+   "theme": "hiring"
+  },
+  {
+   "id": "Tif7QI7zYxk",
+   "title": "Wells Fargo Software Engineer Interview: How Many Rounds & Questions?",
+   "published": "2026-08-22",
+   "seconds": 11,
+   "theme": "hiring"
+  },
+  {
+   "id": "D2kACWyZhw0",
+   "title": "Wells Fargo Software Engineer DSA: Low to Medium Difficulty?",
+   "published": "2026-08-22",
+   "seconds": 11,
+   "theme": "hiring"
+  },
+  {
+   "id": "K4h3edkhA1I",
+   "title": "What to Expect: Wells Fargo Software Engineer Interview (Basic DSA)",
+   "published": "2026-08-21",
+   "seconds": 17,
+   "theme": "hiring"
+  },
+  {
+   "id": "XEvkfMjn6Pg",
+   "title": "NIT Karnataka 2024: Wells Fargo Software Engineer Interview Process & Campus Placements",
+   "published": "2026-08-21",
+   "seconds": 41,
+   "theme": "hiring"
+  },
+  {
+   "id": "QMGpXxoSurI",
+   "title": "NIT Karnataka 2024 Grad: Software Engineer at Wells Fargo",
+   "published": "2026-08-21",
+   "seconds": 10,
+   "theme": "college"
+  },
+  {
+   "id": "wxHrbNanRKk",
+   "title": "Software Engineer's First Job: No Switches Since Graduation",
+   "published": "2026-08-21",
+   "seconds": 12,
+   "theme": "hiring"
+  },
+  {
+   "id": "thtAVjzJYKw",
+   "title": "Software Engineer at Wells Fargo | The Job",
+   "published": "2026-08-21",
+   "seconds": 10,
+   "theme": "work"
+  },
+  {
+   "id": "8J5TvJJHxeA",
+   "title": "Software Sales Pro's Biggest Spend in Bengaluru (Apart from Rent)",
+   "published": "2026-08-20",
+   "seconds": 18,
+   "theme": "money"
+  },
+  {
+   "id": "fXuiTPYX-ms",
+   "title": "Software Sales Pro (27) in HSR Layout Saved 20 Lakhs | Startup Journey",
+   "published": "2026-08-20",
+   "seconds": 15,
+   "theme": "money"
+  },
+  {
+   "id": "alcVcwuHH3o",
+   "title": "Startup Employee's Rent in HSR Layout, Bangalore (12K for 2BHK)",
+   "published": "2026-08-20",
+   "seconds": 30,
+   "theme": "money"
+  },
+  {
+   "id": "OYsz-5EsHjM",
+   "title": "HSR Layout Founder's Go-To Apps & Reddit's 'Stocks India' for Finance",
+   "published": "2026-08-20",
+   "seconds": 27,
+   "theme": "work"
+  },
+  {
+   "id": "jw-9idNtPGs",
+   "title": "Mac or Windows for Software Sales? Startup Pro Weighs In",
+   "published": "2026-08-20",
+   "seconds": 17,
+   "theme": "work"
+  },
+  {
+   "id": "9NnngZEfMcw",
+   "title": "Day-to-Day of US Software Sales: Cold Calling, Emailing & LinkedIn Outreach",
+   "published": "2026-08-20",
+   "seconds": 22,
+   "theme": "hiring"
+  },
+  {
+   "id": "EAxuPqo4uhY",
+   "title": "Software Sales at an HSR Layout Startup | Careers in Bangalore",
+   "published": "2026-08-20",
+   "seconds": 6,
+   "theme": "work"
+  },
+  {
+   "id": "vbzI6qhc4Vw",
+   "title": "How A 27-Year-Old Senior Data Engineer Saved 10-15 Lakhs",
+   "published": "2026-08-19",
+   "seconds": 32,
+   "theme": "money"
+  },
+  {
+   "id": "KkqEDTZlW3g",
+   "title": "Data Engineer Paid Off Amity University Education Loan in 3 Years!",
+   "published": "2026-08-19",
+   "seconds": 8,
+   "theme": "money"
+  },
+  {
+   "id": "V_MKoHDG-Go",
+   "title": "IIT, IISC, or IIM? The Best Indian Colleges for Each Career Goal",
+   "published": "2026-08-19",
+   "seconds": 53,
+   "theme": "college"
+  },
+  {
+   "id": "4VW8NAPqAPM",
+   "title": "30K for a 1BHK in Kadubeesanahalli? A Data Engineer's Take on Bangalore Rent",
+   "published": "2026-08-19",
+   "seconds": 58,
+   "theme": "money"
+  },
+  {
+   "id": "qQzKqV-S9PU",
+   "title": "Amity University Alum: Why Attentiveness is Your Most Valuable Skill",
+   "published": "2026-08-18",
+   "seconds": 29,
+   "theme": "college"
+  },
+  {
+   "id": "j944T1sKMjw",
+   "title": "Private vs. Government School: Which is Better? Data Engineer's Take",
+   "published": "2026-08-18",
+   "seconds": 40,
+   "theme": "college"
+  },
+  {
+   "id": "gsxu1mOyERw",
+   "title": "Scholarship Student's Education Cost & ROI | Bengaluru Insights",
+   "published": "2026-08-18",
+   "seconds": 52,
+   "theme": "money"
+  },
+  {
+   "id": "RZpVj_4fy9U",
+   "title": "Amity University B.Tech ROI: Data Engineer Reveals Education Cost & First-Year Salary",
+   "published": "2026-08-18",
+   "seconds": 52,
+   "theme": "money"
+  },
+  {
+   "id": "i4-zy-65uww",
+   "title": "From 2 Switches to a 400% Salary Hike: Earning 40-50 Now",
+   "published": "2026-08-18",
+   "seconds": 30,
+   "theme": "money"
+  },
+  {
+   "id": "B2BT1efxSvs",
+   "title": "Senior Data Engineer's 400% Hike: From TCS to Product-Based Startup",
+   "published": "2026-08-18",
+   "seconds": 30,
+   "theme": "money"
+  },
+  {
+   "id": "iyatk7Msw2w",
+   "title": "Amity University BTech CS Grad to Senior Data Engineer | Career Path 2020",
+   "published": "2026-08-17",
+   "seconds": 26,
+   "theme": "college"
+  },
+  {
+   "id": "4MQkpx6zhE0",
+   "title": "Useless College Degrees in India? | The Fun vs. Money Career Trade-off",
+   "published": "2026-08-17",
+   "seconds": 60,
+   "theme": "money"
+  },
+  {
+   "id": "FhsSwos_MNA",
+   "title": "Was Her College Education Worth It? A Bengaluru Professional Reveals ROI",
+   "published": "2026-08-17",
+   "seconds": 33,
+   "theme": "college"
+  },
+  {
+   "id": "YUud7X_Iqhw",
+   "title": "How Much is Rent for a 3BHK Flat Near Brookfield, Bangalore?",
+   "published": "2026-08-17",
+   "seconds": 45,
+   "theme": "money"
+  },
+  {
+   "id": "AbwaFEpA-6Y",
+   "title": "NITK Placements: Top Companies & Average IT Salary Revealed",
+   "published": "2026-08-16",
+   "seconds": 49,
+   "theme": "money"
+  },
+  {
+   "id": "FrLVXNs57lo",
+   "title": "Wells Fargo Campus: System Design Roles for Experienced FTEs Only?",
+   "published": "2026-08-16",
+   "seconds": 12,
+   "theme": "hiring"
+  },
+  {
+   "id": "3A_JwhHv8iU",
+   "title": "How Long Were The Rounds? Finishing Early If You're Done",
+   "published": "2026-08-16",
+   "seconds": 11,
+   "theme": "hiring"
+  },
+  {
+   "id": "DtvGkD3Ezu8",
+   "title": "Recalling Game Format: Was It One Question Per Round for Two Rounds?",
+   "published": "2026-08-16",
+   "seconds": 11,
+   "theme": "hiring"
+  },
+  {
+   "id": "gnGNYcIFdfk",
+   "title": "Wells Fargo Interview at NITK: DSA Difficulty & Process Insights",
+   "published": "2026-08-16",
+   "seconds": 27,
+   "theme": "hiring"
+  },
+  {
+   "id": "2cdplQjoIy4",
+   "title": "NIT Karnataka Campus Placements: Interview Process & Same-Day Results",
+   "published": "2026-08-14",
+   "seconds": 41,
+   "theme": "hiring"
+  },
+  {
+   "id": "lxJEXVKqs9M",
+   "title": "Why She Refuses to Use AI Despite Knowing Too Much About It",
+   "published": "2026-08-14",
+   "seconds": 25,
+   "theme": "ai"
+  },
+  {
+   "id": "nppBPYpymHc",
+   "title": "My EMI to Salary Ratio: A Whopping 80%!",
+   "published": "2026-08-14",
+   "seconds": 16,
+   "theme": "money"
+  },
+  {
+   "id": "29teGBgRi54",
+   "title": "Monthly Swiggy & Zomato Spending: Is ₹3-4K the New Normal?",
+   "published": "2026-08-14",
+   "seconds": 14,
+   "theme": "money"
+  },
+  {
+   "id": "-3EUzPY29ds",
+   "title": "How Much Does an MBA in India Cost? A Reality Check on Education Expenses",
+   "published": "2026-08-13",
+   "seconds": 18,
+   "theme": "money"
+  },
+  {
+   "id": "NfwqrZwyiPo",
+   "title": "From ₹6 LPA to ₹20 LPA: Unveiling Her Salary Journey",
+   "published": "2026-08-13",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "7RyMbNFzGtg",
+   "title": "Does Your College Tier Really Matter For Your Career?",
+   "published": "2026-08-13",
+   "seconds": 30,
+   "theme": "college"
+  },
+  {
+   "id": "QDYK0IWUCzQ",
+   "title": "Hashita: Essential Skills to Be a Truly Effective Manager",
+   "published": "2026-08-13",
+   "seconds": 28,
+   "theme": "work"
+  },
+  {
+   "id": "fG2WjO_-LwA",
+   "title": "What Does an Assistant Manager Actually Do? Real Insights from Saks Global",
+   "published": "2026-08-13",
+   "seconds": 23,
+   "theme": "work"
+  },
+  {
+   "id": "gqV3BYHXAVY",
+   "title": "IIT Roorkee: Dream Company or Entrepreneurship?",
+   "published": "2026-07-27",
+   "seconds": 20,
+   "theme": "college"
+  },
+  {
+   "id": "U5htD9JDbU0",
+   "title": "IIT BHU Software Engineer Placements: Companies & Salaries (up to 2 Cr)",
+   "published": "2026-07-27",
+   "seconds": 24,
+   "theme": "money"
+  },
+  {
+   "id": "lMkmzVfoVz0",
+   "title": "IIT BHU Software Engineer's Last Vacation: Shoja, Himachal Pradesh | Cost?",
+   "published": "2026-07-27",
+   "seconds": 18,
+   "theme": "money"
+  },
+  {
+   "id": "jgj-ESwqxOQ",
+   "title": "Software Engineer (IIT BHU) targets 1 CR+ in savings by age 30",
+   "published": "2026-07-27",
+   "seconds": 14,
+   "theme": "money"
+  },
+  {
+   "id": "sImTwx6jCAk",
+   "title": "Software Engineer (IIT BHU): Impact of 10th/12th Marks",
+   "published": "2026-07-27",
+   "seconds": 21,
+   "theme": "college"
+  },
+  {
+   "id": "uyPUX6Q8Oms",
+   "title": "IIT BHU Software Engineer: Bangalore Rent & Security Deposit",
+   "published": "2026-07-25",
+   "seconds": 21,
+   "theme": "money"
+  },
+  {
+   "id": "rX_dShBNb6M",
+   "title": "Software Engineer (IIT BHU): Tier 1 vs Tier 3 Colleges in the Workplace",
+   "published": "2026-07-25",
+   "seconds": 29,
+   "theme": "college"
+  },
+  {
+   "id": "2K_qRt06pvk",
+   "title": "IIT BHU Engineer Reveals Education Cost | FIITJEE & College Fees",
+   "published": "2026-07-25",
+   "seconds": 38,
+   "theme": "money"
+  },
+  {
+   "id": "JkgLA7U77nc",
+   "title": "How to get a high package as a Software Engineer (IIT BHU)",
+   "published": "2026-07-25",
+   "seconds": 29,
+   "theme": "money"
+  },
+  {
+   "id": "zp7G6lwcaWo",
+   "title": "IIT BHU Software Engineer: Academic Roadmap for a High Package",
+   "published": "2026-07-25",
+   "seconds": 56,
+   "theme": "money"
+  },
+  {
+   "id": "H1u6A39kwB0",
+   "title": "IIT BHU Software Engineer: How much tax do you pay per year? (10-15 Lakhs)",
+   "published": "2026-07-25",
+   "seconds": 10,
+   "theme": "money"
+  },
+  {
+   "id": "UWpteC6bv18",
+   "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
+   "published": "2026-07-15",
+   "seconds": 39,
+   "theme": "college"
+  },
+  {
+   "id": "B8qA2sFLOTo",
+   "title": "HR/Startup Founder's Monthly Expenses in Bangalore",
+   "published": "2026-07-15",
+   "seconds": 34,
+   "theme": "money"
+  },
+  {
+   "id": "4F7UE5CXxyA",
+   "title": "IIT Engineers: Who Earns the Highest Salary? (Electrical, Civil, Chemical)",
+   "published": "2026-07-15",
+   "seconds": 22,
+   "theme": "money"
+  },
+  {
+   "id": "Jf1wRZhGvzc",
+   "title": "Software Sales: Should Couples Split Dating & Wedding Expenses?",
+   "published": "2026-07-14",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "grFuHmAuf7k",
+   "title": "Software Sales Professional's Savings at 27",
+   "published": "2026-07-14",
+   "seconds": 17,
+   "theme": "money"
+  },
+  {
+   "id": "qPviD2-HdKg",
+   "title": "Why Money Cannot Buy Mental Health",
+   "published": "2026-07-14",
+   "seconds": 22,
+   "theme": "money"
+  },
+  {
+   "id": "iwGNLxNhpdE",
+   "title": "Daily Work in Software Sales: Prospecting and Outreach to US Clients",
+   "published": "2026-07-09",
+   "seconds": 20,
+   "theme": "work"
+  },
+  {
+   "id": "5RWC6EL8MJU",
+   "title": "Software Sales Pro Reveals Most Used App Daily (It's Not Instagram!)",
+   "published": "2026-07-09",
+   "seconds": 28,
+   "theme": "work"
+  },
+  {
+   "id": "cpYZiff6UH8",
+   "title": "Bangalore Rent: Software Sales Pro Pays 12k for 2BHK in HSR Layout",
+   "published": "2026-07-09",
+   "seconds": 30,
+   "theme": "money"
+  },
+  {
+   "id": "TBOWFe6rCys",
+   "title": "Senior Data Engineer (27) Savings: 10-15 Lakhs in 6 Years",
+   "published": "2026-07-07",
+   "seconds": 21,
+   "theme": "money"
+  },
+  {
+   "id": "JmRpU8c20pM",
+   "title": "Staff Data Scientist [Walmart]: Why I Chose the US for My Masters",
+   "published": "2026-07-07",
+   "seconds": 27,
+   "theme": "college"
+  },
+  {
+   "id": "FlKPbrErTWo",
+   "title": "Walmart Data Scientist: Why Study Abroad is Worth It",
+   "published": "2026-07-07",
+   "seconds": 36,
+   "theme": "college"
+  },
+  {
+   "id": "LI_aA_B2gow",
+   "title": "Senior Data Engineer: One School Lesson Still Helps My Career",
+   "published": "2026-07-06",
+   "seconds": 20,
+   "theme": "college"
+  },
+  {
+   "id": "jhQYPCNG81s",
+   "title": "Senior Data Engineer on Best Colleges in India: IITs, IIMs, IISc",
+   "published": "2026-07-06",
+   "seconds": 37,
+   "theme": "college"
+  },
+  {
+   "id": "Dz3EIzFeDeE",
+   "title": "Senior Data Engineer: Rent, 1 BHK, and Society | Work From Home Living",
+   "published": "2026-07-06",
+   "seconds": 36,
+   "theme": "money"
+  },
+  {
+   "id": "lBN2xra6Evs",
+   "title": "Wells Fargo Software Engineer Interview Process | College Placement",
+   "published": "2026-07-05",
+   "seconds": 40,
+   "theme": "hiring"
+  },
+  {
+   "id": "p2KwuyqyII8",
+   "title": "Wells Fargo Engineer: College Placements & 18 LPA Average Salary",
+   "published": "2026-07-05",
+   "seconds": 42,
+   "theme": "money"
+  },
+  {
+   "id": "wAQg66oWEeI",
+   "title": "Software Engineer at Wells Fargo: Leaves in Office",
+   "published": "2026-07-05",
+   "seconds": 38,
+   "theme": "life"
+  },
+  {
+   "id": "9Ex2BSwjQhQ",
+   "title": "Senior Data Engineer: 2 Switches, 400% Hike, 50 LPA Salary",
+   "published": "2026-06-30",
+   "seconds": 27,
+   "theme": "money"
+  },
+  {
+   "id": "pr9zmRK9OrU",
+   "title": "Senior Data Engineer: College Cost & 1st Year Salary ROI",
+   "published": "2026-06-30",
+   "seconds": 34,
+   "theme": "money"
+  },
+  {
+   "id": "LaYQgGJe4-Q",
+   "title": "Senior Data Engineer on Government vs Private Schools: The Cost vs. Quality Debate",
+   "published": "2026-06-30",
+   "seconds": 27,
+   "theme": "money"
+  },
+  {
+   "id": "VmHQj4KXc50",
+   "title": "Wells Fargo Software Engineer: Was Her Parents' Education Investment Worth It?",
+   "published": "2026-06-29",
+   "seconds": 33,
+   "theme": "money"
+  },
+  {
+   "id": "shTX1Qkm0zQ",
+   "title": "Wells Fargo SE: Bangalore Rent, 3BHK, & Society Amenities",
+   "published": "2026-06-29",
+   "seconds": 40,
+   "theme": "money"
+  },
+  {
+   "id": "fuRONKLWC9s",
+   "title": "Software Engineer: 'Useless' College Degrees in India",
+   "published": "2026-06-29",
+   "seconds": 36,
+   "theme": "college"
+  },
+  {
+   "id": "S05l-jX0lnA",
+   "title": "HSBC Data Scientist: Total Money Spent on Education",
+   "published": "2026-06-18",
+   "seconds": 15,
+   "theme": "money"
+  },
+  {
+   "id": "zMvFeaIWNYI",
+   "title": "Wells Fargo Software Engineer: College & Interview Process at NIT Karnataka",
+   "published": "2026-06-18",
+   "seconds": 35,
+   "theme": "hiring"
+  },
+  {
+   "id": "L1KlKgUEydM",
+   "title": "Data Scientist: Christ University Masters - Strict Rules & Attendance",
+   "published": "2026-06-18",
+   "seconds": 30,
+   "theme": "college"
+  },
+  {
+   "id": "ghxd0eJiThc",
+   "title": "HSBC Data Scientist: AI for Banking Automation",
+   "published": "2026-06-15",
+   "seconds": 25,
+   "theme": "ai"
+  },
+  {
+   "id": "KKR2c9uklLM",
+   "title": "HSBC Data Scientist Reveals Her Favorite Perk: Work-Life Balance",
+   "published": "2026-06-15",
+   "seconds": 23,
+   "theme": "life"
+  },
+  {
+   "id": "IJBGImHoIzU",
+   "title": "HSBC Data Scientist: Skills Needed to Thrive in Corporate Environment",
+   "published": "2026-06-15",
+   "seconds": 31,
+   "theme": "work"
+  },
+  {
+   "id": "De0iHKwmyj0",
+   "title": "HSBC Data Scientist: Best Data Science Courses & Channels?",
+   "published": "2026-06-14",
+   "seconds": 27,
+   "theme": "college"
+  },
+  {
+   "id": "HVw0O3ao2Do",
+   "title": "HSBC Data Scientist: The Reality of Working with Banking Tech",
+   "published": "2026-06-14",
+   "seconds": 27,
+   "theme": "work"
+  },
+  {
+   "id": "MG3gZbsqAhk",
+   "title": "Industrial Engineer at Target Shares His Last Vacation",
+   "published": "2026-06-13",
+   "seconds": 14,
+   "theme": "life"
+  },
+  {
+   "id": "kUcDb-82JQI",
+   "title": "Industrial Engineer's Rs 10k Monthly Food Delivery Bill",
+   "published": "2026-06-13",
+   "seconds": 9,
+   "theme": "money"
+  },
+  {
+   "id": "O0PEDsDzzh0",
+   "title": "Industrial Engineer: What I like & dislike about corporate life",
+   "published": "2026-06-12",
+   "seconds": 26,
+   "theme": "work"
+  },
+  {
+   "id": "Sn-QBqOpwm0",
+   "title": "Industrial Engineer: Startup vs. MNC for Your First Job",
+   "published": "2026-06-12",
+   "seconds": 22,
+   "theme": "hiring"
+  },
+  {
+   "id": "9xNRUOWldT0",
+   "title": "How a Master's Helped This Industrial Engineer Leverage AI",
+   "published": "2026-06-12",
+   "seconds": 17,
+   "theme": "ai"
+  },
+  {
+   "id": "LL4A_TxZtFg",
+   "title": "Google SWE: Which AI do we use daily?",
+   "published": "2026-06-11",
+   "seconds": 19,
+   "theme": "ai"
+  },
+  {
+   "id": "YcH4godY1UY",
+   "title": "Google Engineer: Is Moving to Bangalore Worth It for Tech Careers?",
+   "published": "2026-06-11",
+   "seconds": 25,
+   "theme": "life"
+  },
+  {
+   "id": "tLzfphj0qyc",
+   "title": "Google Software Engineer's Top Tip for DSA Prep",
+   "published": "2026-06-11",
+   "seconds": 27,
+   "theme": "hiring"
+  },
+  {
+   "id": "cbenO1_7tUM",
+   "title": "Google SWE: Is Financial Stability a Dating Requirement?",
+   "published": "2026-06-05",
+   "seconds": 19,
+   "theme": "life"
+  },
+  {
+   "id": "csO4kF931Sg",
+   "title": "Google SWE: How Much in Bank by Age 30?",
+   "published": "2026-06-05",
+   "seconds": 15,
+   "theme": "money"
+  },
+  {
+   "id": "KkRyPXi07DQ",
+   "title": "Google Engineer: Money Can't Solve Bangalore Traffic",
+   "published": "2026-06-05",
+   "seconds": 17,
+   "theme": "money"
+  },
+  {
+   "id": "CX66XEtqtJw",
+   "title": "Senior Manager at Accenture on Daily AI Tools",
+   "published": "2026-06-04",
+   "seconds": 15,
+   "theme": "ai"
+  },
+  {
+   "id": "3ni43zMYgks",
+   "title": "Accenture Manager: Can You Join Consulting Without an MBA?",
+   "published": "2026-06-04",
+   "seconds": 30,
+   "theme": "college"
+  },
+  {
+   "id": "0_Rdm8U1QXE",
+   "title": "How an Accenture Senior Manager Got into Consulting",
+   "published": "2026-06-04",
+   "seconds": 16,
+   "theme": "work"
+  },
+  {
+   "id": "__9dpT1dAmM",
+   "title": "How Often Should You Switch Companies? | Senior Manager [Accenture]",
+   "published": "2026-06-02",
+   "seconds": 19,
+   "theme": "hiring"
+  },
+  {
+   "id": "NlUxcmdwHZY",
+   "title": "Corporate Advice: Why Sticking to a Company for 2+ Years Matters",
+   "published": "2026-06-02",
+   "seconds": 41,
+   "theme": "work"
+  },
+  {
+   "id": "h4hhj9kJKjo",
+   "title": "Google Software Engineer on AI Tools & Work Life",
+   "published": "2026-06-02",
+   "seconds": 24,
+   "theme": "ai"
+  },
+  {
+   "id": "hpm3GQfQwuo",
+   "title": "Senior Manager at Accenture: How much money was spent on his education?",
+   "published": "2026-06-01",
+   "seconds": 33,
+   "theme": "money"
+  },
+  {
+   "id": "UzbVvAP0nWk",
+   "title": "Accenture Senior Manager's Go-To AI: Microsoft CoPilot",
+   "published": "2026-06-01",
+   "seconds": 31,
+   "theme": "ai"
+  },
+  {
+   "id": "xYxTz2AW2To",
+   "title": "Corporate Life: Advantage of Being Single (Accenture Manager)",
+   "published": "2026-05-31",
+   "seconds": 27,
+   "theme": "work"
+  },
+  {
+   "id": "rgaRKPOdLXI",
+   "title": "Senior Manager: Do 10th/12th Percentages Matter?",
+   "published": "2026-05-31",
+   "seconds": 23,
+   "theme": "work"
+  },
+  {
+   "id": "MCaXN-FU18Y",
+   "title": "Senior Manager Accenture: How to Build Communication Skills",
+   "published": "2026-05-30",
+   "seconds": 21,
+   "theme": "work"
+  },
+  {
+   "id": "TJLBYNBDous",
+   "title": "Accenture Sr Manager: Does Your College Tier Matter in Your Career?",
+   "published": "2026-05-30",
+   "seconds": 30,
+   "theme": "college"
+  },
+  {
+   "id": "X34neh9ygUw",
+   "title": "CA at Standard Chartered: ChatGPT, Claude, or Gemini?",
+   "published": "2026-05-30",
+   "seconds": 16,
+   "theme": "ai"
+  },
+  {
+   "id": "7iq2FqwwSiQ",
+   "title": "CA at Standard Chartered: Monthly Expenses & Savings",
+   "published": "2026-05-30",
+   "seconds": 25,
+   "theme": "money"
+  },
+  {
+   "id": "Vaxx8jwQidM",
+   "title": "Accenture Manager: You Don't Need an MBA for Consulting",
+   "published": "2026-05-29",
+   "seconds": 23,
+   "theme": "college"
+  },
+  {
+   "id": "H43V2kk6eFw",
+   "title": "CA at Standard Chartered: Daily Routine & Work-Life Balance",
+   "published": "2026-05-29",
+   "seconds": 29,
+   "theme": "life"
+  },
+  {
+   "id": "wp-sKLH5F1M",
+   "title": "CA at Standard Chartered: Starting Salary of 12.5 LPA",
+   "published": "2026-05-29",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "4WG4NseqTrQ",
+   "title": "What it's like working at Goldman Sachs | Finance Professional",
+   "published": "2026-05-28",
+   "seconds": 22,
+   "theme": "work"
+  },
+  {
+   "id": "sNuYalKOfpE",
+   "title": "CA Prep & Job: Standard Chartered CA Shares Her Journey",
+   "published": "2026-05-28",
+   "seconds": 29,
+   "theme": "work"
+  },
+  {
+   "id": "baiH5T-wJ0E",
+   "title": "Corporate Employee Takes Vacations Every Month",
+   "published": "2026-05-27",
+   "seconds": 29,
+   "theme": "life"
+  },
+  {
+   "id": "CDDfom6sVTU",
+   "title": "Private School vs. DU: Cost of Education & Its Value",
+   "published": "2026-05-27",
+   "seconds": 57,
+   "theme": "money"
+  },
+  {
+   "id": "Dxp8y_AlB0o",
+   "title": "ChatGPT vs Gemini vs Claude: Which AI do you use?",
+   "published": "2026-05-25",
+   "seconds": 29,
+   "theme": "ai"
+  },
+  {
+   "id": "0NmxGtkewtI",
+   "title": "What Does a Portfolio Surveillance Professional Do?",
+   "published": "2026-05-25",
+   "seconds": 25,
+   "theme": "work"
+  },
+  {
+   "id": "1dFX4ul6qL0",
+   "title": "Career Paths After B.Com: MBA, CA, CFA, or Entry-Level Finance?",
+   "published": "2026-05-25",
+   "seconds": 58,
+   "theme": "college"
+  },
+  {
+   "id": "tuz2pNJW8g8",
+   "title": "2 Crucial Skills to Thrive in the Corporate Environment",
+   "published": "2026-05-25",
+   "seconds": 46,
+   "theme": "work"
+  },
+  {
+   "id": "9gTVZZDDyM0",
+   "title": "Paytm Analyst on Current AI Tool Usage",
+   "published": "2026-05-22",
+   "seconds": 19,
+   "theme": "ai"
+  },
+  {
+   "id": "JTy8hzOD7oY",
+   "title": "Advice for Aspiring Finance Professionals",
+   "published": "2026-05-22",
+   "seconds": 33,
+   "theme": "work"
+  },
+  {
+   "id": "83RDQNqAyCg",
+   "title": "Is College Study Relevant for Your Job? A B.Com Hons Perspective",
+   "published": "2026-05-21",
+   "seconds": 45,
+   "theme": "college"
+  },
+  {
+   "id": "YV0S6QSUyt0",
+   "title": "Software Engineer's Leave Policy: 15 Granted, 12 Taken",
+   "published": "2026-05-21",
+   "seconds": 18,
+   "theme": "life"
+  },
+  {
+   "id": "hwvUtARxzJk",
+   "title": "Paytm Analyst: Top Skill is Constant Self-Upgrade",
+   "published": "2026-05-21",
+   "seconds": 18,
+   "theme": "work"
+  },
+  {
+   "id": "h_COk34NPS8",
+   "title": "AI Impact on IT Support: An Engineer's Day-to-Day Use",
+   "published": "2026-05-20",
+   "seconds": 21,
+   "theme": "ai"
+  },
+  {
+   "id": "Uwkpo5cA6kE",
+   "title": "MBA Career Paths: Paytm Analyst Swarna on Teaching & Accounts Roles",
+   "published": "2026-05-20",
+   "seconds": 29,
+   "theme": "college"
+  },
+  {
+   "id": "-NrPtY9egLc",
+   "title": "Software Engineer Prakhar Shares His Salary Savings Strategy",
+   "published": "2026-05-20",
+   "seconds": 38,
+   "theme": "money"
+  },
+  {
+   "id": "bQp84R0QwXk",
+   "title": "Software Engineer's Manali Trip Budget | Prakhar's Travel Spends",
+   "published": "2026-05-20",
+   "seconds": 39,
+   "theme": "money"
+  },
+  {
+   "id": "1o1ZrdnR-5k",
+   "title": "Software Engineer's Weekend: Battling AI with Upskilling",
+   "published": "2026-05-19",
+   "seconds": 31,
+   "theme": "ai"
+  },
+  {
+   "id": "qR1sZT7FQpg",
+   "title": "Software Engineer's Monthly Expenses in Bangalore | Prakhar",
+   "published": "2026-05-19",
+   "seconds": 38,
+   "theme": "money"
+  },
+  {
+   "id": "t11iRPkXmNk",
+   "title": "Claude vs. Gemini vs. ChatGPT: A Software Engineer's Take",
+   "published": "2026-05-19",
+   "seconds": 48,
+   "theme": "ai"
+  },
+  {
+   "id": "uvyXgSPUQ3E",
+   "title": "Software Engineer's Salary Jump: Under 5 LPA to 10+ LPA After First Switch",
+   "published": "2026-05-18",
+   "seconds": 32,
+   "theme": "money"
+  },
+  {
+   "id": "2bcyfQzKGNI",
+   "title": "Full Stack Software Engineer Shares Essential Skills for MEAN/MERN Stack",
+   "published": "2026-05-18",
+   "seconds": 38,
+   "theme": "work"
+  },
+  {
+   "id": "vibaav4SAyM",
+   "title": "Software Engineer's Monthly Swiggy/Zomato Spend",
+   "published": "2026-05-18",
+   "seconds": 21,
+   "theme": "money"
+  },
+  {
+   "id": "ih8hG_jI_-I",
+   "title": "Biggest Professional Mistake: Believing Harsh Criticism",
+   "published": "2026-05-18",
+   "seconds": 35,
+   "theme": "work"
+  },
+  {
+   "id": "GvOj8DhZcsQ",
+   "title": "Madikeri Vacation: How much did I spend for 2 days?",
+   "published": "2026-05-18",
+   "seconds": 16,
+   "theme": "money"
+  },
+  {
+   "id": "Xhk9ePCkV2U",
+   "title": "Company Leave Policy: How Many Leaves Do Employees Get?",
+   "published": "2026-05-16",
+   "seconds": 16,
+   "theme": "life"
+  },
+  {
+   "id": "Z17spe88Dx4",
+   "title": "Beyond Basics: Unexpected Perks in Corporate",
+   "published": "2026-05-16",
+   "seconds": 44,
+   "theme": "work"
+  },
+  {
+   "id": "pv_MbPHUDOk",
+   "title": "From 6 LPA to 15-20 LPA: My CTC Growth Story",
+   "published": "2026-05-16",
+   "seconds": 16,
+   "theme": "money"
+  },
+  {
+   "id": "p2SnmHOA-mg",
+   "title": "Does Your College Tier Matter for Your Career?",
+   "published": "2026-05-15",
+   "seconds": 25,
+   "theme": "college"
+  },
+  {
+   "id": "WexRlkCyqZY",
+   "title": "From Guntur to Bangalore: 9 Years of Professional Experience",
+   "published": "2026-05-14",
+   "seconds": 24,
+   "theme": "work"
+  },
+  {
+   "id": "cM6hhscJRCw",
+   "title": "Parents spent 30 Lakhs on her education (School to MBA)",
+   "published": "2026-05-14",
+   "seconds": 13,
+   "theme": "money"
+  },
+  {
+   "id": "ztyuT-WBwfI",
+   "title": "MBA for Operations Jobs: Is it a must-have?",
+   "published": "2026-05-14",
+   "seconds": 27,
+   "theme": "college"
+  },
+  {
+   "id": "grHI4cTt2s8",
+   "title": "The Daily Responsibilities of an Assistant Manager",
+   "published": "2026-05-14",
+   "seconds": 18,
+   "theme": "work"
+  },
+  {
+   "id": "5RMIyrOhAkY",
+   "title": "Monthly Expense Breakdown in Bangalore",
+   "published": "2026-05-13",
+   "seconds": 20,
+   "theme": "money"
+  },
+  {
+   "id": "KcwU0WI-1lc",
+   "title": "Key Skills for Managers: Listening & Guiding Team Success",
+   "published": "2026-05-13",
+   "seconds": 21,
+   "theme": "work"
+  },
+  {
+   "id": "2SMbqCP6Ujs",
+   "title": "My Daily Routine as a Software Engineer",
+   "published": "2026-05-13",
+   "seconds": 37,
+   "theme": "work"
+  },
+  {
+   "id": "b3rkCcPRb6U",
+   "title": "Straight Talk: Education Cost vs. Current Earnings in India",
+   "published": "2026-05-13",
+   "seconds": 24,
+   "theme": "money"
+  },
+  {
+   "id": "yoMQ67delh4",
+   "title": "Claude vs. Gemini vs. ChatGPT: Which AI Assistant is Best?",
+   "published": "2026-05-13",
+   "seconds": 38,
+   "theme": "ai"
+  },
+  {
+   "id": "2QzuJm6bELM",
+   "title": "Why Private Schools Are Preferred Over Government Schools in India",
+   "published": "2026-05-13",
+   "seconds": 26,
+   "theme": "college"
+  },
+  {
+   "id": "IjT5TTPShbQ",
+   "title": "Monthly Expenses for Independent Living in Bangalore: How much do you spend?",
+   "published": "2026-05-12",
+   "seconds": 25,
+   "theme": "money"
+  },
+  {
+   "id": "mMURNgWkhuA",
+   "title": "Manual Work Over AI, Except for Recipes",
+   "published": "2026-05-12",
+   "seconds": 34,
+   "theme": "ai"
+  },
+  {
+   "id": "yqv-watrmy0",
+   "title": "My Parents Wanted Me To Be A Banker",
+   "published": "2026-05-11",
+   "seconds": 14,
+   "theme": "life"
+  },
+  {
+   "id": "tjfusuFvLxM",
+   "title": "Is a Master's Degree Still Relevant in the Finance Industry?",
+   "published": "2026-05-11",
+   "seconds": 21,
+   "theme": "college"
+  },
+  {
+   "id": "JsGizPyHVG4",
+   "title": "Skills and Qualifications for an OTC Job",
+   "published": "2026-05-09",
+   "seconds": 22,
+   "theme": "work"
+  },
+  {
+   "id": "PH0ETYcXoH4",
+   "title": "OTC Salary Range in India (Fresher & Experienced)",
+   "published": "2026-05-09",
+   "seconds": 40,
+   "theme": "money"
+  },
+  {
+   "id": "cMe9sDp0mPY",
+   "title": "What is an OTC Job? (Over-The-Counter Explained)",
+   "published": "2026-05-09",
+   "seconds": 19,
+   "theme": "work"
+  },
+  {
+   "id": "gu3wLcX5oos",
+   "title": "How I got a 100% salary hike by switching jobs",
+   "published": "2026-05-09",
+   "seconds": 22,
+   "theme": "money"
+  },
+  {
+   "id": "kA0tJp-07WE",
+   "title": "Work-Life Balance: The Role of a Supportive Family",
+   "published": "2026-05-08",
+   "seconds": 18,
+   "theme": "life"
+  },
+  {
+   "id": "Z0L6eg8M1Kk",
+   "title": "Bangalore Woman Shares Her Diverse Shopping Habits & Favorite Brand",
+   "published": "2026-05-08",
+   "seconds": 27,
+   "theme": "life"
+  },
+  {
+   "id": "PjXUaSEfaMc",
+   "title": "Corporate to Patisserie: Why I Switched to Baking",
+   "published": "2026-05-07",
+   "seconds": 19,
+   "theme": "work"
+  },
+  {
+   "id": "RXU1gm9Bc6k",
+   "title": "Patisserie Business in Bangalore: Competition & Creativity",
+   "published": "2026-05-07",
+   "seconds": 38,
+   "theme": "work"
+  },
+  {
+   "id": "QTszfoWVBaw",
+   "title": "Skills to be a Good Baker",
+   "published": "2026-05-06",
+   "seconds": 23,
+   "theme": "work"
+  },
+  {
+   "id": "f3-JD3-c2yM",
+   "title": "Expert Advice: Opening a Pastry Shop",
+   "published": "2026-05-06",
+   "seconds": 20,
+   "theme": "work"
+  },
+  {
+   "id": "uFzqObTCsz8",
+   "title": "Growth Marketer Skills: Audience, Trends, AI, Content Marketing",
+   "published": "2026-05-05",
+   "seconds": 19,
+   "theme": "ai"
+  },
+  {
+   "id": "aXTRgh39hzY",
+   "title": "Career Options for Growth Marketers",
+   "published": "2026-05-05",
+   "seconds": 21,
+   "theme": "work"
+  },
+  {
+   "id": "1zNxES6Pk6k",
+   "title": "How I Spend My Money: Travel, Content & Coffee Exploration",
+   "published": "2026-05-04",
+   "seconds": 24,
+   "theme": "money"
+  },
+  {
+   "id": "dqqo1I4exak",
+   "title": "AI in Marketing: Brainstorming Ideas for Search Engine Ranking",
+   "published": "2026-05-04",
+   "seconds": 29,
+   "theme": "ai"
+  },
+  {
+   "id": "lrqxj2VzIbE",
+   "title": "Advice for those joining the Corporate World",
+   "published": "2026-05-01",
+   "seconds": 19,
+   "theme": "work"
+  },
+  {
+   "id": "W1OAjQpXRyc",
+   "title": "Switching Jobs vs. Staying in a Company for Career Growth",
+   "published": "2026-05-01",
+   "seconds": 24,
+   "theme": "hiring"
+  },
+  {
+   "id": "qtFmna9OuSA",
+   "title": "Restarting My Career: Balancing Passion and Practicality",
+   "published": "2026-04-30",
+   "seconds": 32,
+   "theme": "work"
+  },
+  {
+   "id": "jpoi5uJ-QVs",
+   "title": "Skills vs Networking: A Professional's Take",
+   "published": "2026-04-30",
+   "seconds": 36,
+   "theme": "work"
+  },
+  {
+   "id": "KLyYt26uG7M",
+   "title": "How to Become an Application Engineering Manager?",
+   "published": "2026-04-30",
+   "seconds": 25,
+   "theme": "work"
+  },
+  {
+   "id": "3UiQTcgBPI0",
+   "title": "Do Engineers Need a Masters Degree in the Age of AI?",
+   "published": "2026-04-29",
+   "seconds": 42,
+   "theme": "ai"
+  },
+  {
+   "id": "eW8MF8dJ-OA",
+   "title": "Promotions in 18 Years: How They Happen",
+   "published": "2026-04-29",
+   "seconds": 19,
+   "theme": "work"
+  },
+  {
+   "id": "Wa-97O9zMIA",
+   "title": "AI's Impact on Jobs: Productivity and Fundamental Knowledge",
+   "published": "2026-04-29",
+   "seconds": 47,
+   "theme": "ai"
+  },
+  {
+   "id": "XD8V0unY2Ag",
+   "title": "Corporate Employee's Monthly Expenses in Bangalore: Rent, Food, Savings",
+   "published": "2026-04-28",
+   "seconds": 36,
+   "theme": "money"
+  },
+  {
+   "id": "os1WCEOcOSo",
+   "title": "College to Corporate: Managing Work and Life Balance",
+   "published": "2026-04-28",
+   "seconds": 55,
+   "theme": "college"
+  },
+  {
+   "id": "cxxE7qSlyNM",
+   "title": "Most Expensive Thing You Own vs. What You'll Buy Herself",
+   "published": "2026-04-28",
+   "seconds": 22,
+   "theme": "money"
+  },
+  {
+   "id": "SC63pIUgjLc",
+   "title": "My Dream Company: AI, Low-Code in Oil & Gas",
+   "published": "2026-04-27",
+   "seconds": 46,
+   "theme": "ai"
+  },
+  {
+   "id": "vwb0I0yrlew",
+   "title": "Low Code and No Code Policy Explained",
+   "published": "2026-04-27",
+   "seconds": 44,
+   "theme": "money"
+  },
+  {
+   "id": "O6OB2ehVVdc",
+   "title": "Bangalore Expenses: Renting a Flat for ₹50,000/month & Saving on Travel",
+   "published": "2026-04-27",
+   "seconds": 50,
+   "theme": "money"
+  },
+  {
+   "id": "ziSK21AGsow",
+   "title": "How I Got a 300% Salary Hike with AI/ML Skills",
+   "published": "2026-04-26",
+   "seconds": 44,
+   "theme": "ai"
+  },
+  {
+   "id": "i6cgHpd3MZg",
+   "title": "AI's Practical Impact: From Daily Life to Job",
+   "published": "2026-04-26",
+   "seconds": 50,
+   "theme": "ai"
+  },
+  {
+   "id": "p1asT_06z84",
+   "title": "AI Engineer Campus Placement after Masters in Data Science",
+   "published": "2026-04-26",
+   "seconds": 21,
+   "theme": "hiring"
+  },
+  {
+   "id": "Rjl08yuJCSk",
+   "title": "Why I Chose EY: Big 4, Global Clients, and Projects",
+   "published": "2026-04-24",
+   "seconds": 45,
+   "theme": "hiring"
+  },
+  {
+   "id": "BRHrqkPHhQI",
+   "title": "How to Prepare for Database Subject?",
+   "published": "2026-04-24",
+   "seconds": 38,
+   "theme": "money"
+  },
+  {
+   "id": "dKdzzUTTHww",
+   "title": "Master the DSA Interview! 💻 Essential Tips for Data Structures & Algorithms Prep",
+   "published": "2026-04-24",
+   "seconds": 46,
+   "theme": "hiring"
+  },
+  {
+   "id": "Ci-fMtF3V3k",
+   "title": "Essential Skills to Become an MTS Engineer: Database & DSA",
+   "published": "2026-04-23",
+   "seconds": 21,
+   "theme": "hiring"
+  },
+  {
+   "id": "EjXbh851v9Y",
+   "title": "What Does an MTS Engineer at Oracle Actually Do?",
+   "published": "2026-04-23",
+   "seconds": 22,
+   "theme": "work"
+  },
+  {
+   "id": "b0HACQv1gGc",
+   "title": "Will AI Take Your Job? A Researcher's Honest Take",
+   "published": "2026-04-20",
+   "seconds": 43,
+   "theme": "ai"
+  },
+  {
+   "id": "vhwYMK6_u8k",
+   "title": "What Are the Best Careers After B.Com Honors?",
+   "published": "2026-04-20",
+   "seconds": 45,
+   "theme": "college"
+  }
+ ]
+}
