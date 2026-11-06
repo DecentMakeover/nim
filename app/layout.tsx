@@ -27,7 +27,9 @@ export const metadata: Metadata = {
     url: WEBSITE_URL,
     siteName: "Ryan D'Souza",
     type: 'website',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: "Ryan D'Souza" }],
   },
+  twitter: { card: 'summary_large_image', images: ['/og.png'] },
 }
 
 const geist = Geist({

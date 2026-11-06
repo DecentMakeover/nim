@@ -15,7 +15,9 @@ ryandsouza.org is the hub for exactly two products:
 1. **The Podcast** — long-form conversations (250+ since 2021). Spotify show + YouTube.
 2. **The Blueprint** — street interviews in Bengaluru about work, money, and careers. Instagram @theblueprintuncut.
 
-The page must route a visitor into one of three actions: subscribe on YouTube, listen on Spotify, follow The Blueprint on IG — or simply start watching something within one tap. Everything else is a distraction and was deliberately removed (movies, music, sports, guitar, visualizations, blog, tattoo generator).
+A blog (`/blog`) sits beside them as a quiet third door for write-ups.
+
+The page must route a visitor into one of three actions: subscribe on YouTube, listen on Spotify, follow The Blueprint on IG — or simply start watching something within one tap. Everything else is a distraction and was deliberately removed (movies, music, sports, guitar, visualizations, tattoo generator).
 
 Success: a visitor lands, understands the two products in under five seconds, and taps through to one of them.
 
@@ -38,7 +40,7 @@ Three words: editorial, candid, grounded.
 2. The content is the decoration. Real episode art, real title cards, real questions from the ledger — no stock, no abstract shapes.
 3. Same brand as the feed. The site must look like the thumbnails and reels that brought the visitor here (ink/cream/terracotta, Instrument Serif).
 4. One tap to platform. Every episode/clip shown links straight to YouTube/Spotify/Instagram; the site never tries to keep people on it.
-5. Data-driven where it pays. Blueprint content renders from the content_pipeline ledger export so new interviews appear without editing components.
+5. Never stale. The episode and Blueprint lists are generated from YouTube every two hours (`scripts/site_sync/`); nobody edits them by hand. Topics come from the channel's own playlists.
 
 ## Accessibility & Inclusion
 

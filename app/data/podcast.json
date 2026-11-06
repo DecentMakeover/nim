@@ -1,0 +1,523 @@
+{
+ "topics": [
+  {
+   "slug": "ai",
+   "name": "AI & Technology",
+   "count": 10
+  },
+  {
+   "slug": "india",
+   "name": "India, Economy & Work",
+   "count": 12
+  },
+  {
+   "slug": "startups",
+   "name": "Startups, Business & Investing",
+   "count": 20
+  },
+  {
+   "slug": "culture",
+   "name": "Culture, Philosophy & Ethics",
+   "count": 8
+  }
+ ],
+ "start_here": [
+  "987I8tKcUcw",
+  "XyI9YlFjwZw",
+  "xisg3TY_v4I",
+  "Wh4mhKWFs5U",
+  "fuVeqmYUonk"
+ ],
+ "episodes": [
+  {
+   "id": "sMjOE_xZy-M",
+   "title": "Who Were India's Railways Really Built For?",
+   "guest": "Arup K. Chatterjee",
+   "detail": "O.P. Jindal Global University",
+   "published": "2026-11-04",
+   "minutes": 57,
+   "topics": [
+    "india",
+    "culture"
+   ]
+  },
+  {
+   "id": "RqqSoWb7z1w",
+   "title": "Will AI Agents Spread Like an Invasive Species?",
+   "guest": "Stephen Casper",
+   "detail": "Harvard Kennedy School",
+   "published": "2026-10-24",
+   "minutes": 45,
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "hWpcfYMPzKw",
+   "title": "The History and State of India's Chip Industry, Part 1",
+   "guest": "Arun Mampazhy",
+   "detail": "Semiconductor Analyst",
+   "published": "2026-10-17",
+   "minutes": 72,
+   "topics": [
+    "ai",
+    "india"
+   ]
+  },
+  {
+   "id": "jDzOhvyrYu4",
+   "title": "Why Does Dowry Still Exist in India?",
+   "guest": "Siwan Anderson",
+   "detail": "University of British Columbia",
+   "published": "2026-10-11",
+   "minutes": 37,
+   "topics": [
+    "india",
+    "culture"
+   ]
+  },
+  {
+   "id": "i0LcwbKX9DE",
+   "title": "How Do You Fund Deep Tech in India?",
+   "guest": "Vishesh Rajaram",
+   "detail": "Speciale Invest",
+   "published": "2026-10-09",
+   "minutes": 26,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "987I8tKcUcw",
+   "title": "Why Is Bangalore So Hard to Fix?",
+   "guest": "Srikanth Viswanathan",
+   "detail": "Janaagraha",
+   "published": "2026-10-01",
+   "minutes": 56,
+   "topics": [
+    "india"
+   ]
+  },
+  {
+   "id": "BlEN81gwbw8",
+   "title": "Who Gets AI's Wealth? Jobs, Wages & India",
+   "guest": "Klaus Prettner",
+   "detail": null,
+   "published": "2026-09-27",
+   "minutes": 51,
+   "topics": [
+    "ai",
+    "india"
+   ]
+  },
+  {
+   "id": "XyI9YlFjwZw",
+   "title": "Can India Build Frontier AI?",
+   "guest": "Tanmoy Chakraborty",
+   "detail": "IIT Delhi",
+   "published": "2026-09-21",
+   "minutes": 52,
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "DdTObbXo-MQ",
+   "title": "Who Controls the Web After AI?",
+   "guest": "Srinath Srinivasa",
+   "detail": "IIIT Bangalore",
+   "published": "2026-09-17",
+   "minutes": 75,
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "xisg3TY_v4I",
+   "title": "Why More Features Won't Save Your Startup",
+   "guest": "Vivian Gomez",
+   "detail": null,
+   "published": "2026-09-10",
+   "minutes": 98,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "HvaKouRDRuI",
+   "title": "\"The government is lying to you\": India's jobs crisis",
+   "guest": "Santosh Mehrotra",
+   "detail": "Professor",
+   "published": "2026-08-26",
+   "minutes": 62,
+   "topics": [
+    "india"
+   ]
+  },
+  {
+   "id": "asacUK7LOMw",
+   "title": "The Case Against Nuclear Power",
+   "guest": "M. V. Ramana",
+   "detail": null,
+   "published": "2026-08-22",
+   "minutes": 66,
+   "topics": [
+    "india"
+   ]
+  },
+  {
+   "id": "4LzlKoLAOUg",
+   "title": "India Is Not the Next China: jobs, factories and the AI threat",
+   "guest": "Arjun Ramani",
+   "detail": "The Economist",
+   "published": "2026-08-17",
+   "minutes": 65,
+   "topics": [
+    "india"
+   ]
+  },
+  {
+   "id": "rBs93dbJhTk",
+   "title": "How America Accidentally Built Indian Tech: H-1B, Y2K & the Brain Gain",
+   "guest": "Gaurav Khanna",
+   "detail": "UC San Diego",
+   "published": "2026-08-03",
+   "minutes": 68,
+   "topics": [
+    "india"
+   ]
+  },
+  {
+   "id": "SesEB_jwrfQ",
+   "title": "Career Breaks in India: Runway, Guilt & Coming Back",
+   "guest": "Adhar Masand",
+   "detail": null,
+   "published": "2026-07-25",
+   "minutes": 63,
+   "topics": [
+    "india"
+   ]
+  },
+  {
+   "id": "k2pn2bSRuNE",
+   "title": "The AI Arms Race Begins: Sovereign AI, China, India & Frontier Models",
+   "guest": "Raghav Toshniwal",
+   "detail": null,
+   "published": "2026-06-27",
+   "minutes": 83,
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "Wh4mhKWFs5U",
+   "title": "Should You Leave India? FIRE, Moving Abroad & the 1% Trap",
+   "guest": "Ravi Handa",
+   "detail": "Handa Uncle",
+   "published": "2026-06-06",
+   "minutes": 67,
+   "topics": [
+    "india"
+   ]
+  },
+  {
+   "id": "sM4Bl_d7lZg",
+   "title": "The Real AI Goldmine Isn't Foundation Models",
+   "guest": "Bhavik Vasa",
+   "detail": "GetVantage",
+   "published": "2026-05-28",
+   "minutes": 43,
+   "topics": [
+    "ai",
+    "startups"
+   ]
+  },
+  {
+   "id": "UV5J5AXy7o4",
+   "title": "Effective Altruism & Animal Advocacy in India",
+   "guest": "Aditya Karanam",
+   "detail": null,
+   "published": "2026-05-12",
+   "minutes": 75,
+   "topics": [
+    "culture"
+   ]
+  },
+  {
+   "id": "qT2Kn0U7SJ4",
+   "title": "Why Software Engineering Will Never Be the Same",
+   "guest": "Indranil Tiwary",
+   "detail": "CTO, Incentiv",
+   "published": "2026-05-05",
+   "minutes": 80,
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "M3i0l-qgoz4",
+   "title": "Reclaiming Your Attention: The Ultimate Competitive Advantage",
+   "guest": "Diganth Jagadish",
+   "detail": null,
+   "published": "2026-04-14",
+   "minutes": 41,
+   "topics": [
+    "culture"
+   ]
+  },
+  {
+   "id": "yBuH_daeqiY",
+   "title": "The Ethics of Eating Meat: A Philosophical Deep Dive",
+   "guest": "Parsuram Venkatesh",
+   "detail": null,
+   "published": "2026-03-30",
+   "minutes": 57,
+   "topics": [
+    "culture"
+   ]
+  },
+  {
+   "id": "XYMDSqF5MQc",
+   "title": "The Evolution of Venture Capital in India (2006-2026)",
+   "guest": "Ranjith Menon",
+   "detail": "Chiratae Ventures",
+   "published": "2026-01-15",
+   "minutes": 62,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "V65gXgTZxrY",
+   "title": "Startup Exits, IPOs and the $1 Billion Myth",
+   "guest": "Vikram Gawande",
+   "detail": null,
+   "published": "2025-11-28",
+   "minutes": 43,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "zZfcnZIsEUc",
+   "title": "Consumer Tech Playbook for India",
+   "guest": "Marmik Mankodi",
+   "detail": "AVP, Blume Ventures",
+   "published": "2025-11-21",
+   "minutes": 48,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "6KsVB9NlKkA",
+   "title": "India's first public SaaS company",
+   "guest": "Bhanu Chopra",
+   "detail": "Founder, RateGain",
+   "published": "2025-09-26",
+   "minutes": 31,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "U9wwiOs5TTA",
+   "title": "Scaling to $10M ARR in under 13 months",
+   "guest": "Alan Dsouza",
+   "detail": "Outbox Labs",
+   "published": "2025-09-09",
+   "minutes": 34,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "9oXZZw6Tr6c",
+   "title": "On Trust",
+   "guest": "Joseph Sebastian",
+   "detail": "Blume VC",
+   "published": "2025-09-01",
+   "minutes": 101,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "bgH4RQeJ9vg",
+   "title": "AI in Healthcare",
+   "guest": "Suthirth Vaidya",
+   "detail": "Product, nference (Anumana)",
+   "published": "2025-06-17",
+   "minutes": 69,
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "eW1CEK8XYHg",
+   "title": null,
+   "guest": "Pranav Srinivasan",
+   "detail": "Co-founder, Accio Robotics",
+   "published": "2025-06-09",
+   "minutes": 62,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "S-JgQ57_Px0",
+   "title": "DevShaadi Launch",
+   "guest": "Anant Patni",
+   "detail": "SDE-3, BharatPe",
+   "published": "2025-05-16",
+   "minutes": 47,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "XszbOU7vNK8",
+   "title": "A Deep Dive into Indian SaaS",
+   "guest": "Ravi Rajamony",
+   "detail": "Vice President, March Capital",
+   "published": "2025-05-08",
+   "minutes": 73,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "Cfr_iY_h89I",
+   "title": null,
+   "guest": "Rishabh Goel",
+   "detail": "CEO, Dodo Payments",
+   "published": "2025-04-29",
+   "minutes": 49,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "fFnbJaK1itQ",
+   "title": null,
+   "guest": "Harsh Pokharna",
+   "detail": "Co-founder & CEO, OKCredit",
+   "published": "2025-04-22",
+   "minutes": 34,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "yioS01DdpQY",
+   "title": "Scaling Swiggy to 500 cities",
+   "guest": "Saurabh Jain",
+   "detail": "Co-founder, Stable Money",
+   "published": "2025-03-26",
+   "minutes": 53,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "xQZDOeg0ZMY",
+   "title": null,
+   "guest": "Sasank Chilamkurthy",
+   "detail": "Co-founder, qure.ai & JOHNAIC",
+   "published": "2025-03-02",
+   "minutes": 45,
+   "topics": [
+    "ai",
+    "startups"
+   ]
+  },
+  {
+   "id": "0F8qGvrL1D8",
+   "title": null,
+   "guest": "Vinay Dubey",
+   "detail": "Co-founder & CMO, Wint Wealth",
+   "published": "2025-02-17",
+   "minutes": 82,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "VS38xm-eBF8",
+   "title": null,
+   "guest": "R. Balki",
+   "detail": "Director of Pad Man, Shamitabh",
+   "published": "2023-12-24",
+   "minutes": 57,
+   "topics": [
+    "culture"
+   ]
+  },
+  {
+   "id": "nBp0UEPj5hk",
+   "title": "How Finshots Built the Trust Behind Ditto",
+   "guest": "Pawan Kumar Rai",
+   "detail": null,
+   "published": "2023-10-15",
+   "minutes": 71,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "77QOI7IQyQ8",
+   "title": "Round 2",
+   "guest": "Tanay Pratap",
+   "detail": "Ex Microsoft, founder of Invact",
+   "published": "2023-09-25",
+   "minutes": 55,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "c4RaPmyUHXU",
+   "title": null,
+   "guest": "Ajay Shah",
+   "detail": null,
+   "published": "2023-09-23",
+   "minutes": 81,
+   "topics": [
+    "india"
+   ]
+  },
+  {
+   "id": "srVMeWIRgTY",
+   "title": "A Primer on ESOP",
+   "guest": "Alok Mehta",
+   "detail": "Blume VC",
+   "published": "2023-09-17",
+   "minutes": 54,
+   "topics": [
+    "startups"
+   ]
+  },
+  {
+   "id": "dtcnEKS8Wus",
+   "title": null,
+   "guest": "Ramachandran Ramesh",
+   "detail": "Indian Chess Grandmaster",
+   "published": "2023-02-13",
+   "minutes": 106,
+   "topics": [
+    "culture"
+   ]
+  },
+  {
+   "id": "fuVeqmYUonk",
+   "title": "Ramayana, Religion, Time as God, Hinduism & The Diversity of Truth",
+   "guest": "Anand Neelakantan",
+   "detail": null,
+   "published": "2023-01-21",
+   "minutes": 149,
+   "topics": [
+    "culture"
+   ]
+  }
+ ]
+}

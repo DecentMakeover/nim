@@ -86,9 +86,11 @@ export function QuestionStage({ clips }: { clips: Clip[] }) {
       <span className="wordmark font-wordmark mx-auto mt-8 block max-w-4xl text-lg leading-[1.75] uppercase sm:text-[27px] sm:leading-[1.8]">
         {c.question}
       </span>
-      <span className="mt-8 block text-[11px] font-medium tracking-[0.24em] text-gray uppercase">
-        {c.person}
-      </span>
+      {c.person && (
+        <span className="mt-8 block text-[11px] font-medium tracking-[0.24em] text-gray uppercase">
+          {c.person}
+        </span>
+      )}
     </a>
   )
 }
