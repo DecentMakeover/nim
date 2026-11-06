@@ -39,8 +39,8 @@ page. No dark mode.
 ## Long lists
 
 /podcast and /blueprint keep their hero (guest tape, question deck), then a short
-intro, then the complete list: text filters with counts, a search field and
-"Show more". Filters are underlined text, not pills. The list is generated; see
+intro, then the complete list: one row of short text filters, a search field with
+the result count beside it, and "Show more". Filters are underlined text, not pills. The list is generated; see
 `scripts/site_sync/README.md`.
 
 ## Motion
