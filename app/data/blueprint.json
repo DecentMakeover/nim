@@ -18,12 +18,12 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 37
+   "count": 39
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 56
+   "count": 55
   },
   {
    "slug": "life",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "flLo2hL5sG8",
+   "title": "How he got into Amazon: job portal, online assessment, three interviews",
+   "published": "2026-11-06",
+   "seconds": 27,
+   "theme": "hiring"
+  },
   {
    "id": "lPi8flQAnpA",
    "title": "Rent in Bangalore: ₹8K Rooms and a ₹1.2L Shared Flat",
@@ -703,11 +710,11 @@
    "theme": "college"
   },
   {
-   "id": "FaoBKWJ0aCY",
-   "title": "First benchers vs back benchers: \"not a first rank Raju\"",
+   "id": "EbCSqRJSWk4",
+   "title": "Impulsive spender vs the 50/30/20 rule, 8 months into a first job",
    "published": "2026-10-13",
-   "seconds": 40,
-   "theme": "college"
+   "seconds": 44,
+   "theme": "hiring"
   },
   {
    "id": "lpz_D6ZCBPY",
