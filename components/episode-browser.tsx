@@ -16,6 +16,14 @@ export type Episode = {
 
 type Topic = { slug: string; name: string; count: number }
 
+// Filter labels. The full names are the YouTube playlists, too long for one row.
+const TOPIC_LABELS: Record<string, string> = {
+  ai: 'AI',
+  india: 'India',
+  startups: 'Startups',
+  culture: 'Culture',
+}
+
 export function EpisodeRow({ episode: e }: { episode: Episode }) {
   const heading = e.title ?? e.guest
   const byline = [e.title ? e.guest : null, e.detail].filter(Boolean).join(' · ')
@@ -75,13 +83,17 @@ export function EpisodeBrowser({
     <>
       <BrowseControls
         label="Filter episodes by topic"
-        options={topics}
-        total={episodes.length}
+        options={topics.map((t) => ({
+          slug: t.slug,
+          label: TOPIC_LABELS[t.slug] ?? t.name,
+        }))}
         filter={b.filter}
         setFilter={b.setFilter}
         query={b.query}
         setQuery={b.setQuery}
-        placeholder="Search by guest, company or subject"
+        placeholder="Search by guest or subject"
+        resultCount={b.matches.length}
+        noun="episode"
       />
       {b.visible.length === 0 ? (
         <p className="text-gray mt-8 font-serif">No episodes match that.</p>

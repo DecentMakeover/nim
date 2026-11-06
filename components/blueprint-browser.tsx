@@ -14,6 +14,17 @@ export type BlueprintVideo = {
 
 type Theme = { slug: string; name: string; count: number }
 
+// Filter labels. Each row still shows the theme's full name.
+const THEME_LABELS: Record<string, string> = {
+  compilations: 'Compilations',
+  ai: 'AI',
+  money: 'Money',
+  hiring: 'Hiring',
+  college: 'College',
+  life: 'Life',
+  work: 'The job',
+}
+
 export function BlueprintBrowser({
   videos,
   themes,
@@ -33,13 +44,19 @@ export function BlueprintBrowser({
     <>
       <BrowseControls
         label="Filter videos by theme"
-        options={themes.filter((t) => t.slug !== 'other')}
-        total={videos.length}
+        options={themes
+          .filter((t) => t.slug !== 'other')
+          .map((t) => ({
+            slug: t.slug,
+            label: THEME_LABELS[t.slug] ?? t.name,
+          }))}
         filter={b.filter}
         setFilter={b.setFilter}
         query={b.query}
         setQuery={b.setQuery}
-        placeholder="Search by company, role or subject"
+        placeholder="Search by company or role"
+        resultCount={b.matches.length}
+        noun="video"
       />
       {b.visible.length === 0 ? (
         <p className="text-gray mt-8 font-serif">No videos match that.</p>

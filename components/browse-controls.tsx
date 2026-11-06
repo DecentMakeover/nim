@@ -1,33 +1,32 @@
 'use client'
 
-type Option = { slug: string; name: string; count: number }
+type Option = { slug: string; label: string }
 
 export function BrowseControls({
   label,
   options,
-  total,
   filter,
   setFilter,
   query,
   setQuery,
   placeholder,
+  resultCount,
+  noun,
 }: {
   label: string
   options: Option[]
-  total: number
   filter: string
   setFilter: (slug: string) => void
   query: string
   setQuery: (q: string) => void
   placeholder: string
+  resultCount: number
+  noun: string
 }) {
-  const all = [{ slug: 'all', name: 'All', count: total }, ...options]
+  const all = [{ slug: 'all', label: 'All' }, ...options]
   return (
     <div>
-      <ul
-        aria-label={label}
-        className="flex flex-wrap gap-x-5 gap-y-1 text-[11px] font-medium tracking-[0.14em] uppercase"
-      >
+      <ul aria-label={label} className="flex flex-wrap gap-x-6 text-sm">
         {all.map((o) => {
           const on = filter === o.slug
           return (
@@ -36,33 +35,32 @@ export function BrowseControls({
                 type="button"
                 aria-pressed={on}
                 onClick={() => setFilter(o.slug)}
-                className={`cursor-pointer py-3.5 text-left uppercase transition-colors hover:text-terracotta ${
-                  on ? 'text-ink' : 'text-gray'
+                className={`hover:text-terracotta cursor-pointer py-3 transition-colors ${
+                  on
+                    ? 'text-ink underline decoration-1 underline-offset-[6px]'
+                    : 'text-gray'
                 }`}
               >
-                <span
-                  className={
-                    on ? 'underline decoration-1 underline-offset-[6px]' : ''
-                  }
-                >
-                  {o.name}
-                </span>
-                <span className="text-gray-soft ml-1.5 font-normal">
-                  {o.count}
-                </span>
+                {o.label}
               </button>
             </li>
           )
         })}
       </ul>
-      <input
-        type="search"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder={placeholder}
-        aria-label={placeholder}
-        className="border-hairline placeholder:text-gray-soft focus:border-gray mt-3 w-full border-b bg-transparent py-3 font-serif text-base outline-none"
-      />
+      <div className="border-hairline focus-within:border-gray mt-3 flex items-baseline gap-4 border-b">
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={placeholder}
+          aria-label={placeholder}
+          className="placeholder:text-gray-soft min-w-0 flex-1 bg-transparent py-3 font-serif text-base outline-none"
+        />
+        <span aria-live="polite" className="text-gray-soft shrink-0 text-xs">
+          {resultCount} {noun}
+          {resultCount === 1 ? '' : 's'}
+        </span>
+      </div>
     </div>
   )
 }
