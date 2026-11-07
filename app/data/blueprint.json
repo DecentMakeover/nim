@@ -13,17 +13,17 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 124
+   "count": 125
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 40
+   "count": 39
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 55
+   "count": 56
   },
   {
    "slug": "life",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "YXXmFNIzww0",
+   "title": "Amazon culture, from an SDE 1: \"it's chill\" and \"a lot of learning\"",
+   "published": "2026-11-07",
+   "seconds": 28,
+   "theme": "money"
+  },
   {
    "id": "R_GQNpmsbIY",
    "title": "Amazon SDE on FAANG interview prep: start with a list, then company questions",
@@ -703,11 +710,11 @@
    "theme": "college"
   },
   {
-   "id": "vqQNwXQ-p5E",
-   "title": "How she got into BCG: about 100 selected from all over India",
+   "id": "HRupLliW6ic",
+   "title": "A gold medalist's study routine: \"I used to party\"",
    "published": "2026-10-14",
-   "seconds": 25,
-   "theme": "hiring"
+   "seconds": 51,
+   "theme": "college"
   },
   {
    "id": "FaoBKWJ0aCY",
