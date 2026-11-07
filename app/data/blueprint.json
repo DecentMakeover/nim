@@ -8,12 +8,12 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 46
+   "count": 47
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 124
+   "count": 125
   },
   {
    "slug": "hiring",
@@ -23,7 +23,7 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 55
+   "count": 56
   },
   {
    "slug": "life",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "dnrg0DJ2EdY",
+   "title": "Master's in AI/ML at Buffalo, then back to India to join Amazon",
+   "published": "2026-11-07",
+   "seconds": 20,
+   "theme": "ai"
+  },
   {
    "id": "TOpp3-Vclac",
    "title": "How AI changed the day job of an Amazon developer",
@@ -703,11 +710,11 @@
    "theme": "money"
   },
   {
-   "id": "bRQS0rP2Bvk",
-   "title": "A Morgan Stanley analyst on AI: \"It could do our job easily\"",
+   "id": "jes0q4oZTi8",
+   "title": "What she misses most about college: the time she complained about",
    "published": "2026-10-14",
-   "seconds": 36,
-   "theme": "ai"
+   "seconds": 30,
+   "theme": "college"
   },
   {
    "id": "vqQNwXQ-p5E",
@@ -2404,6 +2411,13 @@
    "theme": "college"
   },
   {
+   "id": "X34neh9ygUw",
+   "title": "CA at Standard Chartered: ChatGPT, Claude, or Gemini?",
+   "published": "2026-05-30",
+   "seconds": 16,
+   "theme": "ai"
+  },
+  {
    "id": "7iq2FqwwSiQ",
    "title": "CA at Standard Chartered: Monthly Expenses & Savings",
    "published": "2026-05-30",
@@ -2738,6 +2752,13 @@
    "published": "2026-05-09",
    "seconds": 22,
    "theme": "work"
+  },
+  {
+   "id": "PH0ETYcXoH4",
+   "title": "OTC Salary Range in India (Fresher & Experienced)",
+   "published": "2026-05-09",
+   "seconds": 40,
+   "theme": "money"
   },
   {
    "id": "cMe9sDp0mPY",
