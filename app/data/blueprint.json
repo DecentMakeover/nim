@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 39
+   "count": 40
   },
   {
    "slug": "college",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "R_GQNpmsbIY",
+   "title": "Amazon SDE on FAANG interview prep: start with a list, then company questions",
+   "published": "2026-11-07",
+   "seconds": 37,
+   "theme": "hiring"
+  },
   {
    "id": "flLo2hL5sG8",
    "title": "How he got into Amazon: job portal, online assessment, three interviews",
@@ -703,10 +710,10 @@
    "theme": "hiring"
   },
   {
-   "id": "HRupLliW6ic",
-   "title": "A gold medalist's study routine: \"I used to party\"",
-   "published": "2026-10-14",
-   "seconds": 51,
+   "id": "FaoBKWJ0aCY",
+   "title": "First benchers vs back benchers: \"not a first rank Raju\"",
+   "published": "2026-10-13",
+   "seconds": 40,
    "theme": "college"
   },
   {
