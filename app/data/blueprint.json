@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 47
+   "count": 48
   },
   {
    "slug": "money",
@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 41
+   "count": 43
   },
   {
    "slug": "college",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "ejaxGsG_PSE",
+   "title": "Into Amazon after about 100 LeetCode questions",
+   "published": "2026-11-08",
+   "seconds": 19,
+   "theme": "hiring"
+  },
   {
    "id": "CqpR3ch-v1c",
    "title": "Amazon SDE intern pay: \"around 13 LPA\" if you extrapolate to a year",
@@ -703,11 +710,11 @@
    "theme": "life"
   },
   {
-   "id": "346tW6mde-E",
-   "title": "Is an MBA worth it for a finance operations role? An analyst answers",
+   "id": "Oolc8Uz7R5o",
+   "title": "Campus placement to Morgan Stanley: aptitude, technical, HR",
    "published": "2026-10-15",
-   "seconds": 35,
-   "theme": "college"
+   "seconds": 42,
+   "theme": "hiring"
   },
   {
    "id": "dAvk6P0PU9k",
@@ -2222,6 +2229,13 @@
    "theme": "hiring"
   },
   {
+   "id": "L1KlKgUEydM",
+   "title": "Data Scientist: Christ University Masters - Strict Rules & Attendance",
+   "published": "2026-06-18",
+   "seconds": 30,
+   "theme": "college"
+  },
+  {
    "id": "ghxd0eJiThc",
    "title": "HSBC Data Scientist: AI for Banking Automation",
    "published": "2026-06-15",
@@ -2738,6 +2752,13 @@
    "published": "2026-05-12",
    "seconds": 25,
    "theme": "money"
+  },
+  {
+   "id": "mMURNgWkhuA",
+   "title": "Manual Work Over AI, Except for Recipes",
+   "published": "2026-05-12",
+   "seconds": 34,
+   "theme": "ai"
   },
   {
    "id": "yqv-watrmy0",
