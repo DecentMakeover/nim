@@ -8,17 +8,17 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 48
+   "count": 47
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 124
+   "count": 126
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 42
+   "count": 41
   },
   {
    "slug": "college",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "CqpR3ch-v1c",
+   "title": "Amazon SDE intern pay: \"around 13 LPA\" if you extrapolate to a year",
+   "published": "2026-11-08",
+   "seconds": 32,
+   "theme": "money"
+  },
   {
    "id": "DwqqHSSAYas",
    "title": "Amazon SDE intern rounds: two rounds, four LeetCode mediums",
@@ -703,11 +710,11 @@
    "theme": "college"
   },
   {
-   "id": "Oolc8Uz7R5o",
-   "title": "Campus placement to Morgan Stanley: aptitude, technical, HR",
+   "id": "dAvk6P0PU9k",
+   "title": "Why this Morgan Stanley analyst doesn't invest in stocks",
    "published": "2026-10-15",
-   "seconds": 42,
-   "theme": "hiring"
+   "seconds": 22,
+   "theme": "money"
   },
   {
    "id": "l9yCXAXGnzU",
@@ -2731,13 +2738,6 @@
    "published": "2026-05-12",
    "seconds": 25,
    "theme": "money"
-  },
-  {
-   "id": "mMURNgWkhuA",
-   "title": "Manual Work Over AI, Except for Recipes",
-   "published": "2026-05-12",
-   "seconds": 34,
-   "theme": "ai"
   },
   {
    "id": "yqv-watrmy0",
