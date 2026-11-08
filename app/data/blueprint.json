@@ -18,17 +18,17 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 41
+   "count": 42
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 56
+   "count": 55
   },
   {
    "slug": "life",
    "name": "Life outside work",
-   "count": 45
+   "count": 46
   },
   {
    "slug": "work",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "DwqqHSSAYas",
+   "title": "Amazon SDE intern rounds: two rounds, four LeetCode mediums",
+   "published": "2026-11-08",
+   "seconds": 30,
+   "theme": "hiring"
+  },
   {
    "id": "CHIsvOMLtr4",
    "title": "Amazon SDE internship: LeetCode two hours a day for two months",
@@ -703,10 +710,10 @@
    "theme": "hiring"
   },
   {
-   "id": "dAvk6P0PU9k",
-   "title": "Why this Morgan Stanley analyst doesn't invest in stocks",
+   "id": "l9yCXAXGnzU",
+   "title": "50% hike or a promotion? A Morgan Stanley analyst chooses",
    "published": "2026-10-15",
-   "seconds": 22,
+   "seconds": 26,
    "theme": "money"
   },
   {
@@ -2208,13 +2215,6 @@
    "theme": "hiring"
   },
   {
-   "id": "L1KlKgUEydM",
-   "title": "Data Scientist: Christ University Masters - Strict Rules & Attendance",
-   "published": "2026-06-18",
-   "seconds": 30,
-   "theme": "college"
-  },
-  {
    "id": "ghxd0eJiThc",
    "title": "HSBC Data Scientist: AI for Banking Automation",
    "published": "2026-06-15",
@@ -2738,6 +2738,13 @@
    "published": "2026-05-12",
    "seconds": 34,
    "theme": "ai"
+  },
+  {
+   "id": "yqv-watrmy0",
+   "title": "My Parents Wanted Me To Be A Banker",
+   "published": "2026-05-11",
+   "seconds": 14,
+   "theme": "life"
   },
   {
    "id": "tjfusuFvLxM",
