@@ -8,17 +8,17 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 47
+   "count": 48
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 125
+   "count": 124
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 40
+   "count": 41
   },
   {
    "slug": "college",
@@ -28,7 +28,7 @@
   {
    "slug": "life",
    "name": "Life outside work",
-   "count": 46
+   "count": 45
   },
   {
    "slug": "work",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "CHIsvOMLtr4",
+   "title": "Amazon SDE internship: LeetCode two hours a day for two months",
+   "published": "2026-11-08",
+   "seconds": 36,
+   "theme": "hiring"
+  },
   {
    "id": "dnrg0DJ2EdY",
    "title": "Master's in AI/ML at Buffalo, then back to India to join Amazon",
@@ -703,11 +710,11 @@
    "theme": "money"
   },
   {
-   "id": "l9yCXAXGnzU",
-   "title": "50% hike or a promotion? A Morgan Stanley analyst chooses",
-   "published": "2026-10-15",
-   "seconds": 26,
-   "theme": "money"
+   "id": "bRQS0rP2Bvk",
+   "title": "A Morgan Stanley analyst on AI: \"It could do our job easily\"",
+   "published": "2026-10-14",
+   "seconds": 36,
+   "theme": "ai"
   },
   {
    "id": "jes0q4oZTi8",
@@ -2731,13 +2738,6 @@
    "published": "2026-05-12",
    "seconds": 34,
    "theme": "ai"
-  },
-  {
-   "id": "yqv-watrmy0",
-   "title": "My Parents Wanted Me To Be A Banker",
-   "published": "2026-05-11",
-   "seconds": 14,
-   "theme": "life"
   },
   {
    "id": "tjfusuFvLxM",
