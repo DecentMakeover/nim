@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 48
+   "count": 49
   },
   {
    "slug": "money",
@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 43
+   "count": 44
   },
   {
    "slug": "college",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "8O7vUi9ENE0",
+   "title": "Google interview prep: you're \"measured on how Googly you are\"",
+   "published": "2026-11-09",
+   "seconds": 44,
+   "theme": "hiring"
+  },
   {
    "id": "FR-neh2ff_E",
    "title": "Amazon intern on AI: barely used it in college, now finds it \"really useful\"",
@@ -703,10 +710,10 @@
    "theme": "money"
   },
   {
-   "id": "jFgtQDpaLZk",
-   "title": "Zara and H&M, but cutting down on fast fashion",
+   "id": "EZcmjLtEqbI",
+   "title": "Full work from home or office? \"I think home\"",
    "published": "2026-10-16",
-   "seconds": 31,
+   "seconds": 29,
    "theme": "life"
   },
   {
@@ -2409,6 +2416,13 @@
    "published": "2026-06-01",
    "seconds": 33,
    "theme": "money"
+  },
+  {
+   "id": "UzbVvAP0nWk",
+   "title": "Accenture Senior Manager's Go-To AI: Microsoft CoPilot",
+   "published": "2026-06-01",
+   "seconds": 31,
+   "theme": "ai"
   },
   {
    "id": "xYxTz2AW2To",
