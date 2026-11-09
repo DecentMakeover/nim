@@ -13,7 +13,7 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 126
+   "count": 123
   },
   {
    "slug": "hiring",
@@ -23,12 +23,12 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 56
+   "count": 57
   },
   {
    "slug": "life",
    "name": "Life outside work",
-   "count": 45
+   "count": 46
   },
   {
    "slug": "work",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "gSpQOEXBjow",
+   "title": "\"You don't really need an MBA\" to be a good problem solver",
+   "published": "2026-11-09",
+   "seconds": 39,
+   "theme": "college"
+  },
   {
    "id": "8O7vUi9ENE0",
    "title": "Google interview prep: you're \"measured on how Googly you are\"",
@@ -703,11 +710,11 @@
    "theme": "compilations"
   },
   {
-   "id": "NSs-_qFMaf4",
-   "title": "300% hike from Cognizant to EY: what this AI engineer changed",
+   "id": "jFgtQDpaLZk",
+   "title": "Zara and H&M, but cutting down on fast fashion",
    "published": "2026-10-16",
-   "seconds": 51,
-   "theme": "money"
+   "seconds": 31,
+   "theme": "life"
   },
   {
    "id": "EZcmjLtEqbI",
@@ -2054,13 +2061,6 @@
    "theme": "money"
   },
   {
-   "id": "H1u6A39kwB0",
-   "title": "IIT BHU Software Engineer: How much tax do you pay per year? (10-15 Lakhs)",
-   "published": "2026-07-25",
-   "seconds": 10,
-   "theme": "money"
-  },
-  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2738,13 +2738,6 @@
    "published": "2026-05-13",
    "seconds": 37,
    "theme": "work"
-  },
-  {
-   "id": "b3rkCcPRb6U",
-   "title": "Straight Talk: Education Cost vs. Current Earnings in India",
-   "published": "2026-05-13",
-   "seconds": 24,
-   "theme": "money"
   },
   {
    "id": "yoMQ67delh4",
