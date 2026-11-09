@@ -23,7 +23,7 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 57
+   "count": 58
   },
   {
    "slug": "life",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "U3Ft0hD8KIc",
+   "title": "How to get into product strategy: \"master your first principles\"",
+   "published": "2026-11-09",
+   "seconds": 31,
+   "theme": "college"
+  },
   {
    "id": "yqaXUruoDw8",
    "title": "Does College Tier Follow You to Work? 8 Professionals Answer",
@@ -715,6 +722,13 @@
    "published": "2026-10-16",
    "seconds": 309,
    "theme": "compilations"
+  },
+  {
+   "id": "NSs-_qFMaf4",
+   "title": "300% hike from Cognizant to EY: what this AI engineer changed",
+   "published": "2026-10-16",
+   "seconds": 51,
+   "theme": "money"
   },
   {
    "id": "jFgtQDpaLZk",
@@ -2061,13 +2075,6 @@
    "theme": "money"
   },
   {
-   "id": "zp7G6lwcaWo",
-   "title": "IIT BHU Software Engineer: Academic Roadmap for a High Package",
-   "published": "2026-07-25",
-   "seconds": 56,
-   "theme": "money"
-  },
-  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2205,13 +2212,6 @@
    "title": "Senior Data Engineer: College Cost & 1st Year Salary ROI",
    "published": "2026-06-30",
    "seconds": 34,
-   "theme": "money"
-  },
-  {
-   "id": "LaYQgGJe4-Q",
-   "title": "Senior Data Engineer on Government vs Private Schools: The Cost vs. Quality Debate",
-   "published": "2026-06-30",
-   "seconds": 27,
    "theme": "money"
   },
   {
@@ -2745,6 +2745,13 @@
    "published": "2026-05-13",
    "seconds": 37,
    "theme": "work"
+  },
+  {
+   "id": "b3rkCcPRb6U",
+   "title": "Straight Talk: Education Cost vs. Current Earnings in India",
+   "published": "2026-05-13",
+   "seconds": 24,
+   "theme": "money"
   },
   {
    "id": "yoMQ67delh4",
