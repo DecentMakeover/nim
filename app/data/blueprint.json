@@ -3,7 +3,7 @@
   {
    "slug": "compilations",
    "name": "Compilations",
-   "count": 2
+   "count": 3
   },
   {
    "slug": "ai",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "yqaXUruoDw8",
+   "title": "Does College Tier Follow You to Work? 8 Professionals Answer",
+   "published": "2026-11-09",
+   "seconds": 191,
+   "theme": "compilations"
+  },
   {
    "id": "gSpQOEXBjow",
    "title": "\"You don't really need an MBA\" to be a good problem solver",
