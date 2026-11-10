@@ -13,7 +13,7 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 122
+   "count": 121
   },
   {
    "slug": "hiring",
@@ -23,7 +23,7 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 58
+   "count": 59
   },
   {
    "slug": "life",
@@ -33,10 +33,17 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 108
+   "count": 109
   }
  ],
  "videos": [
+  {
+   "id": "F5g5lWriJsQ",
+   "title": "Maths and computing at IIT Patna: quant, software or data science roles",
+   "published": "2026-11-10",
+   "seconds": 26,
+   "theme": "college"
+  },
   {
    "id": "l8hFYLVGOAQ",
    "title": "200 applied for this Amazon internship at IIT Patna. One got in.",
@@ -2187,13 +2194,6 @@
    "theme": "hiring"
   },
   {
-   "id": "p2KwuyqyII8",
-   "title": "Wells Fargo Engineer: College Placements & 18 LPA Average Salary",
-   "published": "2026-07-05",
-   "seconds": 42,
-   "theme": "money"
-  },
-  {
    "id": "wAQg66oWEeI",
    "title": "Software Engineer at Wells Fargo: Leaves in Office",
    "published": "2026-07-05",
@@ -2738,6 +2738,13 @@
    "published": "2026-05-13",
    "seconds": 20,
    "theme": "money"
+  },
+  {
+   "id": "KcwU0WI-1lc",
+   "title": "Key Skills for Managers: Listening & Guiding Team Success",
+   "published": "2026-05-13",
+   "seconds": 21,
+   "theme": "work"
   },
   {
    "id": "2SMbqCP6Ujs",
