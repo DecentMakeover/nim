@@ -13,12 +13,12 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 122
+   "count": 121
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 44
+   "count": 45
   },
   {
    "slug": "college",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "q7Aig2RAvTU",
+   "title": "Amazon business research analyst intern: 70,000 a month plus relocation",
+   "published": "2026-11-10",
+   "seconds": 20,
+   "theme": "hiring"
+  },
   {
    "id": "wdZP7V-FwYI",
    "title": "Engineer plus MBA is common in product strategy, but not \"the magic combination\"",
@@ -2068,13 +2075,6 @@
    "theme": "college"
   },
   {
-   "id": "2K_qRt06pvk",
-   "title": "IIT BHU Engineer Reveals Education Cost | FIITJEE & College Fees",
-   "published": "2026-07-25",
-   "seconds": 38,
-   "theme": "money"
-  },
-  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2212,6 +2212,13 @@
    "title": "Senior Data Engineer: College Cost & 1st Year Salary ROI",
    "published": "2026-06-30",
    "seconds": 34,
+   "theme": "money"
+  },
+  {
+   "id": "LaYQgGJe4-Q",
+   "title": "Senior Data Engineer on Government vs Private Schools: The Cost vs. Quality Debate",
+   "published": "2026-06-30",
+   "seconds": 27,
    "theme": "money"
   },
   {
@@ -2724,13 +2731,6 @@
    "published": "2026-05-14",
    "seconds": 18,
    "theme": "work"
-  },
-  {
-   "id": "5RMIyrOhAkY",
-   "title": "Monthly Expense Breakdown in Bangalore",
-   "published": "2026-05-13",
-   "seconds": 20,
-   "theme": "money"
   },
   {
    "id": "2SMbqCP6Ujs",
