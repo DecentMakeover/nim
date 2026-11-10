@@ -13,17 +13,17 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 121
+   "count": 122
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 45
+   "count": 46
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 59
+   "count": 58
   },
   {
    "slug": "life",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "l8hFYLVGOAQ",
+   "title": "200 applied for this Amazon internship at IIT Patna. One got in.",
+   "published": "2026-11-10",
+   "seconds": 47,
+   "theme": "hiring"
+  },
   {
    "id": "q7Aig2RAvTU",
    "title": "Amazon business research analyst intern: 70,000 a month plus relocation",
@@ -2068,13 +2075,6 @@
    "theme": "money"
   },
   {
-   "id": "rX_dShBNb6M",
-   "title": "Software Engineer (IIT BHU): Tier 1 vs Tier 3 Colleges in the Workplace",
-   "published": "2026-07-25",
-   "seconds": 29,
-   "theme": "college"
-  },
-  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2731,6 +2731,13 @@
    "published": "2026-05-14",
    "seconds": 18,
    "theme": "work"
+  },
+  {
+   "id": "5RMIyrOhAkY",
+   "title": "Monthly Expense Breakdown in Bangalore",
+   "published": "2026-05-13",
+   "seconds": 20,
+   "theme": "money"
   },
   {
    "id": "2SMbqCP6Ujs",
