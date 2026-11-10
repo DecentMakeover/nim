@@ -13,7 +13,7 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 123
+   "count": 122
   },
   {
    "slug": "hiring",
@@ -23,7 +23,7 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 58
+   "count": 59
   },
   {
    "slug": "life",
@@ -33,10 +33,17 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 109
+   "count": 108
   }
  ],
  "videos": [
+  {
+   "id": "wdZP7V-FwYI",
+   "title": "Engineer plus MBA is common in product strategy, but not \"the magic combination\"",
+   "published": "2026-11-10",
+   "seconds": 25,
+   "theme": "college"
+  },
   {
    "id": "U3Ft0hD8KIc",
    "title": "How to get into product strategy: \"master your first principles\"",
@@ -2068,13 +2075,6 @@
    "theme": "money"
   },
   {
-   "id": "JkgLA7U77nc",
-   "title": "How to get a high package as a Software Engineer (IIT BHU)",
-   "published": "2026-07-25",
-   "seconds": 29,
-   "theme": "money"
-  },
-  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2731,13 +2731,6 @@
    "published": "2026-05-13",
    "seconds": 20,
    "theme": "money"
-  },
-  {
-   "id": "KcwU0WI-1lc",
-   "title": "Key Skills for Managers: Listening & Guiding Team Success",
-   "published": "2026-05-13",
-   "seconds": 21,
-   "theme": "work"
   },
   {
    "id": "2SMbqCP6Ujs",
