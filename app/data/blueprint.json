@@ -8,12 +8,12 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 49
+   "count": 50
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 121
+   "count": 122
   },
   {
    "slug": "hiring",
@@ -23,7 +23,7 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 59
+   "count": 60
   },
   {
    "slug": "life",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "oUbkQD0BE_E",
+   "title": "Amazon HR round: how would his LLM backdoor-attack project work at Amazon?",
+   "published": "2026-11-11",
+   "seconds": 24,
+   "theme": "ai"
+  },
   {
    "id": "F5g5lWriJsQ",
    "title": "Maths and computing at IIT Patna: quant, software or data science roles",
@@ -2082,6 +2089,13 @@
    "theme": "money"
   },
   {
+   "id": "rX_dShBNb6M",
+   "title": "Software Engineer (IIT BHU): Tier 1 vs Tier 3 Colleges in the Workplace",
+   "published": "2026-07-25",
+   "seconds": 29,
+   "theme": "college"
+  },
+  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2192,6 +2206,13 @@
    "published": "2026-07-05",
    "seconds": 40,
    "theme": "hiring"
+  },
+  {
+   "id": "p2KwuyqyII8",
+   "title": "Wells Fargo Engineer: College Placements & 18 LPA Average Salary",
+   "published": "2026-07-05",
+   "seconds": 42,
+   "theme": "money"
   },
   {
    "id": "wAQg66oWEeI",
