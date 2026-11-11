@@ -13,17 +13,17 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 124
+   "count": 125
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 46
+   "count": 47
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 59
+   "count": 60
   },
   {
    "slug": "life",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "ZwxYaR-7FmU",
+   "title": "Bangalore traffic, from a new Amazon intern: 4 minutes becomes an hour",
+   "published": "2026-11-11",
+   "seconds": 19,
+   "theme": "hiring"
+  },
   {
    "id": "ennUN6ROUqE",
    "title": "IIT Patna placements, as he heard them: LinkedIn \"1 crore 20\"",
@@ -2110,6 +2117,13 @@
    "theme": "money"
   },
   {
+   "id": "JkgLA7U77nc",
+   "title": "How to get a high package as a Software Engineer (IIT BHU)",
+   "published": "2026-07-25",
+   "seconds": 29,
+   "theme": "money"
+  },
+  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2423,6 +2437,13 @@
    "published": "2026-06-04",
    "seconds": 15,
    "theme": "ai"
+  },
+  {
+   "id": "3ni43zMYgks",
+   "title": "Accenture Manager: Can You Join Consulting Without an MBA?",
+   "published": "2026-06-04",
+   "seconds": 30,
+   "theme": "college"
   },
   {
    "id": "0_Rdm8U1QXE",
