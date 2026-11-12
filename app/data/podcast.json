@@ -8,7 +8,7 @@
   {
    "slug": "india",
    "name": "India, Economy & Work",
-   "count": 12
+   "count": 13
   },
   {
    "slug": "startups",
@@ -29,6 +29,17 @@
   "fuVeqmYUonk"
  ],
  "episodes": [
+  {
+   "id": "7vMOEzgbmuk",
+   "title": "Is Cheap Labour Holding India Back?",
+   "guest": "Surajit Mazumdar",
+   "detail": "Jawaharlal Nehru University",
+   "published": "2026-11-12",
+   "minutes": 56,
+   "topics": [
+    "india"
+   ]
+  },
   {
    "id": "sMjOE_xZy-M",
    "title": "Who Were India's Railways Really Built For?",

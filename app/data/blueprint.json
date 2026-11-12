@@ -18,12 +18,12 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 46
+   "count": 47
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 60
+   "count": 61
   },
   {
    "slug": "life",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "hcu6gOIeoO0",
+   "title": "From a tier-three college to senior software engineer at Google",
+   "published": "2026-11-12",
+   "seconds": 22,
+   "theme": "college"
+  },
   {
    "id": "VkShjKzP1K0",
    "title": "Learning Apache Camel? \"If you know Java,\" you are already 80% there",
@@ -3102,6 +3109,13 @@
    "published": "2026-04-24",
    "seconds": 38,
    "theme": "money"
+  },
+  {
+   "id": "dKdzzUTTHww",
+   "title": "Master the DSA Interview! 💻 Essential Tips for Data Structures & Algorithms Prep",
+   "published": "2026-04-24",
+   "seconds": 46,
+   "theme": "hiring"
   },
   {
    "id": "Ci-fMtF3V3k",
