@@ -33,10 +33,17 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 111
+   "count": 112
   }
  ],
  "videos": [
+  {
+   "id": "QLAkVorUBoE",
+   "title": "Getting into Google: he kept applying on the careers portal",
+   "published": "2026-11-12",
+   "seconds": 24,
+   "theme": "work"
+  },
   {
    "id": "1ojtgB8F-q4",
    "title": "Over 400 Applications: How Professionals Get Interviews",
