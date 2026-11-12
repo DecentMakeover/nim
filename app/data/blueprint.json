@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 47
+   "count": 46
   },
   {
    "slug": "college",
@@ -33,10 +33,17 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 109
+   "count": 111
   }
  ],
  "videos": [
+  {
+   "id": "XfTBruNr5lU",
+   "title": "Google remembers the questions from your earlier attempts",
+   "published": "2026-11-12",
+   "seconds": 36,
+   "theme": "work"
+  },
   {
    "id": "hcu6gOIeoO0",
    "title": "From a tier-three college to senior software engineer at Google",
@@ -2768,6 +2775,13 @@
    "theme": "life"
   },
   {
+   "id": "Z17spe88Dx4",
+   "title": "Beyond Basics: Unexpected Perks in Corporate",
+   "published": "2026-05-16",
+   "seconds": 44,
+   "theme": "work"
+  },
+  {
    "id": "pv_MbPHUDOk",
    "title": "From 6 LPA to 15-20 LPA: My CTC Growth Story",
    "published": "2026-05-16",
@@ -3094,13 +3108,6 @@
    "title": "AI Engineer Campus Placement after Masters in Data Science",
    "published": "2026-04-26",
    "seconds": 21,
-   "theme": "hiring"
-  },
-  {
-   "id": "Rjl08yuJCSk",
-   "title": "Why I Chose EY: Big 4, Global Clients, and Projects",
-   "published": "2026-04-24",
-   "seconds": 45,
    "theme": "hiring"
   },
   {
