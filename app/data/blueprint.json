@@ -13,12 +13,12 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 126
+   "count": 128
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 47
+   "count": 46
   },
   {
    "slug": "college",
@@ -33,10 +33,17 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 110
+   "count": 109
   }
  ],
  "videos": [
+  {
+   "id": "VkShjKzP1K0",
+   "title": "Learning Apache Camel? \"If you know Java,\" you are already 80% there",
+   "published": "2026-11-12",
+   "seconds": 31,
+   "theme": "money"
+  },
   {
    "id": "dwV4x8w97Dg",
    "title": "Apache Camel developers are rare: \"whatever I demanded, they gave me\"",
@@ -2138,6 +2145,13 @@
    "theme": "money"
   },
   {
+   "id": "H1u6A39kwB0",
+   "title": "IIT BHU Software Engineer: How much tax do you pay per year? (10-15 Lakhs)",
+   "published": "2026-07-25",
+   "seconds": 10,
+   "theme": "money"
+  },
+  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2747,13 +2761,6 @@
    "theme": "life"
   },
   {
-   "id": "Z17spe88Dx4",
-   "title": "Beyond Basics: Unexpected Perks in Corporate",
-   "published": "2026-05-16",
-   "seconds": 44,
-   "theme": "work"
-  },
-  {
    "id": "pv_MbPHUDOk",
    "title": "From 6 LPA to 15-20 LPA: My CTC Growth Story",
    "published": "2026-05-16",
@@ -3095,13 +3102,6 @@
    "published": "2026-04-24",
    "seconds": 38,
    "theme": "money"
-  },
-  {
-   "id": "dKdzzUTTHww",
-   "title": "Master the DSA Interview! 💻 Essential Tips for Data Structures & Algorithms Prep",
-   "published": "2026-04-24",
-   "seconds": 46,
-   "theme": "hiring"
   },
   {
    "id": "Ci-fMtF3V3k",
