@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 49
+   "count": 50
   },
   {
    "slug": "college",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "F0Uq54NX8zo",
+   "title": "Full stack interview prep: \"six to seven months\" from zero",
+   "published": "2026-11-13",
+   "seconds": 40,
+   "theme": "hiring"
+  },
   {
    "id": "WAbi9GI8Ybk",
    "title": "Google interview prep, all free: \"I didn't pay for anything\"",
