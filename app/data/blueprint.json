@@ -13,7 +13,7 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 128
+   "count": 129
   },
   {
    "slug": "hiring",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "WAbi9GI8Ybk",
+   "title": "Google interview prep, all free: \"I didn't pay for anything\"",
+   "published": "2026-11-13",
+   "seconds": 28,
+   "theme": "money"
+  },
   {
    "id": "hSJNzTef688",
    "title": "He cracked Google on his fourth try: the rounds",
