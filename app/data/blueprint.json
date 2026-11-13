@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 48
+   "count": 49
   },
   {
    "slug": "college",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "hSJNzTef688",
+   "title": "He cracked Google on his fourth try: the rounds",
+   "published": "2026-11-13",
+   "seconds": 21,
+   "theme": "hiring"
+  },
   {
    "id": "ay68KiFSsQ4",
    "title": "Google team matching took four months after the interviews",
