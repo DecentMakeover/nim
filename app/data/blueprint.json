@@ -33,10 +33,17 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 112
+   "count": 113
   }
  ],
  "videos": [
+  {
+   "id": "AVimtkj8B4w",
+   "title": "What skills do you need to be a full stack developer? \"Only coding\"",
+   "published": "2026-11-14",
+   "seconds": 20,
+   "theme": "work"
+  },
   {
    "id": "K1R3_kHkZfA",
    "title": "A full stack developer on AI: faster work now, \"some cut-off\" later",
