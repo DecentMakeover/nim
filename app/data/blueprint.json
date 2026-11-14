@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 50
+   "count": 51
   },
   {
    "slug": "money",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "K1R3_kHkZfA",
+   "title": "A full stack developer on AI: faster work now, \"some cut-off\" later",
+   "published": "2026-11-14",
+   "seconds": 20,
+   "theme": "ai"
+  },
   {
    "id": "F0Uq54NX8zo",
    "title": "Full stack interview prep: \"six to seven months\" from zero",
