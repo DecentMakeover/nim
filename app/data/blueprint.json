@@ -13,7 +13,7 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 129
+   "count": 130
   },
   {
    "slug": "hiring",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "7czBmy4HaRk",
+   "title": "From ECE to data scientist at EY, learning \"only from YouTube\"",
+   "published": "2026-11-14",
+   "seconds": 39,
+   "theme": "money"
+  },
   {
    "id": "YVmMsAfhLxk",
    "title": "Data scientist: Cognizant on campus, a startup instead, then EY",
