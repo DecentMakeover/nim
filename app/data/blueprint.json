@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 50
+   "count": 51
   },
   {
    "slug": "college",
@@ -37,6 +37,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "YVmMsAfhLxk",
+   "title": "Data scientist: Cognizant on campus, a startup instead, then EY",
+   "published": "2026-11-14",
+   "seconds": 28,
+   "theme": "hiring"
+  },
   {
    "id": "AVimtkj8B4w",
    "title": "What skills do you need to be a full stack developer? \"Only coding\"",
