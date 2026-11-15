@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 49
+   "count": 51
   },
   {
    "slug": "money",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 114
+   "count": 113
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "o-biDde6DIw",
+   "title": "AI got this tier-three college grad into a startup. Now Claude writes his boilerplate.",
+   "published": "2026-11-15",
+   "seconds": 32,
+   "theme": "ai"
+  },
   {
    "id": "gUsXMVwHoaQ",
    "title": "EY's ladder, from a data scientist: staff to manager in five to six years",
@@ -2766,11 +2773,11 @@
    "theme": "life"
   },
   {
-   "id": "hwvUtARxzJk",
-   "title": "Paytm Analyst: Top Skill is Constant Self-Upgrade",
-   "published": "2026-05-21",
-   "seconds": 18,
-   "theme": "work"
+   "id": "h_COk34NPS8",
+   "title": "AI Impact on IT Support: An Engineer's Day-to-Day Use",
+   "published": "2026-05-20",
+   "seconds": 21,
+   "theme": "ai"
   },
   {
    "id": "Uwkpo5cA6kE",
