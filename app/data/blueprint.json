@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 51
+   "count": 50
   },
   {
    "slug": "money",
@@ -23,7 +23,7 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 61
+   "count": 60
   },
   {
    "slug": "life",
@@ -34,9 +34,21 @@
    "slug": "work",
    "name": "The job itself",
    "count": 113
+  },
+  {
+   "slug": "other",
+   "name": "More",
+   "count": 1
   }
  ],
  "videos": [
+  {
+   "id": "xPDCy7dCQQw",
+   "title": "Four similar offers. Why he picked EY: the brand",
+   "published": "2026-11-15",
+   "seconds": 28,
+   "theme": "other"
+  },
   {
    "id": "7czBmy4HaRk",
    "title": "From ECE to data scientist at EY, learning \"only from YouTube\"",
@@ -2761,13 +2773,6 @@
    "theme": "ai"
   },
   {
-   "id": "Uwkpo5cA6kE",
-   "title": "MBA Career Paths: Paytm Analyst Swarna on Teaching & Accounts Roles",
-   "published": "2026-05-20",
-   "seconds": 29,
-   "theme": "college"
-  },
-  {
    "id": "-NrPtY9egLc",
    "title": "Software Engineer Prakhar Shares His Salary Savings Strategy",
    "published": "2026-05-20",
@@ -3109,13 +3114,6 @@
    "published": "2026-04-29",
    "seconds": 19,
    "theme": "work"
-  },
-  {
-   "id": "Wa-97O9zMIA",
-   "title": "AI's Impact on Jobs: Productivity and Fundamental Knowledge",
-   "published": "2026-04-29",
-   "seconds": 47,
-   "theme": "ai"
   },
   {
    "id": "XD8V0unY2Ag",
