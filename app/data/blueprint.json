@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 51
+   "count": 52
   },
   {
    "slug": "money",
@@ -28,12 +28,12 @@
   {
    "slug": "life",
    "name": "Life outside work",
-   "count": 46
+   "count": 47
   },
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 113
+   "count": 114
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "WIWiIzhmHrY",
+   "title": "What to know before joining EY: work-life balance and two office days",
+   "published": "2026-11-15",
+   "seconds": 21,
+   "theme": "life"
+  },
   {
    "id": "uRw5Dww_Tf0",
    "title": "AI at Work: Faster Code, Fewer Tasks, More Job Anxiety",
@@ -2780,6 +2787,13 @@
    "theme": "life"
   },
   {
+   "id": "hwvUtARxzJk",
+   "title": "Paytm Analyst: Top Skill is Constant Self-Upgrade",
+   "published": "2026-05-21",
+   "seconds": 18,
+   "theme": "work"
+  },
+  {
    "id": "h_COk34NPS8",
    "title": "AI Impact on IT Support: An Engineer's Day-to-Day Use",
    "published": "2026-05-20",
@@ -3135,6 +3149,13 @@
    "published": "2026-04-29",
    "seconds": 19,
    "theme": "work"
+  },
+  {
+   "id": "Wa-97O9zMIA",
+   "title": "AI's Impact on Jobs: Productivity and Fundamental Knowledge",
+   "published": "2026-04-29",
+   "seconds": 47,
+   "theme": "ai"
   },
   {
    "id": "XD8V0unY2Ag",
