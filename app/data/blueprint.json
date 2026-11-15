@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 50
+   "count": 49
   },
   {
    "slug": "money",
@@ -23,7 +23,7 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 60
+   "count": 61
   },
   {
    "slug": "life",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 113
+   "count": 114
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "gUsXMVwHoaQ",
+   "title": "EY's ladder, from a data scientist: staff to manager in five to six years",
+   "published": "2026-11-15",
+   "seconds": 26,
+   "theme": "work"
+  },
   {
    "id": "xPDCy7dCQQw",
    "title": "Four similar offers. Why he picked EY: the brand",
@@ -2766,11 +2773,11 @@
    "theme": "work"
   },
   {
-   "id": "h_COk34NPS8",
-   "title": "AI Impact on IT Support: An Engineer's Day-to-Day Use",
+   "id": "Uwkpo5cA6kE",
+   "title": "MBA Career Paths: Paytm Analyst Swarna on Teaching & Accounts Roles",
    "published": "2026-05-20",
-   "seconds": 21,
-   "theme": "ai"
+   "seconds": 29,
+   "theme": "college"
   },
   {
    "id": "-NrPtY9egLc",
