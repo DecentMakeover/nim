@@ -3,7 +3,7 @@
   {
    "slug": "compilations",
    "name": "Compilations",
-   "count": 4
+   "count": 5
   },
   {
    "slug": "ai",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "uRw5Dww_Tf0",
+   "title": "AI at Work: Faster Code, Fewer Tasks, More Job Anxiety",
+   "published": "2026-11-15",
+   "seconds": 551,
+   "theme": "compilations"
+  },
   {
    "id": "o-biDde6DIw",
    "title": "AI got this tier-three college grad into a startup. Now Claude writes his boilerplate.",
