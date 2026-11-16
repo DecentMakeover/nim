@@ -13,7 +13,7 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 130
+   "count": 131
   },
   {
    "slug": "hiring",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 114
+   "count": 113
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "UO37U4RVT-o",
+   "title": "Qualcomm hardware engineer: \"25 to 30\" CTC as a fresher",
+   "published": "2026-11-16",
+   "seconds": 19,
+   "theme": "money"
+  },
   {
    "id": "WIWiIzhmHrY",
    "title": "What to know before joining EY: work-life balance and two office days",
@@ -3114,13 +3121,6 @@
    "published": "2026-05-01",
    "seconds": 24,
    "theme": "hiring"
-  },
-  {
-   "id": "qtFmna9OuSA",
-   "title": "Restarting My Career: Balancing Passion and Practicality",
-   "published": "2026-04-30",
-   "seconds": 32,
-   "theme": "work"
   },
   {
    "id": "jpoi5uJ-QVs",
