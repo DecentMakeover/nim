@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 113
+   "count": 114
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "nYp6cGMjGRQ",
+   "title": "How a Qualcomm hardware intern prepared, from the second year",
+   "published": "2026-11-16",
+   "seconds": 44,
+   "theme": "hiring"
+  },
   {
    "id": "pQV4obASkJU",
    "title": "Rejected in MathWorks' last round, then selected at Qualcomm",
@@ -2780,6 +2787,13 @@
    "theme": "ai"
   },
   {
+   "id": "JTy8hzOD7oY",
+   "title": "Advice for Aspiring Finance Professionals",
+   "published": "2026-05-22",
+   "seconds": 33,
+   "theme": "work"
+  },
+  {
    "id": "83RDQNqAyCg",
    "title": "Is College Study Relevant for Your Job? A B.Com Hons Perspective",
    "published": "2026-05-21",
@@ -3114,13 +3128,6 @@
    "published": "2026-05-01",
    "seconds": 19,
    "theme": "work"
-  },
-  {
-   "id": "W1OAjQpXRyc",
-   "title": "Switching Jobs vs. Staying in a Company for Career Growth",
-   "published": "2026-05-01",
-   "seconds": 24,
-   "theme": "hiring"
   },
   {
    "id": "qtFmna9OuSA",
