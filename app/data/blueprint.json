@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 51
+   "count": 52
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "pQV4obASkJU",
+   "title": "Rejected in MathWorks' last round, then selected at Qualcomm",
+   "published": "2026-11-16",
+   "seconds": 25,
+   "theme": "hiring"
+  },
   {
    "id": "UO37U4RVT-o",
    "title": "Qualcomm hardware engineer: \"25 to 30\" CTC as a fresher",
@@ -2773,13 +2780,6 @@
    "theme": "ai"
   },
   {
-   "id": "JTy8hzOD7oY",
-   "title": "Advice for Aspiring Finance Professionals",
-   "published": "2026-05-22",
-   "seconds": 33,
-   "theme": "work"
-  },
-  {
    "id": "83RDQNqAyCg",
    "title": "Is College Study Relevant for Your Job? A B.Com Hons Perspective",
    "published": "2026-05-21",
@@ -3121,6 +3121,13 @@
    "published": "2026-05-01",
    "seconds": 24,
    "theme": "hiring"
+  },
+  {
+   "id": "qtFmna9OuSA",
+   "title": "Restarting My Career: Balancing Passion and Practicality",
+   "published": "2026-04-30",
+   "seconds": 32,
+   "theme": "work"
   },
   {
    "id": "jpoi5uJ-QVs",
