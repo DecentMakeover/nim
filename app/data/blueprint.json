@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 52
+   "count": 54
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "FPuwsO-tDzw",
+   "title": "Qualcomm intern stipend: \"45,000 per month\"",
+   "published": "2026-11-16",
+   "seconds": 15,
+   "theme": "hiring"
+  },
   {
    "id": "nYp6cGMjGRQ",
    "title": "How a Qualcomm hardware intern prepared, from the second year",
@@ -3128,6 +3135,13 @@
    "published": "2026-05-01",
    "seconds": 19,
    "theme": "work"
+  },
+  {
+   "id": "W1OAjQpXRyc",
+   "title": "Switching Jobs vs. Staying in a Company for Career Growth",
+   "published": "2026-05-01",
+   "seconds": 24,
+   "theme": "hiring"
   },
   {
    "id": "qtFmna9OuSA",
