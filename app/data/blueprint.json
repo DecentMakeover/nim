@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 55
+   "count": 56
   },
   {
    "slug": "college",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 114
+   "count": 113
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "JITfhUmeucQ",
+   "title": "Lost the hackathon, still got an Amazon SDE internship",
+   "published": "2026-11-17",
+   "seconds": 44,
+   "theme": "hiring"
+  },
   {
    "id": "4NcFqKgbbWE",
    "title": "\"I have three AI agents running\" | AI tools an Amazon SDE intern uses",
@@ -3121,13 +3128,6 @@
    "published": "2026-05-05",
    "seconds": 19,
    "theme": "ai"
-  },
-  {
-   "id": "aXTRgh39hzY",
-   "title": "Career Options for Growth Marketers",
-   "published": "2026-05-05",
-   "seconds": 21,
-   "theme": "work"
   },
   {
    "id": "1zNxES6Pk6k",
