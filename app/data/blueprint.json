@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 54
+   "count": 55
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "EZhKnlMsgdk",
+   "title": "NIT Allahabad to a Qualcomm hardware internship, on campus",
+   "published": "2026-11-17",
+   "seconds": 20,
+   "theme": "hiring"
+  },
   {
    "id": "FPuwsO-tDzw",
    "title": "Qualcomm intern stipend: \"45,000 per month\"",
