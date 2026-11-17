@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 56
+   "count": 57
   },
   {
    "slug": "college",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 113
+   "count": 114
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "BEPY7GbcTaQ",
+   "title": "\"LeetCode contest helped me a lot\" | DSA prep from an Amazon intern",
+   "published": "2026-11-17",
+   "seconds": 39,
+   "theme": "hiring"
+  },
   {
    "id": "JITfhUmeucQ",
    "title": "Lost the hackathon, still got an Amazon SDE internship",
@@ -3128,6 +3135,13 @@
    "published": "2026-05-05",
    "seconds": 19,
    "theme": "ai"
+  },
+  {
+   "id": "aXTRgh39hzY",
+   "title": "Career Options for Growth Marketers",
+   "published": "2026-05-05",
+   "seconds": 21,
+   "theme": "work"
   },
   {
    "id": "1zNxES6Pk6k",
