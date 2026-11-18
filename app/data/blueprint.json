@@ -3,7 +3,7 @@
   {
    "slug": "compilations",
    "name": "Compilations",
-   "count": 5
+   "count": 6
   },
   {
    "slug": "ai",
@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 57
+   "count": 56
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "0hvJcpRVdpc",
+   "title": "How They Got Hired: Campus Placements, Hackathons and Interviews",
+   "published": "2026-11-18",
+   "seconds": 764,
+   "theme": "compilations"
+  },
   {
    "id": "YUpW_eB_xiY",
    "title": "\"You never know which job application gets you response back\"",
@@ -384,13 +391,6 @@
    "published": "2026-11-07",
    "seconds": 28,
    "theme": "money"
-  },
-  {
-   "id": "R_GQNpmsbIY",
-   "title": "Amazon SDE on FAANG interview prep: start with a list, then company questions",
-   "published": "2026-11-07",
-   "seconds": 37,
-   "theme": "hiring"
   },
   {
    "id": "lPi8flQAnpA",
