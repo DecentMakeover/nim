@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 53
+   "count": 52
   },
   {
    "slug": "money",
@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 56
+   "count": 57
   },
   {
    "slug": "college",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 113
+   "count": 114
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "iK5s8vxC5f4",
+   "title": "\"The highest placement was for LinkedIn, which is around 95 lakhs\"",
+   "published": "2026-11-18",
+   "seconds": 32,
+   "theme": "money"
+  },
   {
    "id": "0hvJcpRVdpc",
    "title": "How They Got Hired: Campus Placements, Hackathons and Interviews",
@@ -384,13 +391,6 @@
    "published": "2026-11-07",
    "seconds": 33,
    "theme": "ai"
-  },
-  {
-   "id": "YXXmFNIzww0",
-   "title": "Amazon culture, from an SDE 1: \"it's chill\" and \"a lot of learning\"",
-   "published": "2026-11-07",
-   "seconds": 28,
-   "theme": "money"
   },
   {
    "id": "lPi8flQAnpA",
@@ -1065,11 +1065,11 @@
    "theme": "hiring"
   },
   {
-   "id": "lpz_D6ZCBPY",
-   "title": "BCG researcher on AI: \"It's you who are losing out\"",
+   "id": "-xH33sCKzmo",
+   "title": "Apply to at least 100 jobs: a BCG apprentice's advice for freshers",
    "published": "2026-10-13",
-   "seconds": 48,
-   "theme": "ai"
+   "seconds": 52,
+   "theme": "hiring"
   },
   {
    "id": "U77XLJwi4aw",
@@ -3099,6 +3099,13 @@
    "title": "Corporate to Patisserie: Why I Switched to Baking",
    "published": "2026-05-07",
    "seconds": 19,
+   "theme": "work"
+  },
+  {
+   "id": "RXU1gm9Bc6k",
+   "title": "Patisserie Business in Bangalore: Competition & Creativity",
+   "published": "2026-05-07",
+   "seconds": 38,
    "theme": "work"
   },
   {
