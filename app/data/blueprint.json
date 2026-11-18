@@ -13,12 +13,12 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 131
+   "count": 129
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 57
+   "count": 58
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "cmcSN5_SlXo",
+   "title": "Amazon SDE internship rounds: OA, DSA and a dry run",
+   "published": "2026-11-18",
+   "seconds": 43,
+   "theme": "hiring"
+  },
   {
    "id": "BEPY7GbcTaQ",
    "title": "\"LeetCode contest helped me a lot\" | DSA prep from an Amazon intern",
@@ -384,13 +391,6 @@
    "published": "2026-11-06",
    "seconds": 243,
    "theme": "compilations"
-  },
-  {
-   "id": "UBmsZzjqKNw",
-   "title": "The 9-month course she paid about 5,000 for",
-   "published": "2026-11-06",
-   "seconds": 33,
-   "theme": "money"
   },
   {
    "id": "PATtjDtcAYk",
@@ -2568,13 +2568,6 @@
    "published": "2026-06-13",
    "seconds": 14,
    "theme": "life"
-  },
-  {
-   "id": "kUcDb-82JQI",
-   "title": "Industrial Engineer's Rs 10k Monthly Food Delivery Bill",
-   "published": "2026-06-13",
-   "seconds": 9,
-   "theme": "money"
   },
   {
    "id": "O0PEDsDzzh0",
