@@ -13,12 +13,12 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 129
+   "count": 130
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 58
+   "count": 59
   },
   {
    "slug": "college",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 114
+   "count": 113
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "Vbc2VPo4TRA",
+   "title": "Uber, Zomato, Amazon came for placements, but not Google",
+   "published": "2026-11-18",
+   "seconds": 27,
+   "theme": "hiring"
+  },
   {
    "id": "cmcSN5_SlXo",
    "title": "Amazon SDE internship rounds: OA, DSA and a dry run",
@@ -1070,13 +1077,6 @@
    "published": "2026-10-13",
    "seconds": 52,
    "theme": "hiring"
-  },
-  {
-   "id": "U77XLJwi4aw",
-   "title": "\"You can never get a no\": what it's like working at EY GDS",
-   "published": "2026-10-12",
-   "seconds": 38,
-   "theme": "work"
   },
   {
    "id": "DKUfwXTkI98",
@@ -2568,6 +2568,13 @@
    "published": "2026-06-13",
    "seconds": 14,
    "theme": "life"
+  },
+  {
+   "id": "kUcDb-82JQI",
+   "title": "Industrial Engineer's Rs 10k Monthly Food Delivery Bill",
+   "published": "2026-06-13",
+   "seconds": 9,
+   "theme": "money"
   },
   {
    "id": "O0PEDsDzzh0",
