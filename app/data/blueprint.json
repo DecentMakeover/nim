@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 59
+   "count": 57
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "YUpW_eB_xiY",
+   "title": "\"You never know which job application gets you response back\"",
+   "published": "2026-11-18",
+   "seconds": 34,
+   "theme": "work"
+  },
   {
    "id": "Vbc2VPo4TRA",
    "title": "Uber, Zomato, Amazon came for placements, but not Google",
@@ -383,13 +390,6 @@
    "title": "Amazon SDE on FAANG interview prep: start with a list, then company questions",
    "published": "2026-11-07",
    "seconds": 37,
-   "theme": "hiring"
-  },
-  {
-   "id": "flLo2hL5sG8",
-   "title": "How he got into Amazon: job portal, online assessment, three interviews",
-   "published": "2026-11-06",
-   "seconds": 27,
    "theme": "hiring"
   },
   {
@@ -1072,11 +1072,11 @@
    "theme": "ai"
   },
   {
-   "id": "-xH33sCKzmo",
-   "title": "Apply to at least 100 jobs: a BCG apprentice's advice for freshers",
-   "published": "2026-10-13",
-   "seconds": 52,
-   "theme": "hiring"
+   "id": "U77XLJwi4aw",
+   "title": "\"You can never get a no\": what it's like working at EY GDS",
+   "published": "2026-10-12",
+   "seconds": 38,
+   "theme": "work"
   },
   {
    "id": "DKUfwXTkI98",
@@ -2556,13 +2556,6 @@
    "theme": "work"
   },
   {
-   "id": "VwZ_HGjLilE",
-   "title": "Data Scientist at HSBC: How to Get Started",
-   "published": "2026-06-14",
-   "seconds": 24,
-   "theme": "work"
-  },
-  {
    "id": "MG3gZbsqAhk",
    "title": "Industrial Engineer at Target Shares His Last Vacation",
    "published": "2026-06-13",
@@ -3106,13 +3099,6 @@
    "title": "Corporate to Patisserie: Why I Switched to Baking",
    "published": "2026-05-07",
    "seconds": 19,
-   "theme": "work"
-  },
-  {
-   "id": "RXU1gm9Bc6k",
-   "title": "Patisserie Business in Bangalore: Competition & Creativity",
-   "published": "2026-05-07",
-   "seconds": 38,
    "theme": "work"
   },
   {
