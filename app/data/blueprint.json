@@ -8,22 +8,22 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 52
+   "count": 51
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 131
+   "count": 132
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 57
+   "count": 59
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 61
+   "count": 60
   },
   {
    "slug": "life",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "8zHzAgHjDYk",
+   "title": "How much does a Qualcomm intern get? \"More than 40, 50K\"",
+   "published": "2026-11-19",
+   "seconds": 17,
+   "theme": "money"
+  },
   {
    "id": "6rDxyookGp4",
    "title": "Qualcomm intern with an offer letter: campus placement after TI and NVIDIA",
@@ -386,11 +393,11 @@
    "theme": "hiring"
   },
   {
-   "id": "dnrg0DJ2EdY",
-   "title": "Master's in AI/ML at Buffalo, then back to India to join Amazon",
-   "published": "2026-11-07",
-   "seconds": 20,
-   "theme": "ai"
+   "id": "flLo2hL5sG8",
+   "title": "How he got into Amazon: job portal, online assessment, three interviews",
+   "published": "2026-11-06",
+   "seconds": 27,
+   "theme": "hiring"
   },
   {
    "id": "lPi8flQAnpA",
@@ -1058,11 +1065,11 @@
    "theme": "college"
   },
   {
-   "id": "FaoBKWJ0aCY",
-   "title": "First benchers vs back benchers: \"not a first rank Raju\"",
+   "id": "EbCSqRJSWk4",
+   "title": "Impulsive spender vs the 50/30/20 rule, 8 months into a first job",
    "published": "2026-10-13",
-   "seconds": 40,
-   "theme": "college"
+   "seconds": 44,
+   "theme": "hiring"
   },
   {
    "id": "lpz_D6ZCBPY",
