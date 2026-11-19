@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 59
+   "count": 60
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "kw18_Jxw3Qo",
+   "title": "Qualcomm campus hiring: written MCQ round, then 3 interviews",
+   "published": "2026-11-19",
+   "seconds": 34,
+   "theme": "hiring"
+  },
   {
    "id": "8zHzAgHjDYk",
    "title": "How much does a Qualcomm intern get? \"More than 40, 50K\"",
@@ -386,10 +393,10 @@
    "theme": "hiring"
   },
   {
-   "id": "CHIsvOMLtr4",
-   "title": "Amazon SDE internship: LeetCode two hours a day for two months",
-   "published": "2026-11-08",
-   "seconds": 36,
+   "id": "R_GQNpmsbIY",
+   "title": "Amazon SDE on FAANG interview prep: start with a list, then company questions",
+   "published": "2026-11-07",
+   "seconds": 37,
    "theme": "hiring"
   },
   {
@@ -1058,10 +1065,10 @@
    "theme": "hiring"
   },
   {
-   "id": "HRupLliW6ic",
-   "title": "A gold medalist's study routine: \"I used to party\"",
-   "published": "2026-10-14",
-   "seconds": 51,
+   "id": "FaoBKWJ0aCY",
+   "title": "First benchers vs back benchers: \"not a first rank Raju\"",
+   "published": "2026-10-13",
+   "seconds": 40,
    "theme": "college"
   },
   {
