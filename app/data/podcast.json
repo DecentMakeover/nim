@@ -8,7 +8,7 @@
   {
    "slug": "india",
    "name": "India, Economy & Work",
-   "count": 13
+   "count": 14
   },
   {
    "slug": "startups",
@@ -29,6 +29,17 @@
   "fuVeqmYUonk"
  ],
  "episodes": [
+  {
+   "id": "7kxA8oJJs3o",
+   "title": "Why Don't More Indians Take the Bus?",
+   "guest": "Ravi Gadepalli",
+   "detail": "Transit Intelligence",
+   "published": "2026-11-20",
+   "minutes": 75,
+   "topics": [
+    "india"
+   ]
+  },
   {
    "id": "7vMOEzgbmuk",
    "title": "Is Cheap Labour Holding India Back?",
