@@ -8,22 +8,22 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 52
+   "count": 53
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 131
+   "count": 133
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 59
+   "count": 58
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 60
+   "count": 61
   },
   {
    "slug": "life",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "-iYc03XI_Ck",
+   "title": "No EMIs, a 25-30K credit card bill, \"mostly for the points\"",
+   "published": "2026-11-24",
+   "seconds": 15,
+   "theme": "money"
+  },
   {
    "id": "1GBPMdS5UbQ",
    "title": "Favourite HSBC perk: log in early, log out early for a movie",
@@ -386,11 +393,11 @@
    "theme": "ai"
   },
   {
-   "id": "ejaxGsG_PSE",
-   "title": "Into Amazon after about 100 LeetCode questions",
-   "published": "2026-11-08",
-   "seconds": 19,
-   "theme": "hiring"
+   "id": "dnrg0DJ2EdY",
+   "title": "Master's in AI/ML at Buffalo, then back to India to join Amazon",
+   "published": "2026-11-07",
+   "seconds": 20,
+   "theme": "ai"
   },
   {
    "id": "TOpp3-Vclac",
@@ -1058,11 +1065,11 @@
    "theme": "money"
   },
   {
-   "id": "bRQS0rP2Bvk",
-   "title": "A Morgan Stanley analyst on AI: \"It could do our job easily\"",
+   "id": "jes0q4oZTi8",
+   "title": "What she misses most about college: the time she complained about",
    "published": "2026-10-14",
-   "seconds": 36,
-   "theme": "ai"
+   "seconds": 30,
+   "theme": "college"
   },
   {
    "id": "vqQNwXQ-p5E",
@@ -2759,6 +2766,13 @@
    "theme": "college"
   },
   {
+   "id": "X34neh9ygUw",
+   "title": "CA at Standard Chartered: ChatGPT, Claude, or Gemini?",
+   "published": "2026-05-30",
+   "seconds": 16,
+   "theme": "ai"
+  },
+  {
    "id": "7iq2FqwwSiQ",
    "title": "CA at Standard Chartered: Monthly Expenses & Savings",
    "published": "2026-05-30",
@@ -3093,6 +3107,13 @@
    "published": "2026-05-09",
    "seconds": 22,
    "theme": "work"
+  },
+  {
+   "id": "PH0ETYcXoH4",
+   "title": "OTC Salary Range in India (Fresher & Experienced)",
+   "published": "2026-05-09",
+   "seconds": 40,
+   "theme": "money"
   },
   {
    "id": "cMe9sDp0mPY",
