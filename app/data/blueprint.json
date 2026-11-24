@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 58
+   "count": 59
   },
   {
    "slug": "college",
@@ -28,7 +28,7 @@
   {
    "slug": "life",
    "name": "Life outside work",
-   "count": 48
+   "count": 47
   },
   {
    "slug": "work",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "jCRMzOwdQH0",
+   "title": "First standard to master's: total education cost \"under 10 lakhs\"",
+   "published": "2026-11-24",
+   "seconds": 15,
+   "theme": "money"
+  },
   {
    "id": "-iYc03XI_Ck",
    "title": "No EMIs, a 25-30K credit card bill, \"mostly for the points\"",
@@ -386,11 +393,11 @@
    "theme": "hiring"
   },
   {
-   "id": "FR-neh2ff_E",
-   "title": "Amazon intern on AI: barely used it in college, now finds it \"really useful\"",
-   "published": "2026-11-09",
-   "seconds": 29,
-   "theme": "ai"
+   "id": "CHIsvOMLtr4",
+   "title": "Amazon SDE internship: LeetCode two hours a day for two months",
+   "published": "2026-11-08",
+   "seconds": 36,
+   "theme": "hiring"
   },
   {
    "id": "dnrg0DJ2EdY",
@@ -1058,11 +1065,11 @@
    "theme": "money"
   },
   {
-   "id": "l9yCXAXGnzU",
-   "title": "50% hike or a promotion? A Morgan Stanley analyst chooses",
-   "published": "2026-10-15",
-   "seconds": 26,
-   "theme": "money"
+   "id": "bRQS0rP2Bvk",
+   "title": "A Morgan Stanley analyst on AI: \"It could do our job easily\"",
+   "published": "2026-10-14",
+   "seconds": 36,
+   "theme": "ai"
   },
   {
    "id": "jes0q4oZTi8",
@@ -3086,13 +3093,6 @@
    "published": "2026-05-12",
    "seconds": 34,
    "theme": "ai"
-  },
-  {
-   "id": "yqv-watrmy0",
-   "title": "My Parents Wanted Me To Be A Banker",
-   "published": "2026-05-11",
-   "seconds": 14,
-   "theme": "life"
   },
   {
    "id": "tjfusuFvLxM",
