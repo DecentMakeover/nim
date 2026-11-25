@@ -13,7 +13,7 @@
   {
    "slug": "startups",
    "name": "Startups, Business & Investing",
-   "count": 20
+   "count": 19
   },
   {
    "slug": "culture",
@@ -382,17 +382,6 @@
    "detail": "Co-founder, Accio Robotics",
    "published": "2025-06-09",
    "minutes": 62,
-   "topics": [
-    "startups"
-   ]
-  },
-  {
-   "id": "S-JgQ57_Px0",
-   "title": "DevShaadi Launch",
-   "guest": "Anant Patni",
-   "detail": "SDE-3, BharatPe",
-   "published": "2025-05-16",
-   "minutes": 47,
    "topics": [
     "startups"
    ]
