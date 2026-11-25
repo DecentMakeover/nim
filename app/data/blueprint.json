@@ -13,7 +13,7 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 135
+   "count": 136
   },
   {
    "slug": "hiring",
@@ -28,7 +28,7 @@
   {
    "slug": "life",
    "name": "Life outside work",
-   "count": 48
+   "count": 47
   },
   {
    "slug": "work",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "2D0bZs5JUm4",
+   "title": "\"Close to 2K\" a month on subscriptions: Netflix, Prime, Hotstar",
+   "published": "2026-11-25",
+   "seconds": 16,
+   "theme": "money"
+  },
   {
    "id": "smr9FH10mjo",
    "title": "Master's at Christ? \"They're very strict\" on attendance and dress code",
@@ -386,18 +393,18 @@
    "theme": "college"
   },
   {
-   "id": "U3Ft0hD8KIc",
-   "title": "How to get into product strategy: \"master your first principles\"",
-   "published": "2026-11-09",
-   "seconds": 31,
-   "theme": "college"
-  },
-  {
    "id": "yqaXUruoDw8",
    "title": "Does College Tier Follow You to Work? 8 Professionals Answer",
    "published": "2026-11-09",
    "seconds": 191,
    "theme": "compilations"
+  },
+  {
+   "id": "FR-neh2ff_E",
+   "title": "Amazon intern on AI: barely used it in college, now finds it \"really useful\"",
+   "published": "2026-11-09",
+   "seconds": 29,
+   "theme": "ai"
   },
   {
    "id": "ejaxGsG_PSE",
@@ -1065,11 +1072,11 @@
    "theme": "life"
   },
   {
-   "id": "EZcmjLtEqbI",
-   "title": "Full work from home or office? \"I think home\"",
-   "published": "2026-10-16",
-   "seconds": 29,
-   "theme": "life"
+   "id": "346tW6mde-E",
+   "title": "Is an MBA worth it for a finance operations role? An analyst answers",
+   "published": "2026-10-15",
+   "seconds": 35,
+   "theme": "college"
   },
   {
    "id": "Oolc8Uz7R5o",
@@ -2764,13 +2771,6 @@
    "published": "2026-06-01",
    "seconds": 33,
    "theme": "money"
-  },
-  {
-   "id": "UzbVvAP0nWk",
-   "title": "Accenture Senior Manager's Go-To AI: Microsoft CoPilot",
-   "published": "2026-06-01",
-   "seconds": 31,
-   "theme": "ai"
   },
   {
    "id": "xYxTz2AW2To",
