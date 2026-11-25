@@ -23,17 +23,17 @@
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 61
+   "count": 60
   },
   {
    "slug": "life",
    "name": "Life outside work",
-   "count": 47
+   "count": 48
   },
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 115
+   "count": 116
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "YTxG31XkNOQ",
+   "title": "\"These banks are 150 years old\": what working in banking is really like",
+   "published": "2026-11-25",
+   "seconds": 26,
+   "theme": "work"
+  },
   {
    "id": "jCRMzOwdQH0",
    "title": "First standard to master's: total education cost \"under 10 lakhs\"",
@@ -386,10 +393,10 @@
    "theme": "college"
   },
   {
-   "id": "8O7vUi9ENE0",
-   "title": "Google interview prep: you're \"measured on how Googly you are\"",
-   "published": "2026-11-09",
-   "seconds": 44,
+   "id": "DwqqHSSAYas",
+   "title": "Amazon SDE intern rounds: two rounds, four LeetCode mediums",
+   "published": "2026-11-08",
+   "seconds": 30,
    "theme": "hiring"
   },
   {
@@ -1058,10 +1065,10 @@
    "theme": "hiring"
   },
   {
-   "id": "dAvk6P0PU9k",
-   "title": "Why this Morgan Stanley analyst doesn't invest in stocks",
+   "id": "l9yCXAXGnzU",
+   "title": "50% hike or a promotion? A Morgan Stanley analyst chooses",
    "published": "2026-10-15",
-   "seconds": 22,
+   "seconds": 26,
    "theme": "money"
   },
   {
@@ -2563,13 +2570,6 @@
    "theme": "hiring"
   },
   {
-   "id": "L1KlKgUEydM",
-   "title": "Data Scientist: Christ University Masters - Strict Rules & Attendance",
-   "published": "2026-06-18",
-   "seconds": 30,
-   "theme": "college"
-  },
-  {
    "id": "ghxd0eJiThc",
    "title": "HSBC Data Scientist: AI for Banking Automation",
    "published": "2026-06-15",
@@ -3093,6 +3093,13 @@
    "published": "2026-05-12",
    "seconds": 34,
    "theme": "ai"
+  },
+  {
+   "id": "yqv-watrmy0",
+   "title": "My Parents Wanted Me To Be A Banker",
+   "published": "2026-05-11",
+   "seconds": 14,
+   "theme": "life"
   },
   {
    "id": "tjfusuFvLxM",
