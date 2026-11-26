@@ -3,12 +3,12 @@
   {
    "slug": "ai",
    "name": "AI & Technology",
-   "count": 10
+   "count": 11
   },
   {
    "slug": "india",
    "name": "India, Economy & Work",
-   "count": 14
+   "count": 15
   },
   {
    "slug": "startups",
@@ -29,6 +29,18 @@
   "fuVeqmYUonk"
  ],
  "episodes": [
+  {
+   "id": "MIFzpy9JBE4",
+   "title": "Is India's $20 Billion Chip Mission Working? (Part 2)",
+   "guest": "Arun Mampazhy",
+   "detail": "Semiconductor Analyst",
+   "published": "2026-11-26",
+   "minutes": 104,
+   "topics": [
+    "ai",
+    "india"
+   ]
+  },
   {
    "id": "7kxA8oJJs3o",
    "title": "India’s Public Transport Crisis",
