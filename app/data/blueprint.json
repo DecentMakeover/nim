@@ -13,22 +13,22 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 136
+   "count": 134
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 61
+   "count": 60
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 59
+   "count": 60
   },
   {
    "slug": "life",
    "name": "Life outside work",
-   "count": 47
+   "count": 48
   },
   {
    "slug": "work",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "rxRlKXYLNVs",
+   "title": "How do you become a data scientist? \"No right or wrong way\"",
+   "published": "2026-11-26",
+   "seconds": 22,
+   "theme": "money"
+  },
   {
    "id": "9ioClFBloEE",
    "title": "How banks use AI: automating and migrating legacy tech",
@@ -386,18 +393,18 @@
    "theme": "hiring"
   },
   {
-   "id": "q7Aig2RAvTU",
-   "title": "Amazon business research analyst intern: 70,000 a month plus relocation",
-   "published": "2026-11-10",
-   "seconds": 20,
-   "theme": "hiring"
-  },
-  {
    "id": "yqaXUruoDw8",
    "title": "Does College Tier Follow You to Work? 8 Professionals Answer",
    "published": "2026-11-09",
    "seconds": 191,
    "theme": "compilations"
+  },
+  {
+   "id": "gSpQOEXBjow",
+   "title": "\"You don't really need an MBA\" to be a good problem solver",
+   "published": "2026-11-09",
+   "seconds": 39,
+   "theme": "college"
   },
   {
    "id": "8O7vUi9ENE0",
@@ -1065,11 +1072,11 @@
    "theme": "compilations"
   },
   {
-   "id": "NSs-_qFMaf4",
-   "title": "300% hike from Cognizant to EY: what this AI engineer changed",
+   "id": "jFgtQDpaLZk",
+   "title": "Zara and H&M, but cutting down on fast fashion",
    "published": "2026-10-16",
-   "seconds": 51,
-   "theme": "money"
+   "seconds": 31,
+   "theme": "life"
   },
   {
    "id": "EZcmjLtEqbI",
@@ -2416,13 +2423,6 @@
    "theme": "money"
   },
   {
-   "id": "H1u6A39kwB0",
-   "title": "IIT BHU Software Engineer: How much tax do you pay per year? (10-15 Lakhs)",
-   "published": "2026-07-25",
-   "seconds": 10,
-   "theme": "money"
-  },
-  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -3100,13 +3100,6 @@
    "published": "2026-05-13",
    "seconds": 37,
    "theme": "work"
-  },
-  {
-   "id": "b3rkCcPRb6U",
-   "title": "Straight Talk: Education Cost vs. Current Earnings in India",
-   "published": "2026-05-13",
-   "seconds": 24,
-   "theme": "money"
   },
   {
    "id": "yoMQ67delh4",
