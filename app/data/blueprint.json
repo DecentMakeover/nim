@@ -8,12 +8,12 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 55
+   "count": 56
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 134
+   "count": 133
   },
   {
    "slug": "hiring",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 117
+   "count": 116
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "kYHGI6Es1wM",
+   "title": "\"Nothing better than Claude for coding\" | A Qualcomm intern's AI tools",
+   "published": "2026-11-26",
+   "seconds": 37,
+   "theme": "ai"
+  },
   {
    "id": "YrXot18yleI",
    "title": "Best data science course? \"It's all about the subject knowledge\"",
@@ -386,10 +393,10 @@
    "theme": "ai"
   },
   {
-   "id": "F5g5lWriJsQ",
-   "title": "Maths and computing at IIT Patna: quant, software or data science roles",
+   "id": "wdZP7V-FwYI",
+   "title": "Engineer plus MBA is common in product strategy, but not \"the magic combination\"",
    "published": "2026-11-10",
-   "seconds": 26,
+   "seconds": 25,
    "theme": "college"
   },
   {
@@ -2423,13 +2430,6 @@
    "theme": "money"
   },
   {
-   "id": "JkgLA7U77nc",
-   "title": "How to get a high package as a Software Engineer (IIT BHU)",
-   "published": "2026-07-25",
-   "seconds": 29,
-   "theme": "money"
-  },
-  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -3086,13 +3086,6 @@
    "published": "2026-05-13",
    "seconds": 20,
    "theme": "money"
-  },
-  {
-   "id": "KcwU0WI-1lc",
-   "title": "Key Skills for Managers: Listening & Guiding Team Success",
-   "published": "2026-05-13",
-   "seconds": 21,
-   "theme": "work"
   },
   {
    "id": "2SMbqCP6Ujs",
