@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 53
+   "count": 55
   },
   {
    "slug": "money",
@@ -18,12 +18,12 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 60
+   "count": 61
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 60
+   "count": 59
   },
   {
    "slug": "life",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "9ioClFBloEE",
+   "title": "How banks use AI: automating and migrating legacy tech",
+   "published": "2026-11-26",
+   "seconds": 25,
+   "theme": "ai"
+  },
   {
    "id": "2D0bZs5JUm4",
    "title": "\"Close to 2K\" a month on subscriptions: Netflix, Prime, Hotstar",
@@ -386,18 +393,18 @@
    "theme": "hiring"
   },
   {
-   "id": "wdZP7V-FwYI",
-   "title": "Engineer plus MBA is common in product strategy, but not \"the magic combination\"",
-   "published": "2026-11-10",
-   "seconds": 25,
-   "theme": "college"
-  },
-  {
    "id": "yqaXUruoDw8",
    "title": "Does College Tier Follow You to Work? 8 Professionals Answer",
    "published": "2026-11-09",
    "seconds": 191,
    "theme": "compilations"
+  },
+  {
+   "id": "8O7vUi9ENE0",
+   "title": "Google interview prep: you're \"measured on how Googly you are\"",
+   "published": "2026-11-09",
+   "seconds": 44,
+   "theme": "hiring"
   },
   {
    "id": "FR-neh2ff_E",
@@ -1065,10 +1072,10 @@
    "theme": "money"
   },
   {
-   "id": "jFgtQDpaLZk",
-   "title": "Zara and H&M, but cutting down on fast fashion",
+   "id": "EZcmjLtEqbI",
+   "title": "Full work from home or office? \"I think home\"",
    "published": "2026-10-16",
-   "seconds": 31,
+   "seconds": 29,
    "theme": "life"
   },
   {
@@ -2771,6 +2778,13 @@
    "published": "2026-06-01",
    "seconds": 33,
    "theme": "money"
+  },
+  {
+   "id": "UzbVvAP0nWk",
+   "title": "Accenture Senior Manager's Go-To AI: Microsoft CoPilot",
+   "published": "2026-06-01",
+   "seconds": 31,
+   "theme": "ai"
   },
   {
    "id": "xYxTz2AW2To",
