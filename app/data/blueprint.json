@@ -8,22 +8,22 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 56
+   "count": 57
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 132
+   "count": 133
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 60
+   "count": 61
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 62
+   "count": 63
   },
   {
    "slug": "life",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 118
+   "count": 117
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "QyF9UJqNmoc",
+   "title": "Qualcomm thermal engineer interview: \"just two rounds\"",
+   "published": "2026-11-27",
+   "seconds": 26,
+   "theme": "hiring"
+  },
   {
    "id": "9NnuS1SuGGw",
    "title": "Career options for mechanical engineers today, from a Qualcomm thermal engineer",
@@ -386,11 +393,11 @@
    "theme": "money"
   },
   {
-   "id": "dwV4x8w97Dg",
-   "title": "Apache Camel developers are rare: \"whatever I demanded, they gave me\"",
+   "id": "oUbkQD0BE_E",
+   "title": "Amazon HR round: how would his LLM backdoor-attack project work at Amazon?",
    "published": "2026-11-11",
-   "seconds": 40,
-   "theme": "work"
+   "seconds": 24,
+   "theme": "ai"
   },
   {
    "id": "F5g5lWriJsQ",
@@ -2437,6 +2444,13 @@
    "theme": "money"
   },
   {
+   "id": "rX_dShBNb6M",
+   "title": "Software Engineer (IIT BHU): Tier 1 vs Tier 3 Colleges in the Workplace",
+   "published": "2026-07-25",
+   "seconds": 29,
+   "theme": "college"
+  },
+  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2547,6 +2561,13 @@
    "published": "2026-07-05",
    "seconds": 40,
    "theme": "hiring"
+  },
+  {
+   "id": "p2KwuyqyII8",
+   "title": "Wells Fargo Engineer: College Placements & 18 LPA Average Salary",
+   "published": "2026-07-05",
+   "seconds": 42,
+   "theme": "money"
   },
   {
    "id": "wAQg66oWEeI",
