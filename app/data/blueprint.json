@@ -13,17 +13,17 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 133
+   "count": 132
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 61
+   "count": 60
   },
   {
    "slug": "college",
    "name": "College & degrees",
-   "count": 61
+   "count": 62
   },
   {
    "slug": "life",
@@ -33,7 +33,7 @@
   {
    "slug": "work",
    "name": "The job itself",
-   "count": 116
+   "count": 118
   },
   {
    "slug": "other",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "9NnuS1SuGGw",
+   "title": "Career options for mechanical engineers today, from a Qualcomm thermal engineer",
+   "published": "2026-11-27",
+   "seconds": 36,
+   "theme": "work"
+  },
   {
    "id": "Yuxlb-54Ngk",
    "title": "\"You should look at AI as a helper function\" | A Qualcomm intern",
@@ -386,11 +393,11 @@
    "theme": "work"
   },
   {
-   "id": "ZwxYaR-7FmU",
-   "title": "Bangalore traffic, from a new Amazon intern: 4 minutes becomes an hour",
-   "published": "2026-11-11",
-   "seconds": 19,
-   "theme": "hiring"
+   "id": "F5g5lWriJsQ",
+   "title": "Maths and computing at IIT Patna: quant, software or data science roles",
+   "published": "2026-11-10",
+   "seconds": 26,
+   "theme": "college"
   },
   {
    "id": "l8hFYLVGOAQ",
@@ -2542,13 +2549,6 @@
    "theme": "hiring"
   },
   {
-   "id": "p2KwuyqyII8",
-   "title": "Wells Fargo Engineer: College Placements & 18 LPA Average Salary",
-   "published": "2026-07-05",
-   "seconds": 42,
-   "theme": "money"
-  },
-  {
    "id": "wAQg66oWEeI",
    "title": "Software Engineer at Wells Fargo: Leaves in Office",
    "published": "2026-07-05",
@@ -3093,6 +3093,13 @@
    "published": "2026-05-13",
    "seconds": 20,
    "theme": "money"
+  },
+  {
+   "id": "KcwU0WI-1lc",
+   "title": "Key Skills for Managers: Listening & Guiding Team Success",
+   "published": "2026-05-13",
+   "seconds": 21,
+   "theme": "work"
   },
   {
    "id": "2SMbqCP6Ujs",
