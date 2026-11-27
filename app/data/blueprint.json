@@ -8,7 +8,7 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 56
+   "count": 55
   },
   {
    "slug": "money",
@@ -18,7 +18,7 @@
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 59
+   "count": 60
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "4K9my97kI0g",
+   "title": "BITS Goa placements: \"I think 20 LPA would be an average\"",
+   "published": "2026-11-27",
+   "seconds": 39,
+   "theme": "money"
+  },
   {
    "id": "kYHGI6Es1wM",
    "title": "\"Nothing better than Claude for coding\" | A Qualcomm intern's AI tools",
@@ -386,11 +393,11 @@
    "theme": "money"
   },
   {
-   "id": "oUbkQD0BE_E",
-   "title": "Amazon HR round: how would his LLM backdoor-attack project work at Amazon?",
-   "published": "2026-11-11",
-   "seconds": 24,
-   "theme": "ai"
+   "id": "q7Aig2RAvTU",
+   "title": "Amazon business research analyst intern: 70,000 a month plus relocation",
+   "published": "2026-11-10",
+   "seconds": 20,
+   "theme": "hiring"
   },
   {
    "id": "wdZP7V-FwYI",
@@ -2423,13 +2430,6 @@
    "theme": "college"
   },
   {
-   "id": "2K_qRt06pvk",
-   "title": "IIT BHU Engineer Reveals Education Cost | FIITJEE & College Fees",
-   "published": "2026-07-25",
-   "seconds": 38,
-   "theme": "money"
-  },
-  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2567,6 +2567,13 @@
    "title": "Senior Data Engineer: College Cost & 1st Year Salary ROI",
    "published": "2026-06-30",
    "seconds": 34,
+   "theme": "money"
+  },
+  {
+   "id": "LaYQgGJe4-Q",
+   "title": "Senior Data Engineer on Government vs Private Schools: The Cost vs. Quality Debate",
+   "published": "2026-06-30",
+   "seconds": 27,
    "theme": "money"
   },
   {
@@ -3079,13 +3086,6 @@
    "published": "2026-05-14",
    "seconds": 18,
    "theme": "work"
-  },
-  {
-   "id": "5RMIyrOhAkY",
-   "title": "Monthly Expense Breakdown in Bangalore",
-   "published": "2026-05-13",
-   "seconds": 20,
-   "theme": "money"
   },
   {
    "id": "2SMbqCP6Ujs",
