@@ -8,17 +8,17 @@
   {
    "slug": "ai",
    "name": "AI at work",
-   "count": 57
+   "count": 58
   },
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 134
+   "count": 135
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 62
+   "count": 63
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "uizP8M76dcw",
+   "title": "How a Qualcomm thermal engineer uses ChatGPT and Copilot",
+   "published": "2026-11-28",
+   "seconds": 33,
+   "theme": "ai"
+  },
   {
    "id": "bjH7yQZZlCw",
    "title": "\"Get a clarity on why you did what you did\" | Interview prep tip",
@@ -386,11 +393,11 @@
    "theme": "work"
   },
   {
-   "id": "hcu6gOIeoO0",
-   "title": "From a tier-three college to senior software engineer at Google",
-   "published": "2026-11-12",
-   "seconds": 22,
-   "theme": "college"
+   "id": "ZwxYaR-7FmU",
+   "title": "Bangalore traffic, from a new Amazon intern: 4 minutes becomes an hour",
+   "published": "2026-11-11",
+   "seconds": 19,
+   "theme": "hiring"
   },
   {
    "id": "ennUN6ROUqE",
@@ -2465,6 +2472,13 @@
    "theme": "money"
   },
   {
+   "id": "JkgLA7U77nc",
+   "title": "How to get a high package as a Software Engineer (IIT BHU)",
+   "published": "2026-07-25",
+   "seconds": 29,
+   "theme": "money"
+  },
+  {
    "id": "UWpteC6bv18",
    "title": "HR/Startup Founder: Tier 1 vs Tier 3 College - Do people treat you differently?",
    "published": "2026-07-15",
@@ -2778,6 +2792,13 @@
    "published": "2026-06-04",
    "seconds": 15,
    "theme": "ai"
+  },
+  {
+   "id": "3ni43zMYgks",
+   "title": "Accenture Manager: Can You Join Consulting Without an MBA?",
+   "published": "2026-06-04",
+   "seconds": 30,
+   "theme": "college"
   },
   {
    "id": "0_Rdm8U1QXE",
