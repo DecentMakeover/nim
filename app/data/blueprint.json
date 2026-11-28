@@ -13,12 +13,12 @@
   {
    "slug": "money",
    "name": "Salaries & money",
-   "count": 135
+   "count": 136
   },
   {
    "slug": "hiring",
    "name": "Getting hired",
-   "count": 63
+   "count": 64
   },
   {
    "slug": "college",
@@ -42,6 +42,13 @@
   }
  ],
  "videos": [
+  {
+   "id": "Q_dCj-4Lyg0",
+   "title": "IIT Bombay placements for thermal roles: Micron, Hitachi",
+   "published": "2026-11-28",
+   "seconds": 26,
+   "theme": "hiring"
+  },
   {
    "id": "uizP8M76dcw",
    "title": "How a Qualcomm thermal engineer uses ChatGPT and Copilot",
@@ -386,10 +393,10 @@
    "theme": "compilations"
   },
   {
-   "id": "XfTBruNr5lU",
-   "title": "Google remembers the questions from your earlier attempts",
-   "published": "2026-11-12",
-   "seconds": 36,
+   "id": "dwV4x8w97Dg",
+   "title": "Apache Camel developers are rare: \"whatever I demanded, they gave me\"",
+   "published": "2026-11-11",
+   "seconds": 40,
    "theme": "work"
   },
   {
@@ -2476,6 +2483,13 @@
    "title": "How to get a high package as a Software Engineer (IIT BHU)",
    "published": "2026-07-25",
    "seconds": 29,
+   "theme": "money"
+  },
+  {
+   "id": "zp7G6lwcaWo",
+   "title": "IIT BHU Software Engineer: Academic Roadmap for a High Package",
+   "published": "2026-07-25",
+   "seconds": 56,
    "theme": "money"
   },
   {
